@@ -605,7 +605,7 @@ export default function AgentsScroll() {
   }, []);
 
   return (
-    <div className="relative cursor-none" id="agents">
+    <div className="relative" id="agents">
       {/* Custom cursor (global — outside section loop) */}
       <CustomCursor activeColor={agents[activeIndex].primary} />
 

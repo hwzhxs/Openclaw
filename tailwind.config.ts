@@ -9,15 +9,21 @@ const config: Config = {
     extend: {
       colors: {
         bg: {
-          primary: '#0C0C0E',
+          primary: '#0a0a0a',
+          card: '#141414',
+          'card-hover': '#1a1a1a',
           elevated: '#161618',
           surface: '#1E1E21',
           hover: '#242428',
         },
         text: {
-          primary: '#EDEDEF',
-          secondary: '#8E8E93',
-          muted: '#5A5A5E',
+          primary: '#f5f5f5',
+          secondary: '#999999',
+          muted: '#666666',
+        },
+        border: {
+          DEFAULT: '#222222',
+          hover: '#333333',
         },
         accent: {
           DEFAULT: '#8B5CF6',
@@ -27,7 +33,8 @@ const config: Config = {
       },
       fontFamily: {
         sans: ['var(--font-inter)', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
-        serif: ['var(--font-serif)', 'Georgia', 'serif'],
+        display: ['var(--font-display)', 'Georgia', 'serif'],
+        serif: ['var(--font-display)', 'Georgia', 'serif'],
         mono: ['var(--font-mono)', 'Fira Code', 'monospace'],
       },
       animation: {
