@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Backgrounds — warmer darks, not pure black */
+  --bg-primary: #0C0C0E;
+  --bg-elevated: #161618;
+  --bg-surface: #1E1E21;
+  --bg-hover: #242428;
+
+  /* Text — softer whites */
+  --text-primary: #EDEDEF;
+  --text-secondary: #8E8E93;
+  --text-muted: #5A5A5E;
+
+  /* Single accent — electric violet */
+  --accent: #8B5CF6;
+  --accent-hover: #A78BFA;
+  --accent-subtle: rgba(139, 92, 246, 0.08);
+  --accent-glow: rgba(139, 92, 246, 0.06);
+
+  /* Borders — barely visible */
+  --border: rgba(255, 255, 255, 0.06);
+  --border-hover: rgba(255, 255, 255, 0.12);
+
+  /* Agent color chips */
+  --agent-admin: #6B8AFF;
+  --agent-thinker: #9D8ABF;
+  --agent-gatekeeper: #D4756B;
+  --agent-creator: #7BAF8E;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Subtle card hover light */
+.card-light {
+  position: relative;
+}
+.card-light::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: radial-gradient(600px at var(--mouse-x, 50%) var(--mouse-y, 50%),
+    rgba(255,255,255,0.03), transparent 40%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+  z-index: 1;
+}
+.card-light:hover::before {
+  opacity: 1;
+}
+
+/* Terminal window chrome */
+.terminal-dot { width: 12px; height: 12px; border-radius: 50%; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-primary); }
+::-webkit-scrollbar-thumb { background: var(--bg-surface); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+
+/* Ambient dot grid */
+.dot-grid {
+  background-image: radial-gradient(circle, rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* Breathing glow */
+@keyframes breathe {
+  0%, 100% { opacity: 0.03; }
+  50% { opacity: 0.06; }
+}
+.breathing-glow {
+  animation: breathe 8s ease-in-out infinite;
+}
+
+/* Cursor blink for terminal */
+@keyframes cursorBlink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* Pipeline traveling dot */
+@keyframes travelDot {
+  0% { left: 0; opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { left: 100%; opacity: 0; }
+}
+
+/* Hero breathing gradient */
+@keyframes heroBreathe {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+.animate-hero-breathe {
+  animation: heroBreathe 8s ease-in-out infinite;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  [data-animate] {
+    opacity: 1 !important;
+    transform: none !important;
+    filter: none !important;
+  }
+}
