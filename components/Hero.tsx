@@ -2,45 +2,9 @@
 
 import { useRef, useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import SplitText from '@/components/SplitText';
 
 const ease = [0.25, 0.1, 0.25, 1] as const;
-
-// ── Char-by-char reveal with a cinematic slide-up + fade-in ─────────────────
-function CharReveal({
-  text,
-  className,
-  delay = 0,
-}: {
-  text: string;
-  className?: string;
-  delay?: number;
-}) {
-  const chars = text.split('');
-  return (
-    <span className={className} aria-label={text}>
-      {chars.map((char, i) => (
-        <span
-          key={i}
-          className="inline-block overflow-hidden"
-          style={{ whiteSpace: char === ' ' ? 'pre' : undefined }}
-        >
-          <motion.span
-            className="inline-block"
-            initial={{ y: '110%', opacity: 0, rotateX: -50 }}
-            animate={{ y: '0%', opacity: 1, rotateX: 0 }}
-            transition={{
-              duration: 0.55,
-              delay: delay + i * 0.028,
-              ease: [0.22, 1, 0.36, 1],
-            }}
-          >
-            {char === ' ' ? '\u00A0' : char}
-          </motion.span>
-        </span>
-      ))}
-    </span>
-  );
-}
 
 export default function Hero() {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -166,16 +130,28 @@ export default function Hero() {
         {sloganVisible && (
           <div className="relative z-10 mx-auto max-w-[900px] text-center" style={{ perspective: '1000px' }}>
             <h1 className="font-display text-[clamp(2.5rem,8vw,5rem)] font-normal leading-[1.1] tracking-[-0.02em] text-text-primary">
-              <CharReveal text="Four agents. One mission." delay={0} />
+              <SplitText
+                text="Four agents. One mission."
+                delay={50}
+                animationFrom={{ opacity: 0, transform: 'translateY(20px)' }}
+                animationTo={{ opacity: 1, transform: 'translateY(0)' }}
+                easing="easeOutCubic"
+                threshold={0.1}
+                rootMargin="-50px"
+              />
             </h1>
-            <motion.p
-              className="mx-auto mt-8 max-w-[600px] text-lg text-text-secondary"
-              initial={{ opacity: 0, y: 20, filter: 'blur(8px)' }}
-              animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
-              transition={{ duration: 0.7, delay: 1.0, ease }}
-            >
-              Think it, build it, check it, ship it.
-            </motion.p>
+            <p className="mx-auto mt-8 max-w-[600px] text-lg text-text-secondary">
+              <SplitText
+                text="Think it, build it, check it, ship it."
+                animateBy="words"
+                delay={80}
+                animationFrom={{ opacity: 0, transform: 'translateY(12px)' }}
+                animationTo={{ opacity: 1, transform: 'translateY(0)' }}
+                easing="easeOutCubic"
+                threshold={0.1}
+                rootMargin="-50px"
+              />
+            </p>
           </div>
         )}
       </AnimatePresence>

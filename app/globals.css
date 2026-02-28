@@ -110,6 +110,12 @@ body {
   animation: heroBreathe 8s ease-in-out infinite;
 }
 
+/* Noscript fallback — ensure page is visible without JS */
+noscript ~ * [style*="opacity: 0"],
+noscript ~ * [style*="opacity:0"] {
+  opacity: 1 !important;
+}
+
 /* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
