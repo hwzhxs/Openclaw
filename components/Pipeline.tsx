@@ -102,7 +102,7 @@ export default function Pipeline() {
 
                 {/* Icon */}
                 <div
-                  className="mt-10 mb-5 flex h-[72px] w-[72px] items-center justify-center rounded-xl border border-[#C49A1A]/20 bg-[#C49A1A]/[0.05] transition-colors duration-300 group-hover:border-[#C49A1A]/40 group-hover:bg-[#C49A1A]/10"
+                  className="mt-10 mb-5 flex h-[72px] w-[72px] items-center justify-center rounded-xl border border-[#C49A1A]/20 bg-[#C49A1A]/5 transition-colors duration-300 group-hover:border-[#C49A1A]/40 group-hover:bg-[#C49A1A]/10"
                   style={{ color: '#C49A1A' }}
                 >
                   {icons[step.label as keyof typeof icons]}
@@ -151,7 +151,7 @@ export default function Pipeline() {
             >
               <div className="group flex items-center gap-4 overflow-hidden rounded-xl border border-border bg-bg-card px-5 py-4 transition-all duration-300 hover:border-[#C49A1A]/60">
                 <div
-                  className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg border border-[#C49A1A]/20 bg-[#C49A1A]/[0.05]"
+                  className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg border border-[#C49A1A]/20 bg-[#C49A1A]/5"
                   style={{ color: '#C49A1A' }}
                 >
                   {icons[step.label as keyof typeof icons]}
