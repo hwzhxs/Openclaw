@@ -1,0 +1,13 @@
+{
+  "id": "ep-2026-02-26-002",
+  "agent": "admin",
+  "timestamp": "2026-02-26T06:05:00Z",
+  "skill_used": "slack-messaging",
+  "task": "Notify other agents about new skill and threading rules",
+  "outcome": "partial",
+  "what_worked": ["Content was correct", "Threading was correct on second post"],
+  "what_failed": ["Only used @mention without webhook to trigger other agents", "Already knew from yesterday that bot-to-bot @mentions don't trigger app_mention events, but forgot to act on it"],
+  "lesson": "Bot @mentions in Slack are VISUAL ONLY. To actually trigger other agents, MUST send webhook. Every time you @mention another agent in Slack, also fire the webhook.",
+  "root_cause": "Knew the rule but didn't have it in the pre-action checklist. Knowledge without a checkpoint = forgotten at action time.",
+  "user_feedback": "Reminded twice about same mistake"
+}

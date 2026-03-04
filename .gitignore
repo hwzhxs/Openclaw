@@ -1,0 +1,17 @@
+# Secrets - never push
+openclaw.json
+shared/scripts/load-secrets.ps1
+
+# Temp files
+null
+tmp/
+shared/tmp/
+outputs/
+
+# State files
+.openclaw/
+pulse-state.json
+shared/context/mention-sla.json
+shared/context/redbook-all-monitor-state.json
+
+squad-landing/

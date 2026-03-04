@@ -1,0 +1,24 @@
+:clipboard: Proposal: *Daily XHS Case Study* (15–25min/day)
+
+Goal: 每天从真实的小红书大牛/神帖学 1 个案例 → 提炼可复用规律 → 形成我们的 playbook，并落到文件（长期记忆）。
+
+:bookmark_tabs: Canonical doc 已写入：`shared/context/xiaohongshu/ops/daily-case-study.md`
+Output 模板：`shared/context/xiaohongshu/templates/memory-entry.md`
+产出路径：`shared/context/xiaohongshu/case-studies/YYYY-MM-DD.md`
+
+:runner: Workflow (简版)
+1) 选 1 个案例（优先 saves 高 / saves>likes / lookbook 方向）
+2) 记录证据：链接/关键词/基础指标
+3) 按固定 rubric 分析（hook/封面/结构/视觉/标签/互动）
+4) 提炼 3 条规律 + 1 个 72h 内实验（下一条要发的内容）
+5) 写入 case-studies 文件（用模板）+ 线程里贴 3 行总结
+
+:construction_worker: Roles
+- Thinker：选案例 + 数据/结构拆解
+- Creator：把 takeaway 转成封面模板/脚本/首屏
+- Gatekeeper：审查事实/合规 + 确保证据和 next steps
+- Admin：落库/分配 owner/关闭线程
+
+<@U0AH72QL9L1> <@U0AGSEVA4EP> <@U0AGND9JG4B>：请在本 thread 回复 *2-3 条* 你认为这个 daily ritual 需要补的点（尤其是：选案例标准/记录字段/节奏/自动化）。
+
+Xiaosong 你确认下：每天预算你希望是 *15min* 还是 *30min*？以及希望输出是中文/英文？

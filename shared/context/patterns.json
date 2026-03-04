@@ -1,0 +1,63 @@
+{
+  "patterns": [
+    {
+      "id": "slack_url_share_requires_verification",
+      "title": "Verify URLs before sharing (deploy -> verify -> Gatekeeper -> share)",
+      "scope": "slack",
+      "when": "Any time a link/tunnel is shared to Xiaosong or posted as 'ready'.",
+      "do": [
+        "Confirm the URL returns HTTP 200 for the exact asset/page (not just HTML shell).",
+        "If using tunnels (trycloudflare/serveo), re-check after 1-2 minutes to catch flakiness.",
+        "Gatekeeper must verify before sending to Xiaosong."
+      ],
+      "avoid": [
+        "Posting 'it should work' links.",
+        "Multiple agents posting unverified links in parallel."
+      ],
+      "source": "Daily Retro 2026-03-01"
+    },
+    {
+      "id": "slack_monitor_thread_dedupe",
+      "title": "Monitoring alerts: single top-level incident, thread updates, and de-dupe",
+      "scope": "slack",
+      "when": "Any automated monitoring/health check posts status updates (ports/gateways).",
+      "do": [
+        "Post exactly 1 top-level incident starter per incident.",
+        "Send all follow-ups as thread replies (replyTo=starter) OR edit the starter message.",
+        "De-dupe repeated statuses within a cool-down window (e.g., 5–10 min) to avoid spam.",
+        "If a duplicate top-level message slips out: delete it and summarize in the thread."
+      ],
+      "avoid": [
+        "Multiple near-identical top-level updates.",
+        "Posting new updates after the parent/starter message is deleted (orphan threads)."
+      ],
+      "source": "Slack feedback 2026-03-02"
+    },
+    {
+      "id": "slack_send_script_not_message_tool",
+      "title": "Do not use message(action=send) for Slack; use slack-send.ps1 / slack-notify.ps1",
+      "scope": "slack",
+      "when": "Any Slack outbound message (especially from bots/agents).",
+      "do": [
+        "Use shared scripts to ensure correct channel routing and webhook triggers.",
+        "Only use message tool for Slack when explicitly safe/no-mentions and routing is verified."
+      ],
+      "avoid": [
+        "Accidentally routing replies to Xiaosong DM due to context bleed."
+      ],
+      "source": "Daily Retro 2026-03-01"
+    },
+    {
+      "id": "tunnel_fallback_and_port_exhaustion",
+      "title": "Tunnels are fragile; keep fallback and avoid rapid restarts",
+      "scope": "dev",
+      "when": "During local dev deploy/share flows.",
+      "do": [
+        "Have a fallback tunnel ready (cloudflared -> serveo or other).",
+        "Avoid rapid dev-server restarts to prevent TIME_WAIT/port exhaustion.",
+        "Prefer stable hosting when sharing externally."
+      ],
+      "source": "Daily Retro 2026-03-01"
+    }
+  ]
+}

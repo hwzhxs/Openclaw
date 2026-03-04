@@ -1,0 +1,12 @@
+{
+  "id": "ep-2026-02-26-001",
+  "agent": "admin",
+  "timestamp": "2026-02-26T05:50:00Z",
+  "skill_used": "slack-messaging",
+  "task": "Notify team about new skill in Slack",
+  "outcome": "partial",
+  "what_worked": ["Content was complete", "@mentions worked"],
+  "what_failed": ["Put all content in one message instead of using thread"],
+  "lesson": "Slack messages must use threading: short topic as thread starter, details as replies in thread. Other agents' replies also go in thread.",
+  "user_feedback": "Reminded about threading rule"
+}
