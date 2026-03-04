@@ -1,0 +1,33 @@
+# Default: ignore everything
+*
+
+# Agent workspaces (md files only, no configs with secrets)
+!openclaw-admin/
+!openclaw-admin/**
+!.openclaw-agent2/
+!.openclaw-agent2/**
+!.openclaw-agent3/
+!.openclaw-agent3/**
+!.openclaw-creator/
+!.openclaw-creator/**
+!shared/
+!shared/**
+!.gitignore
+
+# Exclude secrets and runtime
+*.json
+*.db
+*.db-journal
+*.jsonl
+*.ps1
+*.js
+*.tmp
+*.node
+*.exe
+*.dll
+node_modules/
+logs/
+browser/
+sessions/
+.openclaw/
+package-lock.json
