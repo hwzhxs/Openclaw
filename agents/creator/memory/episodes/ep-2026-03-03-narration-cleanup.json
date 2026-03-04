@@ -1,0 +1,17 @@
+﻿{
+    "skill_used":  "heartbeat",
+    "id":  "ep-2026-03-03-narration-cleanup",
+    "what_failed":  [
+                        "The narration leaks themselves - Creator was posting internal reasoning to Slack instead of executing silently"
+                    ],
+    "what_worked":  [
+                        "Systematic scan of all Creator messages in recent threads",
+                        "Bulk delete of all identified leaks"
+                    ],
+    "agent":  "creator",
+    "timestamp":  "2026-03-03T09:53:22Z",
+    "task":  "Heartbeat self-audit: discovered and deleted 8 internal narration leak messages from Slack threads",
+    "lesson":  "shared-pat-011 is still being violated. Root cause: when composing replies, the old behavior of writing internal reasoning is still leaking through. Must execute silently - if the action is silent, post nothing; if it requires a response, post ONLY the result.",
+    "user_feedback":  null,
+    "outcome":  "success"
+}

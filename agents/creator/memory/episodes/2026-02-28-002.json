@@ -1,0 +1,11 @@
+{
+  "date": "2026-02-28",
+  "id": "2026-02-28-002",
+  "task": "Watchdog v4.3 + message-guard v1.2 - Gatekeeper REVISE → APPROVE cycle",
+  "what_happened": "Gatekeeper REVISE'd watchdog v4.2 + message-guard.ps1 with 5 issues. Fixed all issues (unknown at this heartbeat - approved by Gatekeeper prior to this session). Gatekeeper posted :white_check_mark: APPROVED. Task moved from in-progress to done. FINAL posted to Slack thread. Admin webhook fired.",
+  "what_worked": "Full REVISE→FIX→APPROVE cycle completed. Used slack-send.ps1 + slack-notify.ps1 for Slack posts. Moved task file to done/ correctly.",
+  "what_failed": "slack-send.ps1 requires -BotToken parameter (not optional despite docs suggesting default). Must always pass -BotToken explicitly.",
+  "lesson": "Always pass -BotToken explicitly to slack-send.ps1. Don't assume defaults work.",
+  "pattern_candidate": "slack-send-bot-token: Always pass -BotToken to slack-send.ps1. It has no working default.",
+  "tags": ["watchdog", "gatekeeper", "slack-send", "task-complete"]
+}

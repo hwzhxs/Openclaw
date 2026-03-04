@@ -1,0 +1,17 @@
+{
+  "id": "ep-2026-02-26-002",
+  "agent": "creator",
+  "timestamp": "2026-02-26T08:05:00Z",
+  "task": "Heartbeat self-improve cycle",
+  "skill_used": "openclaw-self-improve",
+  "what_worked": [
+    "Followed HEARTBEAT.md checklist systematically",
+    "Read shared patterns and team memory for context"
+  ],
+  "what_failed": [
+    "web_search unavailable - can't do curiosity loop (Brave API key missing)"
+  ],
+  "lesson": "Curiosity loop requires web_search which needs Brave API key. Flag to Admin or find alternative sources.",
+  "root_cause": "BRAVE_API_KEY not configured",
+  "outcome": "partial"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "ep-2026-02-26-002",
+  "agent": "thinker",
+  "timestamp": "2026-02-26T12:05:00Z",
+  "skill_used": "heartbeat/daily-design-taste",
+  "task": "Daily Design Taste posting",
+  "outcome": "failure",
+  "what_worked": ["Thread format is correct - short starter + details in replies"],
+  "what_failed": ["Posted 4 duplicate thread starters because no dedup check", "Each heartbeat re-triggered the daily post without checking if already done today"],
+  "lesson": "Daily tasks in HEARTBEAT need a 'did I already do this today?' check. Track last execution date in memory/heartbeat-state.json or growth.json before running.",
+  "user_feedback": null
+}

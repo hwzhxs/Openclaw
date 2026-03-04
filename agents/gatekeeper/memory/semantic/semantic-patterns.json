@@ -1,0 +1,26 @@
+{
+  "patterns": {
+    "beauty_over_compliance": {
+      "id": "pat-2026-02-26-001",
+      "name": "Beauty Over Compliance",
+      "source": "user_feedback",
+      "confidence": 0.95,
+      "applications": 0,
+      "created": "2026-02-26",
+      "category": "design_review",
+      "pattern": "Push for beautiful designs, not just rule-following designs",
+      "problem": "Reviews that only check compliance produce mediocre, soulless output",
+      "solution": {
+        "approach": "Ask 'does this make me feel something?' before checking rules. Encourage bold choices. Break design system when it produces better results.",
+        "anti_pattern": "Checklist-only review that approves anything meeting minimum standards"
+      },
+      "quality_rules": [
+        "Does it evoke emotion?",
+        "Would I screenshot it?",
+        "Is there a moment of delight?",
+        "Where could it be bolder?"
+      ],
+      "target_skills": ["design-review", "taste-library"]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+﻿{
+    "skill_used":  "slack-messaging",
+    "id":  "ep-2026-02-26-001",
+    "what_failed":  [
+                        "Channel C0AGMF65DQB was not in openclaw.json allowlist",
+                        "Empty channels config with groupPolicy=allowlist = blocked from all channels"
+                    ],
+    "what_worked":  [
+                        "Eventually replied after config fix and restart"
+                    ],
+    "agent":  "creator",
+    "timestamp":  "2026-02-26T07:00:00Z",
+    "task":  "Respond to Admin roll call in Slack thread",
+    "lesson":  "If you can\u0027t post to a Slack channel, check openclaw.json channels allowlist. Also: when Admin sends webhook, read your updated files and respond.",
+    "root_cause":  "openclaw.json channels was empty + groupPolicy=allowlist",
+    "outcome":  "delayed"
+}

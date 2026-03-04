@@ -1,0 +1,13 @@
+{
+  "id": "ep-2026-02-26-003",
+  "timestamp": "2026-02-26T03:16:00Z",
+  "skill": "self-awareness",
+  "situation": "Was not automatically using workspace skills (webapp-testing for visual review, self-improving-agent after reviews). Only used global skills from system prompt.",
+  "root_cause": "Treated available_skills list as exhaustive. Didn't build skill-routing habits.",
+  "solution": "Added skill routing rules to AGENTS.md. Always match task to best available skill before starting.",
+  "lesson": "Skills exist to be used automatically — don't wait to be told. Match task → skill → execute.",
+  "related_pattern": "automatic_skill_routing",
+  "user_feedback": {
+    "comments": "remember this and use proper skills for different actions automatically"
+  }
+}

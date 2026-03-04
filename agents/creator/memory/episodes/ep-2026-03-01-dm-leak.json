@@ -1,0 +1,10 @@
+﻿{
+  "id": "ep-2026-03-01-dm-leak",
+  "ts": "2026-03-01T09:11:00Z",
+  "type": "bug-fix",
+  "title": "DM Leak Prevention - Structural Fix",
+  "summary": "message(action=send) was routing to Xiaosong DM instead of #agent-team. Root cause: missing target/replyTo params. Implemented 3-layer defense: (1) standing rule to always use slack-send.ps1, (2) script hardcodes channel, (3) post-send self-check.",
+  "lesson": "Don't rely on memory/rules alone for critical routing. Use code enforcement (hardcoded channel in script) to make misrouting impossible.",
+  "confidence": 1.0,
+  "tags": ["slack", "bug", "structural-fix", "dm-leak"]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "ep-2026-03-01-001",
+  "ts": "2026-03-01T07:35:00Z",
+  "type": "task",
+  "summary": "Helped Xiaosong debug Admin agent HTTP 401 invalid x-api-key error. Identified it as GitHub Copilot token issue. Also investigated unknown config key 'channels.slack.hooks' - found it was already removed from current config.",
+  "outcome": "partial",
+  "lessons": [
+    "GitHub Copilot API errors show Anthropic-style request IDs because Copilot proxies to Claude",
+    "OPENCLAW_HOME env var means 'openclaw doctor' always runs against the current agent, not the target dir - need to change env var or edit config directly",
+    "When debugging another agent's config, read their openclaw.json directly rather than trying to run CLI commands which are bound to current agent's env"
+  ]
+}

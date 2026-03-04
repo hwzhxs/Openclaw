@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "awwwards-design": {
+      "version": "1.0.0",
+      "installedAt": 1772008158211
+    },
+    "ui-ux-design": {
+      "version": "1.0.0",
+      "installedAt": 1772008570917
+    },
+    "shadcn-ui": {
+      "version": "1.0.0",
+      "installedAt": 1772008694421
+    }
+  }
+}
