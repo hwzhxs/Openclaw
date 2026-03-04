@@ -1,0 +1,17 @@
+﻿{
+    "skill_used":  "heartbeat-review",
+    "id":  "ep-2026-03-04-pulse-dedup-bug",
+    "what_failed":  [
+                        "alerted key uses message ts only (alerted[ts]). If message A mentions bot B and bot C, and B is alerted first, alerted[ts] is written. Next pulse: ContainsKey(ts) = true -\u003e entire message skipped -\u003e C never checked again.",
+                        "Fix: use composite key \u0027ts-mentionedId\u0027 to track per-bot independently."
+                    ],
+    "what_worked":  [
+                        "Dry-run passed; syntax clean"
+                    ],
+    "agent":  "gatekeeper",
+    "timestamp":  "2026-03-04T12:02:00Z",
+    "task":  "pulse.ps1 Check-BotMentionSLA logic review",
+    "lesson":  "Deduplication keys must be scoped to the specific entity being tracked, not the parent container. alerted[ts] is correct only when there is exactly one trackable thing per message.",
+    "user_feedback":  null,
+    "outcome":  "bug-found"
+}

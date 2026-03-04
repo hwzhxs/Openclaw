@@ -1,0 +1,144 @@
+================================================================================
+TASKFLOW OS - DRY-RUN CHECKLIST REPORT
+Generated: 2026-03-01T09:17 UTC
+Run by: Creator subagent (builder)
+================================================================================
+
+STEP 0 - PRECONDITIONS: Token Fix
+----------------------------------
+PASS: shared/taskflow/lib/collector.ps1 Get-SlackToken function is clean.
+  - Priority 1: $env:SLACK_TOKEN (env var)
+  - Priority 2: shared/config/slack-token.txt
+  - No TOOLS.md fallback present.
+  - SLACK_TOKEN env var: SET (confirmed active in session)
+  - slack-token.txt: EXISTS at C:\Users\azureuser\shared\config\slack-token.txt
+
+
+STEP 1 - CONFIG VERIFICATION
+------------------------------
+shared/scripts/taskflow/taskflow-config.json:
+  enabled         = false       [PASS - kill switch OFF]
+  dry_run         = true        [PASS]
+  rate_limit      = 5 posts/min (window: 60s)  [PASS]
+  cooldown        = 300s (5 min)               [PASS]
+  delete_scope    = NOT PRESENT in this config  [WARN - field missing]
+  NOTE: token_env_var references SLACK_BOT_TOKEN; SLACK_TOKEN is actually set.
+        Recommend aligning env var name OR updating config to match.
+
+shared/context/automation-config.json:
+  enabled         = false       [PASS - kill switch OFF]
+  dry_run         = true        [PASS]
+  rate_limit_per_min = 6        [PASS]
+  cooldown_min    = 15          [PASS]
+  delete_scope    = self_only   [PASS]
+  channel_id      = C0AGMF65DQB [PASS]
+  log_path        = shared/context/automation-log.jsonl [PASS]
+
+shared/taskflow/config.json (lib collector config):
+  enabled         = true        [NOTE - lib collector does NOT enforce kill switch same way]
+  dryRun          = true        [PASS]
+  channel         = C0AGMF65DQB [PASS]
+  rate_limits     = 5 msg/min/agent, 60s thread cooldown [PASS]
+  NOTE: lib/collector.ps1 exits on enabled=false kill switch check.
+        But AllowReadWhenDisabled=$true so reads proceed regardless.
+
+
+STEP 2 - DRY-RUN EXECUTION RESULTS
+-------------------------------------
+Both collectors executed successfully with dry_run=true. NOTHING posted or deleted in Slack.
+
+--- Run A: shared/taskflow/lib/collector.ps1 -DryRun ---
+  Messages fetched : 100
+  Threads found    : 100
+  Thread replies   : 0
+  Mentions detected: 4
+  Violations found : 97
+  DB writes        : 0 (all DRY-RUN intercepted, logged only)
+  Log file updated : shared/taskflow/logs/taskflow-2026-03-01.jsonl
+
+--- Run B: shared/scripts/taskflow/taskflow-collector.ps1 -DryRunOverride ---
+  Messages fetched : 178
+  Violations found : ~23 (duplicate_top_level, 5-min window)
+  DB writes        : 0 (all DRY-RUN - would_store only)
+  Log file updated : shared/scripts/taskflow/taskflow.jsonl
+  Note: 1 collection_error (missing thread_ts property on a message - non-fatal)
+
+--- automation-log.jsonl (L2-Rules engine from prior run at 08:49 UTC) ---
+  dry_run collect entries : 2
+  would post_reminder     : 1  (thread 1772342111 - 122 replies, >48h old, target U0AGRQDAL94)
+  blocked_cooldown        : 1  (reminder for U0AHN84GJGG thread - in cooldown)
+  blocked_killswitch      : 1  (demo test, enabled=false)
+
+
+STEP 3 - SUMMARY
+-----------------
+
+EVENT COUNTS (from taskflow/logs, both runs combined):
+  Total messages scanned : 278 (100 + 178)
+  Thread starters        : 200 (from Run A log)
+  Thread replies logged  : 0   (history API; replies need separate fetch)
+  Mentions detected      : 8
+  Violations detected    : 195 (logged), 97 (Run A summary)
+
+TOP 3 VIOLATIONS (by agent/rule):
+  1. unknown (non-agent users) | duplicate_top_level  : 117 occurrences
+     - Multiple non-agent users (USLACKBOT, U0AGRQDAL94) posting multiple
+       top-level messages in rapid succession
+  2. Creator (U0AGSEVA4EP) | duplicate_top_level      :  39 occurrences
+     - Creator has many historical top-level thread starters (DONE/alerts etc.)
+       detected as duplicate within the 100-msg window
+  3. Admin (U0AHN84GJGG) | duplicate_top_level        :  17 occurrences
+     - Admin similarly has multiple historical top-level posts
+
+  Additional rule: misplaced_reply_candidate           :   6 occurrences
+     - Top-level messages containing @mentions (should be in-thread)
+
+TOP 3 WOULD-ACTIONS (from automation-log.jsonl):
+  1. L1-Collector | collect | channel C0AGMF65DQB (dry_run=True, 50 roots)
+     - Would have updated collector_state cursor in DB
+  2. L2-Rules | post_reminder | thread 1772342111.532759 -> U0AGRQDAL94
+     - Would post: "thread has 122 replies, last activity >48h ago"
+  3. L1-Collector | collect | channel C0AGMF65DQB (dry_run=False attempt)
+     - A prior run had dry_run=False and executed (status=executed not dry_run)
+     NOTE: This "executed" entry at 08:49:03 UTC was a live run - worth reviewing
+           whether that was intentional.
+
+TOP DRY-RUN DB ACTIONS (from taskflow/logs action_taken):
+  1. upsert_thread      : 200 would-writes
+  2. insert_violation   : 194 would-writes  
+  3. upsert_event       :   8 would-writes
+  Total DRY-RUN intercepted: 402 DB operations
+
+
+FILES CHANGED/UPDATED THIS SESSION:
+  shared/taskflow/logs/taskflow-2026-03-01.jsonl  (273 KB - main event log)
+  shared/scripts/taskflow/taskflow.jsonl          (8 KB - scripts collector log)
+  [NO changes to taskflow.db, state.db, or automation-log.jsonl from this dry-run]
+  [automation-log.jsonl last modified 08:56 UTC - from prior L2 run, not this run]
+
+
+ISSUES / RECOMMENDATIONS:
+--------------------------
+[WARN] taskflow-config.json missing 'delete_scope' field. Add "delete_scope": "self_only".
+[WARN] token_env_var in taskflow-config.json = "SLACK_BOT_TOKEN" but actual env var
+       set is SLACK_TOKEN. Align these to avoid future confusion.
+[NOTE] shared/taskflow/config.json has enabled=true. The lib/collector reads this
+       but AllowReadWhenDisabled=$true bypasses kill switch for reads. Intended behavior?
+       Consider setting enabled=false in lib config too during initial testing.
+[NOTE] 1 non-fatal collection_error in Run B: missing thread_ts property on a message.
+       This did not halt the run but may cause missed events. Log: taskflow.jsonl (last entry).
+[INFO] No live Slack actions taken. All 402+ DB writes and all reminders were intercepted
+       by dry-run mode. System behaved correctly.
+[INFO] Prior run at 08:49:03 UTC had dry_run=False (status=executed in automation-log).
+       Confirm this was intentional before enabling live mode.
+
+
+OVERALL STATUS: DRY-RUN PASS
+  - Kill switches: ON (enabled=false in both main configs)
+  - Dry-run mode: ACTIVE (confirmed in both collector outputs)
+  - No Slack API writes: CONFIRMED
+  - Token resolution: CLEAN (env var -> file, no TOOLS.md fallback)
+  - Violations detector: WORKING (195 events logged)
+  - Would-actions logged: WORKING (automation-log.jsonl + taskflow.jsonl)
+
+================================================================================

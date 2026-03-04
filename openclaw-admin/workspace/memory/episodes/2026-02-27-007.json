@@ -1,0 +1,18 @@
+﻿{
+    "id":  "ep-2026-02-27-007",
+    "what_failed":  [
+                        "Initially thought it was Slack API issue, not PS encoding",
+                        "Sent test messages that were also garbled before fixing"
+                    ],
+    "what_worked":  [
+                        "Identified PowerShell OutputEncoding as US-ASCII",
+                        "Set UTF-8 encoding globally",
+                        "Updated slack-notify.ps1 and PS profiles"
+                    ],
+    "agent":  "admin",
+    "timestamp":  "2026-02-27T10:10:00Z",
+    "task":  "Fix Chinese garbled text in Slack messages",
+    "lesson":  "PowerShell defaults to US-ASCII OutputEncoding. ConvertTo-Json destroys non-ASCII chars silently. Always set OutputEncoding=UTF8 at start of any script handling CJK text.",
+    "user_feedback":  null,
+    "outcome":  "success"
+}

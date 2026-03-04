@@ -1,0 +1,37 @@
+{
+  "patterns": [
+    {
+      "id": "pat-001",
+      "name": "Design specs need taste, not just structure",
+      "category": "research-spec",
+      "pattern": "When writing design/UI specs, include a 'taste layer': real reference sites as north stars, the feeling/vibe to achieve, and explicit critique of what feels dated. Read ALL source materials before writing for coherence.",
+      "confidence": 0.7,
+      "applications": 2,
+      "source_episodes": ["ep-2026-02-26-001", "ep-2026-02-26-004"],
+      "created": "2026-02-26",
+      "updated": "2026-02-26"
+    },
+    {
+      "id": "pat-002",
+      "name": "Daily tasks need dedup check",
+      "category": "heartbeat",
+      "pattern": "Before running any once-per-day task in heartbeat, check Slack history or a state file to confirm it hasn't already run today.",
+      "confidence": 0.7,
+      "applications": 1,
+      "source_episodes": ["ep-2026-02-26-002"],
+      "created": "2026-02-26",
+      "updated": "2026-02-26"
+    },
+    {
+      "id": "pat-003",
+      "name": "Check for prior completion before starting tasks",
+      "category": "process",
+      "pattern": "Before starting a queued task, check in-progress/ folder and deliverable outputs. A previous session may have completed it before crashing (API key errors, timeouts, etc).",
+      "confidence": 0.5,
+      "applications": 1,
+      "source_episodes": ["ep-2026-02-26-003"],
+      "created": "2026-02-26",
+      "updated": "2026-02-26"
+    }
+  ]
+}

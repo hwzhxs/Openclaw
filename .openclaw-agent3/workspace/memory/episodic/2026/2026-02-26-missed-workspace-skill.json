@@ -1,0 +1,14 @@
+{
+  "id": "ep-2026-02-26-002",
+  "timestamp": "2026-02-26T03:13:00Z",
+  "skill": "self-awareness",
+  "situation": "Had a self-improving-agent skill in workspace/skills/ but never discovered it. Only found out when Xiaosong showed a screenshot.",
+  "root_cause": "Only relied on system-injected available_skills list. Never explored own workspace/skills/ directory.",
+  "solution": "On first session, always scan workspace/skills/ for workspace-level skills that aren't in the global list.",
+  "lesson": "Don't assume the system prompt shows everything you have. Explore your own workspace.",
+  "related_pattern": "explore_before_assuming",
+  "user_feedback": {
+    "rating": null,
+    "comments": "why didnt you find it before"
+  }
+}

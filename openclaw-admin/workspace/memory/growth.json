@@ -1,0 +1,27 @@
+{
+    "agent":  "admin",
+    "episodes_recorded":  0,
+    "patterns_extracted":  0,
+    "knowledge_files_updated":  0,
+    "curiosity_explorations":  0,
+    "peer_learnings":  1,
+    "soul_updates":  0,
+    "last_insight_read":  null,
+    "lastRun":  {
+                    "curiosity_loop":  null,
+                    "reflection":  null,
+                    "peer_learning":  "2026-03-01T08:04:00Z",
+                    "identity_evolution":  null,
+                    "growth_review":  null,
+                    "daily_retro":  null
+                },
+    "cadence":  {
+                    "curiosity_loop":  "every 6-8 hours (2-3x/day)",
+                    "reflection":  "every 6-8 hours or after meaningful task",
+                    "peer_learning":  "every heartbeat (read new only via last_insight_read)",
+                    "identity_evolution":  "on meaningful experience",
+                    "growth_review":  "daily",
+                    "daily_retro":  "daily 10:00 UTC"
+                },
+    "updated":  "2026-03-01T08:04:00Z"
+}

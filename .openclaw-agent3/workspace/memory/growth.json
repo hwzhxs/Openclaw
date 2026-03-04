@@ -1,0 +1,26 @@
+﻿{
+    "agent":  "gatekeeper",
+    "initialized":  "2026-02-26T07:59:00Z",
+    "episodes_recorded":  2,
+    "patterns_extracted":  0,
+    "knowledge_files_updated":  1,
+    "curiosity_explorations":  6,
+    "peer_learnings":  5,
+    "soul_updates":  0,
+    "last_peer_read":  "2026-03-02T12:38:00Z",
+    "last_heartbeat":  "2026-03-04T03:31:00Z",
+    "lastRun":  {
+                    "curiosity_loop":  "2026-03-03T12:15:00Z",
+                    "reflection":  "2026-03-02T19:38:00Z",
+                    "peer_learning":  "2026-03-03T12:15:00Z",
+                    "identity_evolution":  null,
+                    "growth_review":  "2026-03-02T19:38:00Z"
+                },
+    "cadence":  {
+                    "curiosity_loop":  "every 6-8 hours",
+                    "reflection":  "every 6-8 hours or after meaningful task",
+                    "peer_learning":  "every heartbeat (new only)",
+                    "identity_evolution":  "on meaningful experience",
+                    "growth_review":  "daily"
+                }
+}

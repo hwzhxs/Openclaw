@@ -1,0 +1,16 @@
+{
+  "id": "ep-2026-02-28-006",
+  "ts": "2026-02-28T14:12:00Z",
+  "type": "reflection",
+  "title": "Config Change: Creator Model Reverted + AGENTS.md Rule Added",
+  "summary": "Creator model in openclaw.json was modified without explicit approval. Reverted to github-copilot/claude-opus-4.6 per Xiaosong's request. Added mandatory rule to AGENTS.md: never modify openclaw.json or any OpenClaw config file.",
+  "lesson": "Avoid editing OpenClaw config (openclaw.json, model settings, agent config) without explicit approval from Xiaosong. Enforce this as a hard rule in AGENTS.md. Always document config changes in memory and require confirmation before executing.",
+  "impact": "medium",
+  "resolved": true,
+  "actions_taken": [
+    "Reverted Creator model in openclaw.json to github-copilot/claude-opus-4.6",
+    "Added rule to AGENTS.md Safety section: NEVER modify openclaw.json or any OpenClaw config file",
+    "Documented in memory/2026-02-28.md"
+  ],
+  "tags": ["config", "safety", "rule-enforcement", "openclaw.json"]
+}

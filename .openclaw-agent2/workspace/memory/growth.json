@@ -1,0 +1,26 @@
+{
+    "initialized":  "2026-02-26T07:59:00Z",
+    "episodes_recorded":  4,
+    "patterns_extracted":  3,
+    "knowledge_files_updated":  1,
+    "curiosity_explorations":  2,
+    "peer_learnings":  0,
+    "soul_updates":  0,
+    "last_curiosity":  "2026-03-01T18:58:00Z",
+    "last_peer_read":  "2026-02-27T07:20:00Z",
+    "last_daily_design_taste":  "2026-03-01",
+    "lastRun":  {
+                    "curiosity_loop":  "2026-03-01T18:58:00Z",
+                    "reflection":  "2026-02-26T22:30:00Z",
+                    "peer_learning":  "2026-03-01T07:16:00Z",
+                    "identity_evolution":  null,
+                    "growth_review":  null
+                },
+    "cadence":  {
+                    "curiosity_loop":  "every 6-8 hours",
+                    "reflection":  "every 6-8 hours or after meaningful task",
+                    "peer_learning":  "every heartbeat (new only)",
+                    "identity_evolution":  "on meaningful experience",
+                    "growth_review":  "daily"
+                }
+}

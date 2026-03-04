@@ -1,0 +1,1586 @@
+[
+    {
+        "summary":  "Heartbeat: no tasks. 2 episodes from today (admin-401-debug, gateway-config-fixes). No new shared insights. DDT posted. Web search unavailable for curiosity loop.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T22:58:00Z"
+    },
+    {
+        "ts":  "2026-03-01T14:58:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights, DDT already posted. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks, reviewed shared patterns (10) + episodes, no new insights. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T14:43:00Z"
+    },
+    {
+        "ts":  "2026-03-01T14:23:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights, no new peer insights. Web search unavailable for curiosity loop.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T14:18:00Z"
+    },
+    {
+        "ts":  "2026-03-01T14:05:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T13:55:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T13:45:00Z",
+        "summary":  "Heartbeat: no tasks, reviewed shared patterns + team memory + peer insights (no new). Curiosity blocked (no API key). Daily Design Taste already posted. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T13:40:00Z",
+        "summary":  "Heartbeat: no tasks, reviewed shared patterns + team memory + peer insights (no new). Curiosity blocked (no API key). Daily Design Taste already posted. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T13:30:00Z",
+        "summary":  "Heartbeat: no tasks, reviewed shared patterns + team memory + peer insights (no new). Curiosity blocked (no API key). Daily Design Taste already posted. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T13:20:00Z",
+        "summary":  "Heartbeat: no tasks, reviewed shared patterns + team memory + peer insights (no new). Curiosity blocked (no API key). Daily Design Taste already posted. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T13:11:00Z",
+        "summary":  "Heartbeat: no tasks, reviewed shared patterns + team memory + peer insights (no new). Curiosity blocked (no API key). Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new insights/episodes. Curiosity loop blocked (no web_search API key). Idle Sunday.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T12:59:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, DDT posted, reviewed shared patterns + team memory. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T12:45:00Z"
+    },
+    {
+        "ts":  "2026-03-01T12:40:00Z",
+        "summary":  "Heartbeat: no tasks, DDT posted, reviewed shared patterns (10) + personal (3) + team memory. No new episodes or insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T12:20:00Z",
+        "summary":  "Heartbeat: no tasks, DDT posted, retro done. No new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks, DDT posted, reviewed shared patterns + team memory. No new episodes. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T12:15:00Z"
+    },
+    {
+        "ts":  "2026-03-01T12:05:00Z",
+        "summary":  "Heartbeat: no tasks, DDT posted, reviewed shared patterns + team memory. No new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks, DDT posted, reviewed shared patterns + team memory. No new episodes/insights. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T11:15:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, DDT posted, reviewed shared patterns + team memory. DM leak prevention noted. No new episodes/insights. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T11:00:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, DDT posted, reviewed shared patterns + team memory + insights. No new episodes. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T10:45:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, DDT posted, read shared patterns + team memory. Noted DM spam fix in TEAM-MEMORY. No new episodes/insights. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T10:40:00Z"
+    },
+    {
+        "ts":  "2026-03-01T10:35:00Z",
+        "summary":  "Heartbeat: no tasks, DDT posted, read shared patterns + team memory. No new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T10:25:00Z",
+        "summary":  "Heartbeat: no tasks, DDT posted, read shared patterns (DM leak fix noted), no new insights/episodes. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T10:20:00Z",
+        "summary":  "Heartbeat: no tasks, DDT posted, no new insights/episodes. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T10:15:00Z",
+        "summary":  "Heartbeat: no tasks, DDT already posted, read shared patterns + team memory (DM leak fix noted). No new episodes/insights.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks, DDT posted, no new episodes/insights. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T10:10:00Z"
+    },
+    {
+        "ts":  "2026-03-01T10:00:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks, DDT already posted, reviewed shared patterns (10) + team memory (DM leak fix). No new episodes/insights. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T09:55:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, DDT posted, no new episodes/insights. Read shared patterns + team memory (DM leak fix). Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T09:45:00Z"
+    },
+    {
+        "ts":  "2026-03-01T09:35:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T09:30:00Z",
+        "summary":  "Heartbeat: no tasks, DDT already posted, no new insights/episodes. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T09:25:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T09:15:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks, DDT already posted, no new episodes/insights. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T09:10:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T07:50:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T07:30:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Web search unavailable for curiosity loop. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T06:35:00Z"
+    },
+    {
+        "ts":  "2026-03-01T06:30:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T06:25:00Z"
+    },
+    {
+        "ts":  "2026-03-01T06:15:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle Sunday.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T06:05:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle Sunday.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle Sunday.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T06:00:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Reviewed shared patterns (10), no new peer insights. Idle Sunday.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T05:55:00Z"
+    },
+    {
+        "ts":  "2026-03-01T05:35:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle Sunday.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T05:25:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle Sunday.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T05:15:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle Sunday.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T05:10:00Z",
+        "summary":  "Heartbeat: no tasks, reviewed shared patterns+episodes+peer insights (all seen). Curiosity loop skipped (no web search API). Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T04:45:00Z",
+        "summary":  "Heartbeat: no tasks, reviewed skill+shared patterns+peer insights (all seen). Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T04:35:00Z",
+        "summary":  "Heartbeat: no tasks, reviewed shared patterns + episodes + insights. All current. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T04:15:00Z",
+        "summary":  "Heartbeat: no tasks, reviewed skill+shared patterns+peer insights (all seen). Idle Sunday.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T04:05:00Z",
+        "summary":  "Heartbeat: no tasks, reviewed shared patterns (7+) and episodes (6), no new insights. Idle Sunday.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Web search unavailable for curiosity loop. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T04:00:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T03:45:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle Sunday.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T03:40:00Z"
+    },
+    {
+        "ts":  "2026-03-01T03:35:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle Sunday.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T03:30:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle Sunday.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T03:25:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle Sunday.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks, reviewed shared patterns + episodes, no changes. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T03:15:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no changes since 03:05Z. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T03:10:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle Sunday morning.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T03:05:00Z"
+    },
+    {
+        "ts":  "2026-03-01T02:55:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Checked shared patterns + peer insights (no changes). Curiosity loop skipped (no web search API key).",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T02:45:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle Sunday.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new episodes/insights since last. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T02:40:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle Sunday.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T02:35:00Z"
+    },
+    {
+        "ts":  "2026-03-01T02:25:00Z",
+        "summary":  "Heartbeat: no tasks, reviewed shared patterns + insights (no changes since last). Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T02:20:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T02:10:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights since last run. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T01:55:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle Sunday night.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T01:50:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle Sunday.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle Sunday.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T01:45:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle Sunday.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T01:40:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T01:35:00Z"
+    },
+    {
+        "ts":  "2026-03-01T01:30:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights since last run. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T01:15:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Read shared patterns (7+), peer insights (2, already seen). Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T01:10:00Z"
+    },
+    {
+        "ts":  "2026-03-01T01:00:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T00:55:00Z"
+    },
+    {
+        "ts":  "2026-03-01T00:50:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T00:45:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T00:40:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T00:35:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle Sunday.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T00:25:00Z",
+        "summary":  "Heartbeat: no tasks. Reviewed SKILL.md, shared patterns (4), 6 episodes, 2 insights (no new). All clear.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks. Reviewed shared patterns, episodes, insights - no changes needed.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T00:15:00Z"
+    },
+    {
+        "ts":  "2026-03-01T00:10:00Z",
+        "summary":  "Heartbeat: no tasks. Reviewed SKILL.md, shared patterns, 6 episodes. No new insights to peer-learn. Web search unavailable for curiosity loop.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T00:05:00Z",
+        "summary":  "Heartbeat: no tasks. Reviewed SKILL.md, shared patterns (7+), 6 episodes. No new insights to peer-learn. Web search unavailable for curiosity loop.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-02-28T23:50:00Z",
+        "summary":  "Heartbeat: no tasks. Reviewed SKILL.md, shared patterns (7), 6 episodes. No new insights or episodes since last run.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-02-28T23:45:00Z",
+        "summary":  "Heartbeat: no tasks. Reviewed SKILL.md, shared patterns (7), episodes (6). No new insights to peer-learn. Web search unavailable for curiosity loop.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. All quiet.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-02-28T23:30:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks. Reviewed shared patterns, no new episodes. Peer insights already seen. Quiet.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-02-28T23:25:00Z"
+    },
+    {
+        "ts":  "2026-03-01T06:20:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T06:40:00Z"
+    },
+    {
+        "ts":  "2026-03-01T06:45:00Z",
+        "summary":  "Heartbeat: no tasks. Posted Daily Design Taste (Progressive Disclosure). Reviewed shared patterns (10), no new episodes. Web search unavailable for curiosity loop.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T06:50:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T06:55:00Z"
+    },
+    {
+        "ts":  "2026-03-01T07:00:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T07:05:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T07:10:00Z"
+    },
+    {
+        "ts":  "2026-03-01T07:15:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks. Curiosity loop: studied inversion mental model (Munger/Jacobi), saved to learnings. No new peer insights. No new episodes.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T07:16:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T07:20:00Z"
+    },
+    {
+        "ts":  "2026-03-01T07:25:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T07:35:00Z"
+    },
+    {
+        "ts":  "2026-03-01T07:40:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T07:45:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T07:55:00Z",
+        "summary":  "Heartbeat: no tasks, design taste already posted, reviewed shared patterns (10), no new insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T08:00:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes. DDT already posted. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T08:05:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle Sunday morning.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T08:06:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T08:10:00Z"
+    },
+    {
+        "ts":  "2026-03-01T08:15:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T08:20:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T08:25:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. DDT already posted. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T08:30:00Z"
+    },
+    {
+        "summary":  "Recorded episode from 07:35 session (Admin 401 debug). No tasks, no new peer insights. Idle Sunday.",
+        "patterns_updated":  0,
+        "episodes_added":  1,
+        "ts":  "2026-03-01T08:31:00Z"
+    },
+    {
+        "ts":  "2026-03-01T08:35:00Z",
+        "summary":  "Reviewed shared patterns (10), 1 recent episode already logged. No new tasks, no new peer insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T08:40:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T08:45:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T08:50:00Z",
+        "summary":  "Heartbeat: no tasks, design taste already posted, reviewed 1 new episode (admin-401-debug), no new patterns needed, no new insights",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T08:55:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T09:00:00Z",
+        "summary":  "Heartbeat: no tasks, DDT already posted, no new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks. 1 new episode (admin-401-debug) already recorded. No new peer insights. Idle Sunday.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T09:01:00Z"
+    },
+    {
+        "ts":  "2026-03-01T09:05:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T09:20:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new insights/episodes. Helped Xiaosong debug Admin 401 + config issue earlier.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T09:31:00Z"
+    },
+    {
+        "ts":  "2026-03-01T09:50:00Z",
+        "summary":  "Heartbeat: no tasks, DDT already posted, reviewed team memory (DM leak fixes), shared patterns, no new insights files. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T10:05:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks, DDT already posted, no new peer insights, web search unavailable for curiosity loop. Recorded admin 401 debug episode earlier.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T10:15:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new peer insights, admin-401 episode already recorded. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T10:45:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, DDT already posted, reviewed shared patterns + team memory (DM leak fix noted). No new episodes or insights.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T10:50:00Z"
+    },
+    {
+        "ts":  "2026-03-01T10:55:00Z",
+        "summary":  "Heartbeat: no tasks, DDT posted, reviewed shared patterns + team memory + DM leak fixes. No new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T11:05:00Z",
+        "summary":  "Heartbeat: no tasks, DDT posted, retro done. Reviewed shared patterns (10) + team memory. No new episodes. Checked insights dir - no new files. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T11:10:00Z",
+        "summary":  "Heartbeat: no tasks, DDT posted, retro done. No new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Reviewed shared patterns, 1 new episode (admin 401 debug). No new patterns needed. Web search unavailable for curiosity loop.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T11:15:00Z"
+    },
+    {
+        "ts":  "2026-03-01T11:20:00Z",
+        "summary":  "Heartbeat: no tasks, DDT posted, retro done. Reviewed shared patterns + insights. No new episodes.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T11:25:00Z",
+        "summary":  "Heartbeat: no tasks, DDT already posted, retro done. Reviewed 10 shared patterns + team memory. No new episodes. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T11:30:00Z",
+        "summary":  "Heartbeat: no tasks, DDT posted, retro done. Reviewed shared patterns (10) + team memory. No new episodes or peer insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T11:35:00Z",
+        "summary":  "Heartbeat: no tasks, DDT posted, retro done. Reviewed shared patterns (10), no new episodes. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T11:40:00Z",
+        "summary":  "Heartbeat: no tasks, DDT posted, retro done. Reviewed shared patterns (10) + episodes. No new episodes/insights.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks, DDT already posted, reviewed 10 shared patterns + episodes - no new items. Peer insights unchanged (2 files, last 2/27).",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T11:45:00Z"
+    },
+    {
+        "ts":  "2026-03-01T11:45:00Z",
+        "summary":  "Heartbeat: no tasks, DDT posted, retro done. Reviewed shared patterns + team memory + episodes. No new episodes needed.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T11:50:00Z",
+        "summary":  "Heartbeat: no tasks, DDT already posted, reviewed shared patterns + team memory. No new episodes. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T11:55:00Z",
+        "summary":  "Heartbeat: no tasks, DDT posted, retro done. Reviewed shared patterns + team memory. No new episodes. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T12:00:00Z",
+        "summary":  "Heartbeat: no tasks, DDT posted, reviewed patterns+team memory. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T12:10:00Z",
+        "summary":  "Heartbeat: no tasks, DDT posted, reviewed shared patterns (10) + team memory + episodes. No new episodes. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks, reviewed 10 shared patterns + 3 recent episodes, no new patterns. Peers no new insights.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T12:15:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, DDT posted, retro done. Reviewed shared patterns + team memory. No new episodes/insights. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T12:25:00Z"
+    },
+    {
+        "summary":  "Heartbeat check - no tasks, no new episodes/insights, self-improve ran 5min ago",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T12:30:00Z"
+    },
+    {
+        "ts":  "2026-03-01T12:35:00Z",
+        "summary":  "Heartbeat: no tasks, DDT posted, retro done, reviewed shared patterns and insights, nothing new.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new insights/episodes since 08:32. Curiosity loop blocked (no web search API). Reviewed today\u0027s retro notes.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T12:45:00Z"
+    },
+    {
+        "ts":  "2026-03-01T12:50:00Z",
+        "summary":  "Heartbeat: no tasks, DDT posted, reviewed shared patterns (10) + episodes. No new episodes or patterns.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T12:55:00Z",
+        "summary":  "Reviewed shared patterns, episodes, team memory, insights. No new tasks, DDT already posted, no new episodes.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Reviewed shared patterns (10), 1 new episode (admin-401-debug). No new patterns needed. Curiosity loop blocked (no Brave API key). No tasks pending.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T13:00:00Z"
+    },
+    {
+        "summary":  "Reviewed 10 shared patterns, no new episodes in last 24h, no new insights from peers, no tasks pending",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T13:00:00Z"
+    },
+    {
+        "ts":  "2026-03-01T13:05:00Z",
+        "summary":  "Heartbeat: reviewed 10 shared patterns, no new tasks/episodes. Design taste already posted. Curiosity blocked (no web_search key). Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T13:25:00Z",
+        "summary":  "Heartbeat: no tasks, reviewed shared patterns (no new), team memory (gateway runbook), peer insights (no new). DDT already posted. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new episodes/insights since 08:32 UTC. Idle Sunday afternoon.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T13:30:00Z"
+    },
+    {
+        "summary":  "Reviewed 10 shared patterns, no new episodes, no new peer insights, no tasks",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T13:35:00Z"
+    },
+    {
+        "ts":  "2026-03-01T13:50:00Z",
+        "summary":  "Heartbeat: no tasks, reviewed shared patterns + team memory + peer insights (no new). Daily Design Taste already posted. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new insights/episodes since last run. Idle Sunday afternoon.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T13:52:00Z"
+    },
+    {
+        "ts":  "2026-03-01T14:00:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T14:12:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: hook triggered for hero video feasibility question - already replied in Slack thread with 2-option analysis (JS playlist vs ffmpeg concat). Creator picked up and deployed. No new tasks.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T14:13:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new insights/episodes since last run. Helped Xiaosong fix Creator config (dmScope, replyToModeByChatType) earlier today.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T14:14:00Z"
+    },
+    {
+        "ts":  "2026-03-01T14:27:00Z",
+        "summary":  "Heartbeat: no tasks, DDT already posted, reviewed shared patterns (no changes), no new peer insights, web search unavailable for curiosity loop.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T14:32:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights since last run 9min ago. Skip.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new episodes/insights, DDT already posted, curiosity done for today.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T14:38:00Z"
+    },
+    {
+        "ts":  "2026-03-01T14:48:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks. Taskflow L2 in 24h observation. No new episodes/patterns. Reviewed shared patterns + insights (no changes).",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T14:54:00Z"
+    },
+    {
+        "ts":  "2026-03-01T14:53:00Z",
+        "summary":  "Reviewed shared patterns (no new), checked episodes (no new since last), posted Daily Design Taste on subtraction-as-design, no new insights from peers",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T15:17:00Z",
+        "summary":  "Heartbeat: no tasks, reviewed shared patterns + episodes, DDT already posted, curiosity blocked (no web_search key). Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T15:22:00Z",
+        "summary":  "Heartbeat: no tasks, no new episodes/insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-01T15:27:00Z",
+        "summary":  "Heartbeat: no tasks, DDT posted, no new episodes/insights since last run. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "summary":  "Heartbeat: no tasks. Earlier helped Xiaosong fix Admin gateway (missing OPENCLAW_HOME in gateway.cmd) and Creator DM routing (dmScope main?per-channel-peer). Logged to daily memory.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T15:28:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new insights/episodes. All gateways healthy.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T15:58:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks. Fixed Admin gateway (OPENCLAW_HOME missing in gateway.cmd) and Creator DM routing (dmScope/replyToModeByChatType). All 4 gateways confirmed running.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T16:28:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks. Earlier fixed Admin gateway (missing OPENCLAW_HOME in gateway.cmd) and Creator Slack config (dmScope, replyToModeByChatType). No new episodes/patterns.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T16:58:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new insights/episodes. DDT already posted. Earlier fixed Admin gateway (OPENCLAW_HOME missing in gateway.cmd) and Creator DM routing (dmScope main-\u003eper-channel-peer).",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T17:28:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new insights/episodes. DDT already posted. Admin GW fix earlier today.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T17:58:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, reviewed 10 shared patterns (no new), no new insights/episodes. DDT already posted. Admin gateway fix earlier today logged in memory.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T18:28:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks. Curiosity loop: read Bayesian inference, saved to learnings. No new peer insights.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T18:58:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, DDT already posted, no new peer insights. Web search unavailable for curiosity loop.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T19:28:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new insights/episodes. Earlier fixed Admin gateway (OPENCLAW_HOME missing in gateway.cmd) and Creator DM routing (dmScope main-\u003eper-channel-peer). Logged.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T19:58:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new insights/episodes. Design taste posted earlier. Quiet evening.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T20:28:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, DDT done, recorded gateway+routing fix episode, no new shared patterns needed.",
+        "patterns_updated":  0,
+        "episodes_added":  1,
+        "ts":  "2026-03-01T20:58:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, 2 episodes today (401 debug + gateway fix), no new shared insights. Daily Design Taste already posted. Idle evening.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T21:28:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new insights/episodes. Daily design taste already posted. Idle evening.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T21:58:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, no new episodes/insights since last run. Daily design taste already posted. Idle evening.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T22:28:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, 2 episodes from today (admin-401, gateway-config). No new insights or patterns to extract. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T23:28:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, 2 episodes today (admin-401-debug, gateway-config-fixes), no new peer insights, no new patterns needed.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-01T23:58:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, reviewed 2026-03-02 memory (task flow decisions, dry-run lessons). No new episodes to add.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-02T00:16:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks. Reviewed 3/2 daily notes (task flow decisions, dry-run). No new shared insights. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-02T00:46:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, 2 episodes from yesterday (admin-401, gateway-config), no new shared patterns/insights. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-02T01:16:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, reviewed 3/2 daily notes (task flow + dry-run). No new episodes/insights. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-02T01:46:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks. Reviewed 3/2 daily log — task flow decisions captured. No new episodes needed. No new peer insights.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-02T02:16:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, reviewed shared patterns + episodes. Memory research completed and logged in daily log. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-02T02:40:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks. Yesterday\u0027s memory-system research was a good deep-dive. 2 episodes recorded (admin-401-debug, gateway-config-fixes). No new shared insights to absorb. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-02T03:10:00Z"
+    },
+    {
+        "summary":  "Heartbeat: no tasks, reviewed 2 recent episodes (admin-401, gateway-config), no new patterns. Idle.",
+        "patterns_updated":  0,
+        "episodes_added":  0,
+        "ts":  "2026-03-02T03:40:00Z"
+    },
+    {
+        "ts":  "2026-03-02T04:10:00Z",
+        "summary":  "Heartbeat: no tasks. Memory research episode from today already logged. No new shared insights or peer learnings. Reviewed shared patterns (no changes needed).",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T04:40:00Z",
+        "summary":  "Heartbeat: no tasks, no changes since last check (30min ago). Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T05:10:00Z",
+        "summary":  "Heartbeat: no tasks, no new insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T05:40:00Z",
+        "summary":  "Heartbeat: no tasks, no new insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T06:10:00Z",
+        "summary":  "Heartbeat: no tasks, no new insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T06:40:00Z",
+        "summary":  "Heartbeat: no tasks, no new insights/episodes. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T06:53:00Z",
+        "summary":  "Heartbeat: no tasks, no new insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T07:05:00Z",
+        "summary":  "Heartbeat: no tasks, no new insights. Memory system research already logged. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T07:13:00Z",
+        "summary":  "Heartbeat: no tasks, no new insights or episodes since last run. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T07:43:00Z",
+        "summary":  "Heartbeat: no tasks, no new insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T08:13:00Z",
+        "summary":  "Heartbeat: no tasks. No new insights/episodes. Web search still unavailable for curiosity loop. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T08:43:00Z",
+        "summary":  "Heartbeat: no tasks, no new insights. Memory system research already logged. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T09:13:00Z",
+        "summary":  "Heartbeat: no tasks. Posted DDT (skeleton shimmer loading). No new shared insights/episodes. Reviewed patterns, no updates needed.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T09:45:00Z",
+        "summary":  "Heartbeat: no tasks. No new insights/episodes. Web search unavailable for curiosity loop. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T09:53:00Z",
+        "summary":  "Heartbeat: no tasks, no new insights/episodes. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T10:23:00Z",
+        "summary":  "Heartbeat: no tasks. DDT already posted. No new insights/episodes. Curiosity loop blocked (no Brave API key). Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T10:53:00Z",
+        "summary":  "Heartbeat: no tasks. DDT posted, command palette spec + Sam\u0027s 8 principles audit done earlier. No new insights/episodes since last run. Web search unavailable for curiosity loop. Reviewed shared patterns (no changes).",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T11:23:00Z",
+        "summary":  "Heartbeat: no tasks. DDT posted. Sam\u0027s 8 principles audit delivered, awaiting Xiaosong decision. No new peer insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T11:53:00Z",
+        "summary":  "Heartbeat: no tasks. DDT posted. Sam\u0027s 8 principles audit delivered, awaiting Xiaosong decision. No new insights/episodes. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T12:23:00Z",
+        "summary":  "Heartbeat: no tasks. DDT posted, command palette spec + Sam audit done earlier. No new peer insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T12:53:00Z",
+        "summary":  "Heartbeat: no tasks. Active day — DDT posted, command palette spec delivered, Sam\u0027s 8 Principles audit completed. No new peer insights. No new episodes needed (all logged in daily).",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T13:23:00Z",
+        "summary":  "Heartbeat: no tasks. DDT posted. Sam\u0027s 8 Principles audit in progress (awaiting Xiaosong decisions). No new insights/episodes. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T13:53:00Z",
+        "summary":  "Heartbeat: no tasks. DDT posted. Sam\u0027s 8 Principles audit + Command Palette spec delivered earlier. No new peer insights. No new episodes needed.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T14:23:00Z",
+        "summary":  "Heartbeat: no tasks. DDT posted. Sam\u0027s 8 Principles audit ongoing (awaiting Xiaosong decisions). Command palette spec handed to Creator. No new peer insights. No new episodes to record.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T14:53:00Z",
+        "summary":  "Heartbeat: no tasks. Major work today: Sam\u0027s 8 Principles audit (watchdog fix, auto-detection architecture). No new peer insights. DDT skipped (late in Xiaosong\u0027s TZ). Reviewed shared patterns - no updates needed.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T15:54:00Z",
+        "summary":  "Heartbeat: no tasks. Major audit work done earlier today (Sam\u0027s 8 principles, watchdog fix). No new insights from peers. No new episodes to record.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T15:54:00Z",
+        "summary":  "Heartbeat: no tasks. Sam\u0027s 8 Principles audit completed earlier today (watchdog fix, mention+webhook gap fix, auto-fix architecture designed). No new peer insights. No new episodes needed (already logged in daily).",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T15:56:00Z",
+        "summary":  "Heartbeat: no tasks. Big audit session today (Sam\u0027s 8 principles) already logged. Watchdog corruption fixed, auto-fix architecture designed. No new peer insights. No new episodes to record.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T15:57:00Z",
+        "summary":  "Heartbeat: no tasks. Sam\u0027s 8 principles audit fully logged from earlier today. No new shared insights or peer learnings. No new episodes needed.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T16:04:00Z",
+        "summary":  "Heartbeat: no tasks. Major audit work today (Sam\u0027s 8 principles). No new peer insights. DDT not yet posted today — will post.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T16:04:00Z",
+        "summary":  "Heartbeat: no tasks. Posted DDT (Stripe inline validation). No new peer insights. Web search unavailable for curiosity loop.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T16:06:00Z",
+        "summary":  "Heartbeat: no tasks. Major Sam\u0027s 8 Principles audit completed earlier today (watchdog fix, mention+webhook gap fix, auto-fix architecture designed). DDT posted. No new peer insights. Reviewed shared patterns.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T16:07:00Z",
+        "summary":  "Heartbeat: no tasks. DDT posted. Major audit work done today (Sam\u0027s 8 principles, watchdog fix, auto-detection architecture). No new peer insights. No new episodes to record beyond existing log.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T16:37:00Z",
+        "summary":  "Heartbeat: no tasks. DDT posted. Sam\u0027s 8 Principles audit completed and logged. No new shared insights. Reviewed patterns (no changes).",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T17:07:00Z",
+        "summary":  "Heartbeat: no tasks. DDT posted. Major Sam\u0027s 8 Principles audit completed earlier today (watchdog fix, mention+webhook gap fix, auto-detection architecture designed). No new peer insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T17:37:00Z",
+        "summary":  "Heartbeat: no tasks. Major work today — Sam\u0027s 8 Principles audit (watchdog fix, mention+webhook gap fix, auto-fix architecture designed). DDT posted. No new insights from peers. No new episodes to record (already logged).",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T18:07:00Z",
+        "summary":  "Heartbeat: no tasks. Sam\u0027s 8 principles audit fully logged in daily log. Watchdog.ps1 corruption fix episode worth recording. No new shared insights or peer learnings.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T18:37:00Z",
+        "summary":  "Heartbeat: no tasks. Big audit session logged (Sam\u0027s 8 principles, watchdog fix, auto-fix architecture). No new shared insights or peer learnings. DDT already posted.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T19:07:00Z",
+        "summary":  "Heartbeat: no tasks. DDT posted. Sam\u0027s audit fully logged from earlier. No new shared insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T19:37:00Z",
+        "summary":  "Heartbeat: no tasks. Big day — Sam\u0027s 8 principles audit, watchdog corruption fix, DDT posted. All logged in daily. No new peer insights. No action needed.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T20:07:00Z",
+        "summary":  "Heartbeat: no tasks. Recorded episode for Sam\u0027s 8 Principles audit (watchdog fix, mention-webhook gap, auto-fix architecture). No new shared insights or peer learnings. DDT already posted.",
+        "episodes_added":  1,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T20:37:00Z",
+        "summary":  "Heartbeat: no tasks. DDT posted. Sam\u0027s 8 principles audit episode logged earlier. No new peer insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T21:07:00Z",
+        "summary":  "Heartbeat: no tasks. Sam\u0027s 8 Principles audit episode already recorded. No new peer insights. DDT already posted. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T21:37:00Z",
+        "summary":  "Heartbeat: no tasks. Sam\u0027s 8 principles audit episode already logged. No new peer insights. Patterns stable.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T22:07:00Z",
+        "summary":  "Heartbeat: no tasks. Sam\u0027s 8 principles audit completed earlier today (watchdog fix, mention+webhook gap fix, auto-fix architecture designed). Episode already recorded. No new peer insights. DDT already posted (Stripe inline validation).",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T22:37:00Z",
+        "summary":  "Heartbeat: no tasks. Sam\u0027s 8 Principles audit completed earlier today (watchdog fix, mention+webhook gap fix, auto-detection architecture designed). Episode already recorded. No new peer insights. DDT posted. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T23:07:00Z",
+        "summary":  "Heartbeat: no tasks. Sam\u0027s 8 principles audit episode already logged. No new shared insights. DDT posted. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-02T23:37:00Z",
+        "summary":  "Heartbeat: no tasks. Sam\u0027s 8 Principles audit episode already logged. No new peer insights. DDT posted. Reviewed shared patterns (no changes needed).",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-03T00:07:00Z",
+        "summary":  "Heartbeat: no tasks. Reviewed ep-2026-03-02-001 (Sam\u0027s 8 principles audit). No new shared insights. No peer learnings. Patterns stable.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-03T00:37:00Z",
+        "summary":  "Heartbeat: no tasks. No new insights or episodes since last run. New day file not yet created. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-03T01:07:00Z",
+        "summary":  "Heartbeat: no tasks. No new insights or peer learnings. 1 new episode (sams-8-principles-audit) from yesterday already logged. No new shared patterns needed.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-03T01:22:00Z",
+        "summary":  "Heartbeat: no tasks, no new day log, no new shared insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-03T01:52:00Z",
+        "summary":  "Heartbeat: no tasks. Today\u0027s log already has Q\u0026A session + watchdog test results. No new shared insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-03T02:22:00Z",
+        "summary":  "Heartbeat: no tasks. Reviewed 2026-03-03 log (Q\u0026A session, watchdog tests). No new shared insights or peer learnings. No new episodes needed.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-03T02:37:00Z",
+        "summary":  "Heartbeat: no tasks. Reviewed today\u0027s log (XHS research, watchdog tests, channel registry). 1 new episode (sams-8-principles-audit). No new shared insights. No patterns to update.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-03T02:48:00Z",
+        "summary":  "Heartbeat: no tasks. Busy day — XHS research, watchdog tests, dedup discussion all logged. No new shared insights or peer learnings. No pattern changes needed.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-03T03:18:00Z",
+        "summary":  "Heartbeat: no tasks. Reviewed 2026-03-03 log (XHS research, monitoring retro, memory org, Creator-owns-builds rule). No new insights from peers. No new episodes needed.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-03T03:48:00Z",
+        "summary":  "Heartbeat: no tasks. Reviewed 03-03 daily log (XHS research, monitoring retro, memory org). No new shared insights since 02-27. 1 new episode (sams-8-principles-audit). No action needed.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-03T03:54:00Z",
+        "summary":  "Heartbeat: no tasks. Yesterday was heavy (XHS research, monitoring retro/rebuild, memory org discussion). No new shared insights. No peer learnings to absorb.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-03T03:56:00Z",
+        "summary":  "Heartbeat: no tasks. Reviewed today\u0027s log (XHS research, monitoring retro, memory org). No new shared insights. No action needed.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-03T04:06:00Z",
+        "summary":  "Heartbeat: no tasks, DDT posted, no new insights/episodes. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-03T05:10:00Z",
+        "summary":  "Heartbeat: no tasks, no new insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-03T05:11:00Z",
+        "summary":  "Heartbeat: no tasks, no changes. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-03T05:41:00Z",
+        "summary":  "Heartbeat: no tasks, no new insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-03T05:42:00Z",
+        "summary":  "Heartbeat: no tasks, no new insights. Idle.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    },
+    {
+        "ts":  "2026-03-03T05:55:00Z",
+        "summary":  "Heartbeat: no tasks. Helped Xiaosong fix Admin gateway (zombie pid 15648). DDT already posted. No new insights/episodes.",
+        "episodes_added":  0,
+        "patterns_updated":  0
+    }
+]

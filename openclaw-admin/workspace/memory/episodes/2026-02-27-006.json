@@ -1,0 +1,11 @@
+{
+  "id": "ep-2026-02-27-006",
+  "agent": "admin",
+  "timestamp": "2026-02-27T09:00:00Z",
+  "task": "Self-mentioning bug + thread tracker + rule consolidation",
+  "outcome": "fixed",
+  "what_worked": ["Xiaosong pointed out self-mention bug, fixed immediately", "Built thread-tracker.json with reaction-based closure detection"],
+  "what_failed": ["Was @mentioning self (U0AHN84GJGG) in thread replies — nonsensical", "Thread tracker initially only checked text keywords, missed emoji reactions", "Tracker didn't filter by Admin's own reactions vs anyone's"],
+  "lesson": "1) Never @mention yourself. 2) Thread closure = Admin's own check react only. 3) Rules scattered across 7+ files = drift. Consolidate to shared/context/.",
+  "user_feedback": "Xiaosong asked 3 follow-up questions pushing for deeper root cause and better tracking"
+}

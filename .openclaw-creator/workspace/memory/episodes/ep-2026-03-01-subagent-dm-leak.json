@@ -1,0 +1,18 @@
+﻿{
+    "skill_used":  "coding-agent",
+    "id":  "ep-2026-03-01-subagent-dm-leak",
+    "what_failed":  [
+                        "Previous heartbeat session let subagent result route as DM instead of thread reply",
+                        "Must always use slack-send.ps1 with explicit ReplyTo after subagent completes"
+                    ],
+    "what_worked":  [
+                        "Builder completed correctly",
+                        "audioContext.tsx pattern is clean"
+                    ],
+    "agent":  "creator",
+    "timestamp":  "2026-03-01T14:47:00Z",
+    "task":  "Hero video button -\u003e global audio controller via subagent",
+    "lesson":  "When a subagent completes, ALWAYS post the result explicitly in the original Slack thread using slack-send.ps1 -ReplyTo. Never let OpenClaw auto-route the completion message - it will go to DM.",
+    "user_feedback":  "Xiaosong flagged DM leak: \u0027Subagent builder finished, task/thread leak, went DM\u0027",
+    "outcome":  "success_with_issue"
+}
