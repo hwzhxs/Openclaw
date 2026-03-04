@@ -1,0 +1,11 @@
+{
+  "id": "ep-2026-02-27-encoding",
+  "agent": "admin",
+  "timestamp": "2026-02-27T10:00:00Z",
+  "task": "Debug and fix Slack Chinese encoding garbled text",
+  "outcome": "success",
+  "what_worked": ["Setting $OutputEncoding = UTF8 before ConvertTo-Json", "Adding UTF8 to slack-notify.ps1", "PowerShell profile creation"],
+  "what_failed": ["PowerShell default US-ASCII silently destroys CJK in ConvertTo-Json", "Didn't catch it proactively - user had to report"],
+  "lesson": "PowerShell $OutputEncoding defaults to US-ASCII. Any script handling non-ASCII (Chinese, emoji) must set $OutputEncoding = [System.Text.Encoding]::UTF8 before serialization.",
+  "user_feedback": null
+}

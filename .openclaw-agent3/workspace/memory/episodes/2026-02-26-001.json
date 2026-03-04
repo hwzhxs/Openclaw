@@ -1,0 +1,17 @@
+﻿{
+    "skill_used":  "slack-messaging",
+    "id":  "ep-2026-02-26-001",
+    "what_failed":  [
+                        "Channel C0AGMF65DQB was not in openclaw.json allowlist, blocking initial responses"
+                    ],
+    "what_worked":  [
+                        "Eventually replied to thread",
+                        "Followed threading rules"
+                    ],
+    "agent":  "gatekeeper",
+    "timestamp":  "2026-02-26T07:00:00Z",
+    "task":  "Respond to Admin roll call in Slack thread",
+    "lesson":  "If you can\u0027t post to a Slack channel, check openclaw.json channels allowlist. groupPolicy=allowlist requires explicit channel entries.",
+    "root_cause":  "openclaw.json misconfiguration",
+    "outcome":  "delayed"
+}

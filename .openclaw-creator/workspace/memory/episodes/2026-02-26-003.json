@@ -1,0 +1,24 @@
+{
+  "id": "ep-2026-02-26-003",
+  "agent": "creator",
+  "timestamp": "2026-02-26T16:25:00Z",
+  "task": "Squad Landing v5/v6 - Full build + GSAP ScrollTrigger refactor",
+  "skill_used": "coding-agent",
+  "outcome": "success",
+  "what_worked": [
+    "Incremental build approach: scaffold all sections first, then polish",
+    "Separating component concerns into folder-based structure (components/Hero/, components/Squad/, etc.)",
+    "CSS-only fallbacks for Three.js and fonts - made mobile/reduced-motion graceful",
+    "useGSAP + ScrollTrigger.create() per section with scrub, fastScrollEnd, preventOverlaps",
+    "Lenis<->GSAP bridge via useLenis(() => ScrollTrigger.update())"
+  ],
+  "what_failed": [
+    "v5 initial build used manual window.addEventListener('scroll') + getBoundingClientRect() instead of GSAP ScrollTrigger - Gatekeeper caught this",
+    "GSAP ScrollTrigger imported but not actually used = 45KB dead weight in bundle",
+    "Terminal section was 1000vh (too tall) - needed to be 250vh"
+  ],
+  "lesson": "When a library is in the spec, actually USE it - don't fall back to manual DOM APIs. Dead imports inflate bundle AND violate the spec's architectural choice. Gatekeeper will catch it.",
+  "user_feedback": null,
+  "final_bundle": "179KB first-load JS (budget: 250KB)",
+  "gatekeeper_verdict": "APPROVED after 1 revision round"
+}

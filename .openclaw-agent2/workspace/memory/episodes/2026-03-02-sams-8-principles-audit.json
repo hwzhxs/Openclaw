@@ -1,0 +1,14 @@
+{
+  "id": "ep-2026-03-02-001",
+  "ts": "2026-03-02T16:00:00Z",
+  "type": "task",
+  "title": "Sam's 8 Agent Training Principles — Full System Audit",
+  "summary": "Xiaosong shared article, asked for full audit. Found+fixed mention-webhook gap (all 4 AGENTS.md), found+fixed watchdog.ps1 corruption (Creator edit pasted 900 lines into catch block), designed auto-detect+auto-fix architecture for watchdog. Identified tool failure visibility gap.",
+  "lessons": [
+    "Always re-read a file immediately before editing — edit tool fails on stale content",
+    "Watchdog (oversight system) itself can go down undetected — need self-check mechanism",
+    "Multiple agents editing same file simultaneously causes conflicts — need one-fixer rule",
+    "Auto-fix architecture: watchdog handles simple fixes directly, delegates retries to agents via webhook, escalates to human only after 2 failures"
+  ],
+  "outcome": "success"
+}

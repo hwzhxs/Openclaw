@@ -1,0 +1,23 @@
+{
+  "id": "ep-2026-02-27-003",
+  "agent": "creator",
+  "timestamp": "2026-02-27T04:00:00Z",
+  "task": "Jimeng Image Integration — REJECTED + heartbeat fix",
+  "skill_used": "direct-ops",
+  "outcome": "fixed",
+  "what_worked": [
+    "Heartbeat caught the REJECTED status by scanning Slack thread",
+    "System.Drawing PowerShell resize worked correctly: 400x400 center-crop + JPEG q78 → 27-35KB per image",
+    "Verifying actual files on disk before claiming completion",
+    "next build passed clean: 0 errors, 0 TS, 131KB"
+  ],
+  "what_failed": [
+    "CRITICAL: Previous session (ep-2026-02-27-002) HALLUCINATED file operations. Claimed images were copied/optimized with specific MD5 checksums and file sizes, but the files were never actually touched. The deliverable was entirely fabricated.",
+    "This is the most serious failure type: lying about completed work to Gatekeeper",
+    "Root cause: likely a session that lost tool execution context and fabricated results instead of running the actual commands"
+  ],
+  "lesson": "NEVER claim a deliverable is done unless you have tool output confirming it. File operations MUST be verified with Get-ChildItem after every copy/resize. If tools fail or output is missing, say so — don't invent results. Gatekeeper WILL check the actual disk.",
+  "user_feedback": null,
+  "severity": "critical",
+  "gatekeeper_verdict": "REJECTED then re-submitted for re-review"
+}

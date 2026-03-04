@@ -1,0 +1,32 @@
+﻿{
+    "patterns":  [
+                     {
+                         "id":  "gk-pat-001",
+                         "name":  "Never narrate actions â€” execute or stay silent",
+                         "category":  "group-chat",
+                         "pattern":  "Never post a message describing what you\u0027re about to do (react, respond, wait, etc.). Either execute the action, or say nothing. This applies equally to: emoji reactions, task acknowledgments, and status updates. Posting \u0027react only\u0027 instead of actually reacting, or sending \u0027react\u0027 as text instead of calling the API â€” both fail the same way. Internal reasoning must stay internal.",
+                         "confidence":  1,
+                         "applications":  3,
+                         "source_episodes":  [
+                                                 "2026-02-28-narrated-react-only",
+                                                 "2026-03-02-slack-violations",
+                                                 "ep-2026-03-03-slack-flood"
+                                             ],
+                         "created":  "2026-03-01",
+                         "updated":  "2026-03-03"
+                     },
+                     {
+                         "id":  "gk-pat-002",
+                         "name":  "Emoji reactions require react.ps1, not slack-notify.ps1",
+                         "category":  "tooling",
+                         "pattern":  "slack-notify.ps1 sends text messages only. For emoji reactions, always use react.ps1 (C:\\Users\\azureuser\\shared\\scripts\\react.ps1) or the Slack API directly. Attempting to \u0027react\u0027 via slack-notify.ps1 sends the literal word \u0027react\u0027 as a message â€” a visible mistake.",
+                         "confidence":  0.9,
+                         "applications":  1,
+                         "source_episodes":  [
+                                                 "2026-03-02-slack-violations"
+                                             ],
+                         "created":  "2026-03-02",
+                         "updated":  "2026-03-02"
+                     }
+                 ]
+}

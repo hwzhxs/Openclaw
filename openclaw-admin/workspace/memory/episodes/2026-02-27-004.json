@@ -1,0 +1,13 @@
+﻿{
+    "timestamp":  "2026-02-27T09:30:00Z",
+    "lesson":  "When Xiaosong creates a thread, ALL replies must go inside that thread. Never create parallel threads for the same topic.",
+    "task":  "Yanyan introduction - agents replied outside Xiaosong\u0027s thread",
+    "id":  "ep-2026-02-27-004",
+    "user_feedback":  "retro: why didn\u0027t you reply inside the thread",
+    "what_failed":  [
+                        "All 4 agents created separate thread starters instead of replying inside Xiaosong\u0027s \u0027Say hello to Yanyan\u0027 thread",
+                        "Admin posted \u0027let other agents say hi\u0027 as standalone instead of thread reply"
+                    ],
+    "outcome":  "error",
+    "agent":  "admin"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "ep-2026-02-28-003",
+  "date": "2026-02-28",
+  "ts": "2026-02-28T13:30:00Z",
+  "title": "Unknown model error persists despite openclaw.json cleanup",
+  "type": "bug",
+  "severity": "medium",
+  "context": "Slack continued to show 'Unknown model github-copilot/gpt-5.3-codex' error messages even after the primary openclaw.json config file was cleaned up to remove the invalid model reference. Builder was tasked to search remaining config layers and caches.",
+  "what_happened": "A model reference 'github-copilot/gpt-5.3-codex' appeared to persist in the system despite being removed from the main openclaw.json configuration file. The error continued to surface in Slack channel messages, indicating the model reference existed in at least one additional config layer, cache file, or secondary configuration location not initially checked.",
+  "root_cause": "Incomplete config cleanup - only the primary config file was checked and updated, but the system has multiple configuration layers (caches, per-agent configs, environment overrides, lock files) that can retain stale model references.",
+  "resolution": "Builder subagent tasked to search all config layers, caches, and secondary configuration locations for remaining references to github-copilot/gpt-5.3-codex.",
+  "lesson": "Verify all config layers and caches, not just the primary config file. When a setting persists after a config change, systematically check: (1) main config, (2) per-agent/per-session overrides, (3) cache files, (4) environment variables, (5) lock/state files. A single-file fix is often insufficient.",
+  "tags": ["config", "model-selection", "debugging", "slack-errors", "multi-layer-config"]
+}
