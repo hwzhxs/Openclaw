@@ -1,0 +1,143 @@
+﻿{
+    "xiaosongSLA":  {
+                        "alertedMessageIds":  {
+
+                                              },
+                        "alertedIds":  [
+
+                                       ]
+                    },
+    "fileLanding":  {
+                        "alertedMessageIds":  {
+
+                                              }
+                    },
+    "lastRun":  "2026-03-04T17:42:05.4813436+00:00",
+    "ports":  {
+                  "18789":  {
+                                "status":  "UP",
+                                "since":  "2026-03-04T09:15:50.8136038+00:00",
+                                "alerted":  false
+                            },
+                  "18810":  {
+                                "status":  "UP",
+                                "since":  "2026-03-03T13:35:52.5076131+00:00",
+                                "alerted":  false
+                            },
+                  "18790":  {
+                                "status":  "UP",
+                                "since":  "2026-03-03T13:35:52.5136421+00:00",
+                                "alerted":  false
+                            },
+                  "18800":  {
+                                "status":  "UP",
+                                "since":  "2026-03-04T14:03:51.0524147+00:00",
+                                "alerted":  false
+                            }
+              },
+    "stageNudge":  {
+                       "escalatedThreads":  {
+
+                                            },
+                       "nudgedThreads":  {
+
+                                         },
+                       "nudged":  {
+
+                                  },
+                       "escalated":  {
+
+                                     }
+                   },
+    "selfMention":  {
+                        "alertedMessageIds":  {
+
+                                              }
+                    },
+    "orphanCleanup":  {
+                          "knownThreads":  {
+                                               "1772630448.799479":  {
+                                                                         "firstSeen":  "2026-03-04T13:24:21.3275263Z",
+                                                                         "starterUser":  "U0AHN84GJGG"
+                                                                     },
+                                               "1772571606.262279":  {
+                                                                         "firstSeen":  "2026-03-04T09:48:17.1219026Z",
+                                                                         "starterUser":  "U0AHN84GJGG"
+                                                                     },
+                                               "1772552554.525429":  {
+                                                                         "firstSeen":  "2026-03-04T09:48:17.1219026Z",
+                                                                         "starterUser":  "U0AGRQDAL94"
+                                                                     },
+                                               "1772636081.779779":  {
+                                                                         "firstSeen":  "2026-03-04T15:03:35.8795529Z",
+                                                                         "starterUser":  "U0AGRQDAL94"
+                                                                     },
+                                               "1772633444.345999":  {
+                                                                         "firstSeen":  "2026-03-04T14:11:50.9095629Z",
+                                                                         "starterUser":  "U0AGRQDAL94"
+                                                                     },
+                                               "1772636526.136089":  {
+                                                                         "firstSeen":  "2026-03-04T15:03:35.8795529Z",
+                                                                         "starterUser":  "U0AGRQDAL94"
+                                                                     },
+                                               "1772560836.671609":  {
+                                                                         "firstSeen":  "2026-03-04T09:48:17.1219026Z",
+                                                                         "starterUser":  "USLACKBOT"
+                                                                     },
+                                               "1772636130.445199":  {
+                                                                         "firstSeen":  "2026-03-04T14:55:53.1825591Z",
+                                                                         "starterUser":  "U0AGRQDAL94"
+                                                                     },
+                                               "1772551171.652769":  {
+                                                                         "firstSeen":  "2026-03-04T09:48:17.1219026Z",
+                                                                         "starterUser":  "U0AHN84GJGG"
+                                                                     },
+                                               "1772618408.034049":  {
+                                                                         "firstSeen":  "2026-03-04T10:01:51.8617995Z",
+                                                                         "starterUser":  "U0AHN84GJGG"
+                                                                     },
+                                               "1772641007.402549":  {
+                                                                         "firstSeen":  "2026-03-04T16:18:03.5757244Z",
+                                                                         "starterUser":  "U0AGRQDAL94"
+                                                                     },
+                                               "1772568094.082149":  {
+                                                                         "firstSeen":  "2026-03-04T09:48:17.1219026Z",
+                                                                         "starterUser":  "USLACKBOT"
+                                                                     },
+                                               "1772630755.133949":  {
+                                                                         "firstSeen":  "2026-03-04T13:25:56.9932416Z",
+                                                                         "starterUser":  "U0AHN84GJGG"
+                                                                     },
+                                               "1772597598.949939":  {
+                                                                         "firstSeen":  "2026-03-04T09:48:17.1219026Z",
+                                                                         "starterUser":  "U0AGRQDAL94"
+                                                                     },
+                                               "1772624296.443529":  {
+                                                                         "firstSeen":  "2026-03-04T11:39:51.3523806Z",
+                                                                         "starterUser":  "U0AGRQDAL94"
+                                                                     },
+                                               "1772532007.930979":  {
+                                                                         "firstSeen":  "2026-03-04T09:48:17.1219026Z",
+                                                                         "starterUser":  "U0AHN84GJGG"
+                                                                     }
+                                           },
+                          "cleanedThreads":  {
+
+                                             }
+                      },
+    "unicodeEmoji":  {
+                         "alertedMessageIds":  {
+
+                                               }
+                     },
+    "mojibake":  {
+                     "alertedMessageIds":  {
+
+                                           }
+                 },
+    "botMentionSLA":  {
+                          "alertedMessageIds":  {
+                                                    "1772642103.177909|U0AGND9JG4B":  "2026-03-04T16:40:03.4594453Z"
+                                                }
+                      }
+}

@@ -1,0 +1,14 @@
+:shield: GK QA: pulse.ps1 v3 dry-run 结果
+
+:x: REJECTED (BUILD) - Module A 存在架构性误报 bug
+
+根因: Check-OrphanThreads 用 conversations.history 最近 50 条构建 currentTs。老 thread starter 超出 50 条窗口后从 currentTs 消失，被误判为孤儿，webhook 触发。这不是边缘情况，是必然发生的误报。
+
+已确认误报: 1772532007.930979 (Daily Retro 2026-03-03) - starter 完全存在 reply_count=37，但 10:01 UTC 被错误触发 webhook。
+
+修复方向 (Creator 负责): 孤儿判断不能依赖 history 窗口。改为直接检测 subtype=tombstone 的消息，即 Slack 在 thread starter 被删时返回的 tombstone 占位符，而非"从 history 消失"这个不可靠信号。
+
+Module B (self-mention): 逻辑正确，无误报风险 :white_check_mark:
+Module C (unicode emoji): 仍在 validate-only 模式，待 Module A 修复后再评估 :warning:
+
+下一步: Creator 修复 Module A，使用 tombstone-first 方案，重新提交 GK review。

@@ -1,0 +1,27 @@
+{
+  "id": "ep-2026-03-02-pulse-v5-shipped",
+  "agent": "creator",
+  "timestamp": "2026-03-02T20:20:00Z",
+  "task": "Rebuild monitoring system (pulse.ps1) from scratch — Xiaosong said retro system was too buggy/complex",
+  "outcome": "shipped",
+  "what_worked": [
+    "Built clean PS5-compatible pulse.ps1 with 4 checks: PORT_HEALTH, XIAOSONG_UNANSWERED, FILE_LANDING_SLA, STAGE_TIMEOUT",
+    "Used ConvertTo-Hashtable helper for PS5 JSON compat (no -AsHashtable)",
+    "From-UnixTime epoch math instead of Get-Date -UnixTimeSeconds",
+    "New-Object + .Add() for List[string] instead of cast syntax",
+    "Atomic writes via .tmp + Move-Item",
+    "State pruning (2h) prevents unbounded growth",
+    "Went through 5 versions, 3+ QA rounds - shipped v5 GK-approved",
+    "Completion detection broadened to match emoji-prefixed DONE and 'Source:' patterns",
+    "2h max-age guard on stage markers - stale threads never nudged"
+  ],
+  "what_failed": [
+    "v1-v3 had multiple PS5 compat bugs (expression-in-cast, AsHashtable, UnixTimeSeconds)",
+    "NUDGE loop bug: DONE/FINAL were in STAGE_MARKERS causing false positives on completed threads",
+    "Completion detection regex too narrow - missed ':white_check_mark: DONE' and 'Source:' patterns",
+    "Multiple hotfix rounds needed before v5 was clean"
+  ],
+  "lesson": "PS5 PowerShell is restrictive. Key constraints: no if-expression inside cast, no -AsHashtable, no Get-Date -UnixTimeSeconds. Always test with powershell.exe (PS5), not pwsh (PS7). DONE/FINAL must never be in STAGE_MARKERS. Completion detection must match actual agent post patterns including emoji prefixes.",
+  "user_feedback": "Xiaosong: 'Retro monitoring system, too many bugs and too complex, analyze my requirements first and create clean solution to meet that'",
+  "patterns_updated": ["creator-pat-009"]
+}

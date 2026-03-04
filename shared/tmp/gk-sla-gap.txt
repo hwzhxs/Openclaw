@@ -1,0 +1,12 @@
+:shield: GK 自查: 为什么这次 20min 未响应没被 pulse 捕捉到
+
+根因: Xiaosong 的 mention (@U0AGND9JG4B) 发在 thread reply 里，不是 top-level 消息。
+
+- Check-XiaosongSLA: 只扫 conversations.history (top-level)，扫不到 thread 内的消息
+- Check-BotMentionSLA: 只扫 bot 发的消息，Xiaosong 的消息会被跳过
+
+这是一个已知缺口 (v6 待修): Xiaosong 在 thread 内发的消息，pulse 完全扫不到。
+
+修复方向: Check-XiaosongSLA 需要同时扫 thread reply，即对当前活跃 thread 调用 conversations.replies 检查 Xiaosong 最新消息时间。API 成本会增加。
+
+建议: Thinker 出 spec 修复这个缺口，优先级高 (Xiaosong SLA 是核心检查)。

@@ -1,0 +1,232 @@
+﻿{
+    "patterns":  [
+                     {
+                         "id":  "shared-pat-001",
+                         "name":  "Slack bot-to-bot @mention doesn\u0027t trigger app_mention",
+                         "category":  "collaboration",
+                         "pattern":  "Bot @mentions don\u0027t trigger other bots\u0027 app_mention events. Must also fire webhook. CRITICAL: This rule has been violated 4+ times despite documentation. Agents MUST run slack-notify.ps1 IMMEDIATELY after any Slack send containing @mention. No exceptions. Failure = team dysfunction.",
+                         "confidence":  1.0,
+                         "applications":  6,
+                         "source_episodes":  [
+                                                 "ep-2026-02-26-001",
+                                                 "ep-2026-02-26-002"
+                                             ],
+                         "created":  "2026-02-26",
+                         "updated":  "2026-03-02"
+                     },
+                     {
+                         "id":  "shared-pat-002",
+                         "name":  "Slack threading rules",
+                         "category":  "collaboration",
+                         "pattern":  "Thread starter = one short topic line + thread emoji only. All details, @mentions go in thread replies.",
+                         "confidence":  1.0,
+                         "applications":  3,
+                         "source_episodes":  [
+                                                 "ep-2026-02-26-001"
+                                             ],
+                         "created":  "2026-02-26",
+                         "updated":  "2026-02-26"
+                     },
+                     {
+                         "id":  "shared-pat-003",
+                         "name":  "Knowledge without checklist = forgotten at action time",
+                         "category":  "process",
+                         "pattern":  "Rules written but forgotten during action = useless. Critical rules must be in Pre-Action Checklist at top of AGENTS.md, read every session.",
+                         "confidence":  1.0,
+                         "applications":  2,
+                         "source_episodes":  [
+                                                 "ep-2026-02-26-002"
+                                             ],
+                         "created":  "2026-02-26",
+                         "updated":  "2026-02-26"
+                     },
+                     {
+                         "id":  "shared-pat-004",
+                         "name":  "Agent no-reply troubleshooting",
+                         "category":  "collaboration",
+                         "pattern":  "If agent doesn\u0027t reply after mention+webhook: check 1) webhook deliver:true 2) port online 3) openclaw.json channel allowlist 4) AGENTS.md integrity 5) session stuck",
+                         "confidence":  1.0,
+                         "applications":  1,
+                         "source_episodes":  [
+                                                 "ep-2026-02-26-creator-no-reply"
+                                             ],
+                         "created":  "2026-02-26",
+                         "updated":  "2026-02-26"
+                     },
+                     {
+                         "id":  "shared-pat-005",
+                         "name":  "Slack message.channels event needed for thread mentions",
+                         "category":  "collaboration",
+                         "pattern":  "app_mention alone doesn\u0027t reliably trigger in thread replies. All Slack apps need message.channels event subscription for full thread coverage.",
+                         "confidence":  1.0,
+                         "applications":  1,
+                         "source_episodes":  [
+                                                 "ep-2026-02-26-thread-mention"
+                                             ],
+                         "created":  "2026-02-26",
+                         "updated":  "2026-02-26"
+                     },
+                     {
+                         "source_episodes":  [
+                                                 "ep-2026-02-26-gatekeeper-heartbeat-empty"
+                                             ],
+                         "id":  "shared-pat-006",
+                         "updated":  "2026-02-26",
+                         "category":  "process",
+                         "created":  "2026-02-26",
+                         "name":  "Write other agents files in English only",
+                         "confidence":  1,
+                         "pattern":  "Chinese content written to other agents files via PowerShell can get encoding-corrupted (mojibake). Agent reads garbled lines, skips them silently. Always use English for cross-agent files.",
+                         "applications":  1
+                     },
+                     {
+                         "source_episodes":  [
+                                                 "thinker-ep-2026-02-26-002"
+                                             ],
+                         "id":  "shared-pat-007",
+                         "updated":  "2026-02-26",
+                         "category":  "process",
+                         "created":  "2026-02-26",
+                         "name":  "Daily tasks need dedup check",
+                         "confidence":  1,
+                         "pattern":  "Daily tasks (design taste, retro, etc) get re-triggered every heartbeat. Must check heartbeat-state.json or Slack history for today\u0027s date before posting. No dedup = duplicate posts.",
+                         "applications":  1
+                     },
+                     {
+                         "id":  "shared-pat-008",
+                         "name":  "Never fabricate tool/file operation results",
+                         "category":  "integrity",
+                         "pattern":  "NEVER claim a file was copied/created/modified without actual tool output confirming it. If exec/write tool output is missing or unclear, re-run the check. Gatekeeper verifies files on disk. Fabricated deliverables = immediate REJECTED + credibility damage. Rule: always Get-ChildItem after copy/write operations to confirm.",
+                         "confidence":  1,
+                         "applications":  1,
+                         "source_episodes":  [
+                                                 "ep-2026-02-27-003"
+                                             ],
+                         "created":  "2026-02-27",
+                         "updated":  "2026-02-27",
+                         "severity":  "critical"
+                     },
+                     {
+                         "id":  "shared-pat-009",
+                         "name":  "Two-phase ACK then completion",
+                         "category":  "process",
+                         "pattern":  "For ops that require tool/API execution, respond in two phases: (1) immediate short ACK (received/executing), (2) completion follow-up only after success is confirmed (e.g., API ok:true), including proof (timestamp/link). Improves perceived speed without misreporting completion.",
+                         "confidence":  0.9,
+                         "applications":  1,
+                         "source_episodes":  [
+                                                 "ep-2026-02-27-slow-react"
+                                             ],
+                         "created":  "2026-02-27",
+                         "updated":  "2026-02-27"
+                     },
+                     {
+                         "id":  "shared-pat-010",
+                         "name":  "Don\u0027t miss non-mention failure messages",
+                         "category":  "process",
+                         "pattern":  "Non-mention bot failures (e.g., \u0027:warning: Edit failed\u0027) and unanswered questions can slip past mention-driven sweeps. After sending any message in an active thread, immediately scan the last ~20 messages for \u0027:warning:\u0027/\u0027failed\u0027 keywords and unanswered questions (\u0027?\u0027 / common interrogatives) and treat hits as interrupts: react :eyes:, post in-thread status + next step, and assign an owner (mention + webhook if agent).",
+                         "confidence":  0.85,
+                         "applications":  1,
+                         "source_episodes":  [
+                                                 "admin-ep-2026-02-28-missed-edit-failed"
+                                             ],
+                         "created":  "2026-02-28",
+                         "updated":  "2026-02-28"
+                     },
+                     {
+                         "id":  "shared-pat-011",
+                         "name":  "Never narrate actions ï¿½ execute or stay silent",
+                         "category":  "behavior",
+                         "pattern":  "Never post about what you are about to do. Execute the action silently. Narrating \u0027I will react\u0027 or \u0027let me check\u0027 instead of actually doing it is a violation. No internal state updates in Slack.",
+                         "confidence":  1,
+                         "applications":  1,
+                         "source_episodes":  [
+                                                 "2026-03-02-slack-violations"
+                                             ],
+                         "created":  "2026-03-02",
+                         "updated":  "2026-03-02"
+                     },
+                     {
+                         "id":  "shared-pat-013",
+                         "name":  "Monitoring alerts: one top-level per incident, all updates in thread",
+                         "category":  "monitoring",
+                         "pattern":  "Bot monitoring messages must follow: (1) ONE top-level \u0027incident starter\u0027 per port-down event. (2) ALL subsequent updates (recovery, retries, status changes) go as thread replies to that starter. (3) Deduplicate: same status within N minutes = no new post. (4) Never post duplicate recovery messages at top-level. Violation = channel spam, Xiaosong complaint. Source: 2026-03-02 Creator gateway incident.",
+                         "confidence":  1.0,
+                         "applications":  1,
+                         "source_episodes":  [
+                                                 "ep-2026-03-02-monitoring-spam"
+                                             ],
+                         "created":  "2026-03-02",
+                         "updated":  "2026-03-02",
+                         "severity":  "high"
+                     },
+                     {
+                         "id":  "shared-pat-012",
+                         "name":  "Slack emoji reactions: use react.ps1, not slack-notify.ps1",
+                         "category":  "tooling",
+                         "pattern":  "slack-notify.ps1 sends text messages only. For emoji reactions use react.ps1: powershell -File C:\\Users\\azureuser\\shared\\scripts\\react.ps1 -Token \u003ctoken\u003e -Channel \u003cchannel_id\u003e -Timestamp \u003cts\u003e -Emoji \u003cname\u003e. Never send the word \u0027react\u0027 as a text message.",
+                         "confidence":  1,
+                         "applications":  1,
+                         "source_episodes":  [
+                                                 "2026-03-02-slack-violations"
+                                             ],
+                         "created":  "2026-03-02",
+                         "updated":  "2026-03-02"
+                     },
+                     {
+                         "id":  "shared-pat-014",
+                         "name":  "Stale task (\u003e24h) requires human approval before pickup",
+                         "category":  "process",
+                         "pattern":  "Never auto-pickup tasks older than 24h from the queue. Silently sitting tasks may be stale, superseded, or abandoned. Verify with Xiaosong before executing. Rule: check file LastWriteTime, if \u003e24h from now -\u003e ask first, do not execute.",
+                         "confidence":  1,
+                         "applications":  1,
+                         "source_episodes":  [
+                                                 "ep-2026-03-02-premature-pickup"
+                                             ],
+                         "created":  "2026-03-02",
+                         "updated":  "2026-03-02",
+                         "severity":  "high"
+                     },
+                     {
+                         "id":  "shared-pat-015",
+                         "name":  "Oversight scripts need their own guardrails (syntax-check + staged deploy)",
+                         "category":  "monitoring",
+                         "pattern":  "Changes to watchdog/automation scripts can silently break monitoring. Guardrail: before any deploy/overwrite of shared/scripts/watchdog.ps1, run syntax-check.ps1 and a dry-run; only then replace. Prefer git commit + rollback path. If watchdog-state.json not updated for \u003e5min during biz hours =\u003e alert.",
+                         "confidence":  0.9,
+                         "applications":  1,
+                         "source_episodes":  [
+                                                 "ep-2026-03-02-watchdog-false-alarm"
+                                             ],
+                         "created":  "2026-03-02",
+                         "updated":  "2026-03-02",
+                         "severity":  "high"
+                     },
+                     {
+                         "id":  "shared-pat-016",
+                         "name":  "Add-Content on code files = catastrophic corruption",
+                         "category":  "tooling",
+                         "pattern":  "NEVER use Add-Content (append) on code files (.ps1, .tsx, .ts, .json, config). Add-Content is for append-only log/diary files only. On code files it creates file bloat, duplication, and syntax errors. Correct approach for code edits: (1) read target block with read tool, (2) use edit tool with exact-match oldText, (3) verify syntax after. Violation: watchdog.ps1 corrupted for 2h on 2026-03-02.",
+                         "confidence":  1,
+                         "applications":  1,
+                         "source_episodes":  [
+                                                 "ep-2026-03-02-watchdog-corruption"
+                                             ],
+                         "created":  "2026-03-02",
+                         "updated":  "2026-03-02",
+                         "severity":  "critical"
+                     },
+                     {
+                         "id":  "shared-pat-017",
+                         "name":  "Auto-fix architecture: watchdog owns detection AND fixing",
+                         "category":  "architecture",
+                         "pattern":  "Auto-detection and auto-fix must both live in watchdog.ps1 (scheduled task). Detection is independent of agents (agents may be down). Fix logic: (1) deterministic fixes (webhook fire, gateway restart, reminder post) = watchdog does directly; (2) work requiring agent context (retry failed edit) = webhook to that agent; (3) escalate to Xiaosong only if auto-fix fails twice OR judgment/data-loss risk. Log all fix attempts to shared/context/autofix-log.json. Implementation: Invoke-AutoFix function per module. Approved: Xiaosong 2026-03-02.",
+                         "confidence":  1,
+                         "applications":  1,
+                         "source_episodes":  [
+                                                 "ep-2026-03-02-autofix-architecture"
+                                             ],
+                         "created":  "2026-03-02",
+                         "updated":  "2026-03-02",
+                         "severity":  "high"
+                     }
+                 ]
+}

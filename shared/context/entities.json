@@ -1,0 +1,10 @@
+{
+  "_schema": "entities-v1",
+  "_description": "Entity/knowledge store for the multi-agent OpenClaw team. Append-only: add new entries, never delete or overwrite existing ones without human review.",
+  "_rules": [
+    "Agents must NOT write here directly — use memory/scripts/extract-candidate.ps1",
+    "Updates require human approval via the consolidation workflow",
+    "One writer wins via append-only; conflicts are flagged in consolidation reports"
+  ],
+  "entities": []
+}

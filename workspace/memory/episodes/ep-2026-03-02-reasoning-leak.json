@@ -1,0 +1,18 @@
+﻿{
+    "timestamp":  "2026-03-02T08:51:00Z",
+    "lesson":  "Before sending any Slack message, read the final text. If it contains meta-commentary, decision narration, or self-talk — do NOT send. Post results only.",
+    "task":  "Heartbeat - design walkthrough thread reply",
+    "id":  "ep-2026-03-02-reasoning-leak",
+    "what_worked":  [
+                        "Detected the violation at next heartbeat",
+                        "Successfully deleted the offending message",
+                        "The substantive reply (live interactive demos) was good and stayed"
+                    ],
+    "what_failed":  [
+                        "Posted internal reasoning/thought process to Slack thread",
+                        "Message contained decision-making narration: \u0027No @all and no @Creator mention... Let me check if other agents have already replied...\u0027",
+                        "This violates AGENTS.md rule: NEVER post internal thought process or step-by-step reasoning to Slack"
+                    ],
+    "outcome":  "corrected",
+    "agent":  "creator"
+}

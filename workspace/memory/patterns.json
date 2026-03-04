@@ -1,0 +1,149 @@
+﻿{
+    "patterns":  [
+                     {
+                         "id":  "creator-pat-001",
+                         "name":  "Use spec libraries, don\u0027t fall back to manual DOM",
+                         "category":  "coding",
+                         "pattern":  "If the spec calls for a library (e.g. GSAP ScrollTrigger), actually USE it in the implementation. Falling back to manual window.addEventListener(\u0027scroll\u0027) + getBoundingClientRect() inflates the bundle with dead imports AND violates the spec\u0027s architectural intent. Gatekeeper will catch it in review.",
+                         "confidence":  0.9,
+                         "applications":  1,
+                         "source_episodes":  [
+                                                 "ep-2026-02-26-003"
+                                             ],
+                         "created":  "2026-02-26",
+                         "updated":  "2026-02-26"
+                     },
+                     {
+                         "id":  "creator-pat-002",
+                         "name":  "Scaffold all sections first, then polish",
+                         "category":  "coding",
+                         "pattern":  "When building a multi-section page, scaffold all sections first so the build passes end-to-end. Then do the polish/animation pass. This prevents getting stuck on one section while others are unbuilt.",
+                         "confidence":  0.8,
+                         "applications":  1,
+                         "source_episodes":  [
+                                                 "ep-2026-02-26-003"
+                                             ],
+                         "created":  "2026-02-26",
+                         "updated":  "2026-02-26"
+                     },
+                     {
+                         "id":  "creator-pat-003",
+                         "name":  "CSS-only fallbacks as first class, not afterthoughts",
+                         "category":  "coding",
+                         "pattern":  "Build CSS-only fallbacks for Three.js, fonts, and animations from the start. They\u0027re required for mobile, reduced-motion, and SSR. Treating them as afterthoughts means scrambling to add them later.",
+                         "confidence":  0.8,
+                         "applications":  1,
+                         "source_episodes":  [
+                                                 "ep-2026-02-26-003"
+                                             ],
+                         "created":  "2026-02-26",
+                         "updated":  "2026-02-26"
+                     },
+                     {
+                         "id":  "creator-pat-004",
+                         "name":  "Real URLs from day 1 â€” no placeholder # hrefs",
+                         "category":  "coding",
+                         "pattern":  "Never ship placeholder # hrefs to Gatekeeper. Nav links, CTA buttons, and footer links should have real URLs from the first commit. Gatekeeper always catches placeholder hrefs. Extra cost: 1 revision round just for link fixes.",
+                         "confidence":  0.9,
+                         "applications":  1,
+                         "source_episodes":  [
+                                                 "ep-2026-02-27-001"
+                                             ],
+                         "created":  "2026-02-27",
+                         "updated":  "2026-02-27"
+                     },
+                     {
+                         "id":  "creator-pat-005",
+                         "name":  "Decorative elements must match the design system\u0027s emotional register",
+                         "category":  "design",
+                         "pattern":  "Decorative details (terminal dots, icon colors, etc.) must match the overall emotional register of the design direction. In an \u0027editorial luxury\u0027 design, colored macOS-style terminal dots break the aesthetic even if functionally fine. Every decorative element is a design decision â€” check it against the vibe.",
+                         "confidence":  0.8,
+                         "applications":  1,
+                         "source_episodes":  [
+                                                 "ep-2026-02-27-001"
+                                             ],
+                         "created":  "2026-02-27",
+                         "updated":  "2026-02-27"
+                     },
+                     {
+                         "id":  "creator-pat-006",
+                         "name":  "Never hallucinate file operations - verify on disk before claiming done",
+                         "category":  "reliability",
+                         "pattern":  "CRITICAL: File operations (copy, resize, write) MUST be followed immediately by Get-ChildItem/Get-Content to verify the result exists on disk. Never claim completion based on what \u0027should have\u0027 happened. Gatekeeper checks actual disk state. Hallucinated deliverables = immediate REJECTED + wasted cycles. If tools fail, say so - don\u0027t invent success.",
+                         "confidence":  1,
+                         "applications":  1,
+                         "source_episodes":  [
+                                                 "ep-2026-02-27-003"
+                                             ],
+                         "created":  "2026-02-27",
+                         "updated":  "2026-02-27",
+                         "severity":  "critical"
+                     },
+                     {
+                         "id":  "creator-pat-007",
+                         "name":  "Subagent completion must be manually posted to Slack thread",
+                         "category":  "collaboration",
+                         "pattern":  "When a subagent (sessions_spawn) completes, OpenClaw auto-routes the result to DM, NOT to the original Slack thread. ALWAYS post the subagent result explicitly using slack-send.ps1 -ReplyTo \u003cthreadId\u003e. Never trust auto-routing for thread delivery.",
+                         "confidence":  1,
+                         "applications":  1,
+                         "source_episodes":  [
+                                                 "ep-2026-03-01-subagent-dm-leak"
+                                             ],
+                         "created":  "2026-03-01",
+                         "updated":  "2026-03-01"
+                     },
+                     {
+                         "source_episodes":  [
+                                                 "ep-2026-03-02-premature-pickup"
+                                             ],
+                         "id":  "pat-stale-task-pickup",
+                         "updated":  "2026-03-02",
+                         "category":  "process",
+                         "created":  "2026-03-02",
+                         "name":  "Verify stale tasks before pickup",
+                         "confidence":  0.9,
+                         "pattern":  "Tasks in queue \u003e24h old may be stale or superseded. Always verify with Xiaosong before picking up old tasks.",
+                         "applications":  1
+                     },
+                     {
+                         "source_episodes":  [
+                                                 "ep-2026-03-02-reasoning-leak"
+                                             ],
+                         "id":  "pat-creator-002",
+                         "updated":  "2026-03-02",
+                         "category":  "collaboration",
+                         "created":  "2026-03-02",
+                         "name":  "No internal reasoning in Slack",
+                         "confidence":  0.95,
+                         "pattern":  "Before posting ANY Slack message, scan for meta-commentary, decision narration, or self-talk (\u0027let me check...\u0027, \u0027No @mention so...\u0027). If found - do NOT post. Post results only. Violated 3 times. Pre-flight check mandatory. Execute silently: post ONLY the result, never the reasoning.",
+                         "applications":  3
+                     },
+                     {
+                         "id":  "creator-pat-008",
+                         "name":  "Syntax-check watchdog.ps1 immediately after every edit",
+                         "category":  "reliability",
+                         "pattern":  "CRITICAL: After ANY edit to watchdog.ps1, immediately run: (1) Select-String \u0027Module 12\u0027 to verify the catch block is a single short line, (2) Parse syntax via PowerShell parser, (3) Check file line count is \u003c 1100. A corrupted watchdog silently takes down all monitoring. Catch blocks must use $_ only — never embed multi-line strings or Here-Strings. File size sanity: if \u003e 1100 lines after a small edit, something is wrong.",
+                         "confidence":  1.0,
+                         "applications":  1,
+                         "source_episodes":  [
+                                                 "ep-2026-03-02-watchdog-module12-corruption"
+                                             ],
+                         "created":  "2026-03-02",
+                         "updated":  "2026-03-02",
+                         "severity":  "critical"
+                     },
+                     {
+                         "id":  "creator-pat-009",
+                         "name":  "PS5 hashtable + completion detection in monitoring scripts",
+                         "category":  "ops/scripting",
+                         "pattern":  "In PS5: use ConvertTo-Hashtable helper (no -AsHashtable). Completion detection must match emoji-prefixed forms (e.g. \u0027:white_check_mark: DONE\u0027). Self-referential STAGE_MARKERS cause nudge loops - never include output prefixes in trigger list.",
+                         "confidence":  0.8,
+                         "applications":  1,
+                         "source_episodes":  [
+                                                 "2026-03-02-pulse-v5"
+                                             ],
+                         "created":  "2026-03-02",
+                         "updated":  "2026-03-02"
+                     }
+                 ]
+}

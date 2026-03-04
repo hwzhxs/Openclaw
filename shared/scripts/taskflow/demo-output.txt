@@ -1,0 +1,83 @@
+﻿==========================================
+L0 + L1 Taskflow Foundation - Demo Output
+Generated: 
+==========================================
+
+--- automation-config.json ---
+{
+    "enabled":  false,
+    "dry_run":  true,
+    "cooldown_min":  15,
+    "rate_limit_per_min":  6,
+    "channel_id":  "C0AGMF65DQB",
+    "log_path":  "C:\\Users\\azureuser\\shared\\context\\automation-log.jsonl",
+    "delete_scope":  "self_only"
+}
+
+--- JSONL Log (automation-log.jsonl) ---
+{"ts":"2026-03-01T08:53:25.4390685Z","module":"L1-Collector","action":"collect","key":"L1-collect-C0AGMF65DQB","thread_ts":"","message_ts":"","target_user":"","status":"dry_run","dry_run":true,"details":"history_count=50 thread_roots=50 dry_run=True"}
+{"ts":"2026-03-01T08:55:27.2787576Z","module":"L1-Collector","action":"collect","key":"L1-collect-C0AGMF65DQB","thread_ts":"","message_ts":"","target_user":"","status":"executed","dry_run":false,"details":"history_count=50 thread_roots=50 dry_run=False"}
+{"target_user":"","action":"collect","message_ts":"","key":"L1-collect-C0AGMF65DQB","ts":"2026-03-01T08:49:00.000Z","thread_ts":"","module":"L1-Collector","dry_run":true,"details":"(dry-run) history_count=50 thread_roots=50 dry_run=True","status":"dry_run"}
+{"target_user":"U0AGRQDAL94","action":"post_reminder","message_ts":"","key":"reminder:1772342111.532759:no-reply-48h","ts":"2026-03-01T08:49:01.000Z","thread_ts":"1772342111.532759","module":"L2-Rules","dry_run":true,"details":"(dry-run) would post: thread has 122 replies, last activity \u003e48h ago","status":"dry_run"}
+{"target_user":"U0AHN84GJGG","action":"post_reminder","message_ts":"","key":"reminder:1772290490.551929:no-reply-48h","ts":"2026-03-01T08:49:02.000Z","thread_ts":"1772290490.551929","module":"L2-Rules","dry_run":true,"details":"Key \u0027reminder:1772290490.551929:no-reply-48h\u0027 in cooldown","status":"blocked_cooldown"}
+{"target_user":"","action":"collect","message_ts":"","key":"L1-collect-C0AGMF65DQB","ts":"2026-03-01T08:49:03.000Z","thread_ts":"","module":"L1-Collector","dry_run":false,"details":"history_count=50 thread_roots=50 dry_run=False","status":"executed"}
+
+--- DB Stats ---
+Total events:  1421
+Total threads: 50
+Total violations: 0 (L2 not yet built)
+
+--- SELECT * FROM events LIMIT 5 ---
+id=1 | ts=2026-03-01T08:47:16.3180000Z | user=U0AHN84GJGG | reply_count=4
+  text: :dart: L project: automated Slack taskflow OS (L0-L3) :thread:
+
+id=2 | ts=2026-03-01T08:21:46.5310000Z | user=U0AGSEVA4EP | reply_count=4
+  text: Landing page v8-mini tweaks deployed :thread:
+
+id=3 | ts=2026-03-01T08:16:31.6470000Z | user=U0AHN84GJGG | reply_count=8
+  text: :dart: Landing tweaks: remove Nav + Hero SplitText :thread:
+
+id=4 | ts=2026-03-01T07:07:08.1440000Z | user=U0AGRQDAL94 | reply_count=34
+  text: when i post a thrad without mention all, whats the right behavior of you
+
+id=5 | ts=2026-03-01T07:03:17.1770000Z | user=U0AGRQDAL94 | reply_count=4
+  text: test @all
+
+
+--- SELECT * FROM threads LIMIT 5 ---
+thread_ts=1772354836.317989 | channel=C0AGMF65DQB | status=open | replies=4
+  subject: :dart: L project: automated Slack taskflow OS (L0-L3) :thread:
+  last_activity: 2026-03-01T08:47:16.3180000Z
+
+thread_ts=1772353306.530999 | channel=C0AGMF65DQB | status=open | replies=4
+  subject: Landing page v8-mini tweaks deployed :thread:
+  last_activity: 2026-03-01T08:21:46.5310000Z
+
+thread_ts=1772352991.646929 | channel=C0AGMF65DQB | status=open | replies=8
+  subject: :dart: Landing tweaks: remove Nav + Hero SplitText :thread:
+  last_activity: 2026-03-01T08:16:31.6470000Z
+
+thread_ts=1772348828.144489 | channel=C0AGMF65DQB | status=open | replies=34
+  subject: when i post a thrad without mention all, whats the right behavior of you
+  last_activity: 2026-03-01T07:07:08.1440000Z
+
+thread_ts=1772348597.177089 | channel=C0AGMF65DQB | status=open | replies=4
+  subject: test @all
+  last_activity: 2026-03-01T07:03:17.1770000Z
+
+
+--- L0 Guardrails Module Test ---
+Config loaded OK. enabled=False dry_run=True cooldown_min=15
+Test-KillSwitch: False (expected: False, because enabled=false)
+Test-RateLimit: False (expected: False or True depending on log)
+
+Invoke-GuardedAction test (should log blocked_killswitch):
+  -> Check log: last entry should be status=blocked_killswitch
+  -> Last log line: {"ts":"2026-03-01T08:56:11.6987315Z","module":"Demo","action":"test_action","key":"demo-test-key","thread_ts":"","message_ts":"","target_user":"","status":"blocked_killswitch","dry_run":true,"details":"automation.enabled=false; demo run"}
+
+==========================================
+BUILD STATUS: COMPLETE
+L0: automation-config.json + L0-Guardrails.psm1 (6 functions)
+L1: taskflow.sqlite (3 tables) + L1-Collector.ps1
+Docs: README.md
+==========================================

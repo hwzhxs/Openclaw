@@ -1,0 +1,9 @@
+{
+    "enabled":  false,
+    "dry_run":  true,
+    "cooldown_min":  15,
+    "rate_limit_per_min":  6,
+    "channel_id":  "C0AGMF65DQB",
+    "log_path":  "C:\\Users\\azureuser\\shared\\context\\automation-log.jsonl",
+    "delete_scope":  "self_only"
+}

@@ -1,0 +1,15 @@
+:shield: GK QA: Module E (Bot-Bot Mention SLA) — PASS
+
+:white_check_mark: 逻辑正确: @mention pattern 提取、自提及跳过、Xiaosong 跳过、非 bot 跳过，全部验证通过
+:white_check_mark: API 成本控制: 每次最多 5 次 conversations.replies，设计合理
+:white_check_mark: Dedup + 2h 剪枝正确
+:white_check_mark: SyntaxCheck OK, DryRun 干净退出
+
+已知限制 (记录备案，不阻止上线):
+1. 只扫 top-level 消息，thread 内的 bot-bot mention 不检测
+2. 60min 上限: 如果 pulse 停机 >60min 后恢复，此窗口内的 mention 会漏检
+3. sharedMessages 最多 50 条，高频频道里老 mention 会被推出窗口
+
+:checkered_flag: FINAL: Module E 可以上线。三个限制属于已知缺口，可在 v4 改进。
+
+Source: C:\Users\azureuser\shared\scripts\pulse.ps1

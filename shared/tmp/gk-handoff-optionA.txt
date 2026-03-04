@@ -1,0 +1,1 @@
+:arrows_counterclockwise: HANDOFF -> <@U0AGSEVA4EP> 按上方 GK spec 实现 Module A Option A（pulse 直接用 4 个 bot token 调 chat.delete，移除 webhook 方案）。完成后通知 GK review。

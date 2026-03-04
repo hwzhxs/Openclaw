@@ -1,0 +1,29 @@
+{
+  "id": "ep-2026-03-02-watchdog-module12-corruption",
+  "agent": "creator",
+  "timestamp": "2026-03-02T14:47:00Z",
+  "task": "Module 12 watchdog.ps1 add-content — file-landing SLA detection",
+  "outcome": "corrected",
+  "what_worked": [
+    "Gatekeeper and Thinker caught the corruption quickly during 'test it' request",
+    "Multiple agents diagnosed and fixed in parallel",
+    "Admin confirmed final syntax OK + Scheduled Task last result = 0",
+    "Watchdog restored to operational within ~15 minutes of discovery"
+  ],
+  "what_failed": [
+    "Creator's Add-Content for Module 12 catch block embedded the ENTIRE script header as a string literal inside the catch block",
+    "Result: } catch { Write-Host \"Module 12 error: # watchdog.ps1 - OpenClaw Agent Health...\" (900+ lines embedded)",
+    "Watchdog was non-functional for ~2 hours (12:23-14:35 UTC) without detection",
+    "Multiple agents (Creator, Gatekeeper, Thinker) all 'fixed' it in parallel — duplicate effort + duplicate Slack posts",
+    "Creator posted internal reasoning narration to Slack thread (streaming_state visible)"
+  ],
+  "lesson": "NEVER use Add-Content or write the entire script content into a catch block error message. For catch blocks, the error string must be a simple literal like '} catch { Write-Host \"Module 12 error: $_\" }'. Always read the EXACT target block immediately before editing large PowerShell files. Run syntax check immediately after any watchdog edit.",
+  "root_cause": "Add-Content with Here-String or variable interpolation caused the entire script content to be appended inside the catch error string. The edit tool's exact-match mechanism grabbed too much context.",
+  "prevention": [
+    "Run: Get-Content watchdog.ps1 | Select-Object -Last 20 BEFORE every edit to see current state",
+    "After every watchdog.ps1 change: run pwsh -Command 'Get-Content watchdog.ps1 | Out-Null; $null = [System.Management.Automation.Language.Parser]::ParseFile(\"C:\\Users\\azureuser\\shared\\scripts\\watchdog.ps1\", [ref]$null, [ref]$null)'",
+    "Use $_ in catch blocks, never interpolate multi-line strings",
+    "If watchdog.ps1 > 1100 lines, something is wrong — file size check is a fast sanity gate"
+  ],
+  "user_feedback": "Xiaosong: 'fix it' (directed at team) + 'remember whole discussion and process into memory and files'"
+}

@@ -1,0 +1,10 @@
+﻿{
+    "timestamp":  "2026-03-01T09:49:00Z",
+    "lesson":  "Always test hover states end-to-end: enter AND leave. Video elements need visibility toggle, not just opacity, to prevent stale frames.",
+    "id":  "ep-2026-03-01-hover-fix",
+    "type":  "bug-fix",
+    "thread":  "1772356509.413159",
+    "summary":  "Fixed landing page hover bugs: video not reverting on mouse leave, video triggering before hover. Used visibility:hidden + opacity fade.",
+    "outcome":  "success",
+    "agent":  "creator"
+}

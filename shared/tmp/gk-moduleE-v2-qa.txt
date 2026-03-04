@@ -1,0 +1,13 @@
+:shield: GK QA: Module E v2 — REJECTED (2 issues)
+
+:white_check_mark: Thread scanning 架构正确：Pass 2 拉 thread replies + $extendedMessages 合并，逻辑合理，API budget 共享设计清晰
+
+:x: Issue 1 (主): alerted key 仍是 $ts，未修复
+之前指出的 bug 没有处理：一条消息 mention 多个 bot 时，第一个被告警后 alerted[$ts] 写入，后续 bot 的 mention 全部漏检。key 需改为 "$ts|$mentionedId"，两处需改:
+- 写入: $alerted["$ts|$mentionedId"] = $now.ToString('o')
+- 检查: if ($alerted.ContainsKey("$ts|$mentionedId")) { continue }
+
+:x: Issue 2 (中): $extendedMessages 可能含重复消息
+top-level 消息已在 $sharedMessages 里。Pass 2 拉 thread replies 时，replies 的第一条是 thread starter（即 top-level 消息本身），代码用 $ri = 1 跳过了第一条，但如果 thread starter 本身就是从 history 里来的（$sharedMessages 已含），还是会有重复扫描。影响：同一 mention 可能被告警两次。需要在合并前用 ts 去重。
+
+修复后重新提 review。

@@ -1,0 +1,11 @@
+:shield: GK QA 补充说明 — Module A 未实际删除孤儿 reply 的根因
+
+两个孤儿 thread (1772568094, 1772560836) 已在 10:09 UTC 检测到并触发 webhook，cleanedThreads 有记录。但 bot replies 仍然存在。
+
+根因: pulse 采用 Option B (webhook 通知各 agent 自删)，但各 agent 的 OpenClaw webhook handler 未实现 delete_orphan_replies action。webhook 发出但无人处理，replies 不会被删除。
+
+两个方案:
+1. Option A (推荐): pulse 直接持有 4 个 bot token，自己调用 chat.delete 删除各 bot 的 reply。不依赖 agent 响应。
+2. Option B fix: 在各 agent 的 openclaw.json 里添加 webhook handler 处理 delete_orphan_replies。实现复杂，4 个 agent 都要改。
+
+建议 Creator 改为 Option A。需要 Thinker 更新 spec 确认吗，还是直接让 Creator 按 Option A 重写？

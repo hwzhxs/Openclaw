@@ -1,0 +1,179 @@
+'use client';
+
+import { useRef, useState, useEffect } from 'react';
+import { motion } from 'framer-motion';
+import { useGlobalAudio } from '@/context/GlobalAudioContext';
+
+// Base path prefix for GitHub Pages
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
+
+const HERO_VIDEOS = [`${BASE}/hero-videos/hero-1.mp4`];
+
+export default function Hero() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const sectionRef = useRef<HTMLElement>(null);
+
+  const [heroInView, setHeroInView] = useState(true);
+  const [glowActive, setGlowActive] = useState(false);
+  const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
+
+  const { muted, mutedRef, toggleMute, registerVideo, unregisterVideo } = useGlobalAudio();
+
+  // Detect prefers-reduced-motion
+  useEffect(() => {
+    const mq = window.matchMedia('(prefers-reduced-motion: reduce)');
+    setPrefersReducedMotion(mq.matches);
+    const handler = (e: MediaQueryListEvent) => setPrefersReducedMotion(e.matches);
+    mq.addEventListener('change', handler);
+    return () => mq.removeEventListener('change', handler);
+  }, []);
+
+  // Trigger glow intensification after title is fully visible (delay 2s after mount)
+  useEffect(() => {
+    const timer = setTimeout(() => setGlowActive(true), 2000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  // Register hero video with global audio on mount
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+    registerVideo(video);
+    return () => unregisterVideo(video);
+  }, [registerVideo, unregisterVideo]);
+
+  // Play the single hero video on mount — `loop` is already set on the element
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+    video.src = HERO_VIDEOS[0];
+    video.muted = mutedRef.current ?? true;
+    video.play().catch(() => {/* autoplay blocked */});
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  // Keep muted in sync with global state
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+    video.muted = muted;
+    if (!muted) video.volume = 1;
+  }, [muted]);
+
+  // IntersectionObserver: track hero visibility
+  useEffect(() => {
+    const section = sectionRef.current;
+    if (!section) return;
+    const obs = new IntersectionObserver(
+      ([entry]) => setHeroInView(entry.isIntersecting),
+      { threshold: 0.1 }
+    );
+    obs.observe(section);
+    return () => obs.disconnect();
+  }, []);
+
+  // Mute when hero scrolls out of view (don't unmute — respect global state)
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+    if (!heroInView) {
+      video.muted = true;
+    } else {
+      video.muted = muted;
+    }
+  }, [heroInView, muted]);
+
+  return (
+    <section
+      ref={sectionRef}
+      aria-label="Hero"
+      className="relative flex h-screen min-h-screen items-center justify-start px-6 overflow-hidden snap-start"
+    >
+      {/* Video hero background */}
+      <div className="absolute inset-0 z-0">
+        <video
+          ref={videoRef}
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 h-full w-full object-cover object-center"
+        />
+        <div className="absolute inset-0" style={{ background: 'rgba(10,10,10,0.48)' }} />
+        <div
+          className="absolute inset-0"
+          style={{ background: 'radial-gradient(ellipse at top, rgba(26,26,26,0.35) 0%, transparent 60%)' }}
+        />
+      </div>
+
+      {/* Global mute button — controls all videos on the page */}
+      <button
+        onClick={toggleMute}
+        aria-label={muted ? 'Unmute all videos' : 'Mute all videos'}
+        className="absolute bottom-6 right-6 z-20 flex items-center gap-2 rounded-full border border-white/20 bg-black/40 px-4 py-2 text-sm text-white/80 backdrop-blur-sm transition hover:bg-black/60 hover:text-white"
+        style={{ zIndex: 50, pointerEvents: 'auto' }}
+      >
+        {muted ? (
+          <>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4">
+              <path d="M13.5 4.06c0-1.336-1.616-2.005-2.56-1.06l-4.5 4.5H4.508c-1.141 0-2.318.664-2.66 1.905A9.76 9.76 0 001.5 12c0 .898.121 1.768.35 2.595.341 1.24 1.518 1.905 2.659 1.905H6.44l4.5 4.5c.945.945 2.561.276 2.561-1.06V4.06zM17.78 9.22a.75.75 0 10-1.06 1.06L18.44 12l-1.72 1.72a.75.75 0 101.06 1.06l1.72-1.72 1.72 1.72a.75.75 0 101.06-1.06L20.56 12l1.72-1.72a.75.75 0 00-1.06-1.06l-1.72 1.72-1.72-1.72z" />
+            </svg>
+            <span>Unmute</span>
+          </>
+        ) : (
+          <>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4">
+              <path d="M13.5 4.06c0-1.336-1.616-2.005-2.56-1.06l-4.5 4.5H4.508c-1.141 0-2.318.664-2.66 1.905A9.76 9.76 0 001.5 12c0 .898.121 1.768.35 2.595.341 1.24 1.518 1.905 2.659 1.905H6.44l4.5 4.5c.945.945 2.561.276 2.561-1.06V4.06zM18.584 5.106a.75.75 0 011.06 0c3.808 3.807 3.808 9.98 0 13.788a.75.75 0 11-1.06-1.06 8.25 8.25 0 000-11.668.75.75 0 010-1.06z" />
+              <path d="M15.932 7.757a.75.75 0 011.061 0 6 6 0 010 8.486.75.75 0 01-1.06-1.061 4.5 4.5 0 000-6.364.75.75 0 010-1.061z" />
+            </svg>
+            <span>Mute</span>
+          </>
+        )}
+      </button>
+
+      {/* DREAM TEAM — Hollywood movie-poster style outlined title */}
+      <div
+        className="relative z-10 flex flex-col items-center text-center w-full"
+        style={{ marginTop: '-10vh', overflow: 'visible' }}
+      >
+        <motion.h1
+          initial={{ opacity: 0, scale: prefersReducedMotion ? 1 : 1.06 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ delay: 0.8, duration: prefersReducedMotion ? 1.5 : 1.5, ease: [0.16, 1, 0.3, 1] }}
+          style={{
+            fontFamily: "'Bebas Neue', sans-serif",
+            fontSize: 'clamp(2rem, 18vw, 20rem)',
+            letterSpacing: 'clamp(0.04em, 1.5vw, 0.3em)',
+            whiteSpace: 'nowrap',
+            textTransform: 'uppercase',
+            color: 'transparent',
+            WebkitTextStroke: '1.5px rgba(255,255,255,0.85)',
+            paintOrder: 'stroke fill',
+            textShadow: glowActive
+              ? '0 0 30px rgba(255,255,255,0.14), 0 0 60px rgba(255,255,255,0.08)'
+              : '0 0 40px rgba(255,255,255,0.08), 0 0 80px rgba(255,255,255,0.04)',
+            lineHeight: 1,
+            userSelect: 'none',
+            transition: 'text-shadow 0.5s ease',
+          }}
+        >
+          DREAM TEAM
+        </motion.h1>
+
+        {/* Thin horizontal rule — movie poster finishing touch */}
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 2.5, duration: 0.5, ease: 'easeOut' }}
+          style={{
+            marginTop: '1.5rem',
+            height: '1px',
+            width: '40%',
+            maxWidth: '400px',
+            background: 'rgba(255,255,255,0.15)',
+          }}
+        />
+      </div>
+    </section>
+  );
+}

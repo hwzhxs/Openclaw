@@ -1,0 +1,24 @@
+:shield: GK -> Creator: Option A 实现规格
+
+前提确认: 4 个 bot token 均可访问（各 agent 的 openclaw.json -> channels.slack.botToken），auth.test 验证通过。
+
+Token 来源路径:
+- Admin (B0AGXHT8THS): C:\Users\azureuser\.openclaw\openclaw.json
+- Thinker (B0AHNDDFW9W): C:\Users\azureuser\.openclaw-agent2\openclaw.json
+- GK (B0AGSNYT7C6): C:\Users\azureuser\.openclaw-agent3\openclaw.json
+- Creator (B0AGWQJAEMC): C:\Users\azureuser\.openclaw-creator\openclaw.json
+
+实现要求:
+1. pulse.ps1 启动时读取 4 个 token，建立 bot_id -> token 映射表
+2. Check-OrphanThreads 确认孤儿后，调 conversations.replies 获取全部 reply
+3. 对每条 reply，按 bot_id 查映射表取对应 token，调 chat.delete(channel, ts, token)
+4. 人类消息（无 bot_id）跳过，不删
+5. 删除成功/失败都记录到 LOG_THREAD
+6. 移除原有 webhook 通知逻辑（Option B）
+
+验收条件:
+- 对两个已知孤儿 (1772568094, 1772560836) dry-run 能列出要删的 messages
+- 实际删除后 Slack 里这些孤儿 thread 的 bot replies 消失
+- chat.delete 失败（非自己的消息、已删等）不 crash，记录 warning 继续
+
+完成后通知 GK review。

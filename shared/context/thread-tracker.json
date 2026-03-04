@@ -1,0 +1,1733 @@
+﻿{
+    "1772518096.831599":  {
+                              "replies":  9,
+                              "subject":  ":wrench: Admin gateway crash fix — env var inheritance bug :thread:",
+                              "starter":  "U0AH72QL9L1",
+                              "auto_tracked":  true,
+                              "status":  "open",
+                              "last_activity":  "2026-03-03T07:57:59.4140000Z"
+                          },
+    "1772517946.259089":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  4,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T06:59:59.2970000Z"
+                          },
+    "1772521182.939089":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  5,
+                              "auto_tracked":  true,
+                              "starter":  "U0AGSEVA4EP",
+                              "subject":  ":warning: Watchdog feedback loop detected :thread:",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:26:37.1360000Z"
+                          },
+    "1772510672.903379":  {
+                              "auto_closed":  "2026-03-03T04:43:00.0000000Z",
+                              "replies":  9,
+                              "auto_tracked":  true,
+                              "starter":  "U0AH72QL9L1",
+                              "subject":  ":brain: Daily Design Taste :thread:",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T04:43:40.5580000Z"
+                          },
+    "1772516253.868359":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  6,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:00:01.1380000Z"
+                          },
+    "1772517808.986449":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  4,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog: Thread stuck for 31min. \u003c@U0AHN84GJGG\u003e \u003c@U0AHN84GJGG\u003e please",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:00:07.4090000Z"
+                          },
+    "1772516721.712589":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  5,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:00:14.5240000Z"
+                          },
+    "1772516848.097769":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  5,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:00:20.3650000Z"
+                          },
+    "1772517205.195909":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  5,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog: Thread stuck for 15min. \u003c@U0AHN84GJGG\u003e please close or conti",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:00:26.3560000Z"
+                          },
+    "1772501191.757869":  {
+                              "auto_closed":  "2026-03-03T01:49:56.8522631Z",
+                              "replies":  4,
+                              "subject":  ":warning: Watchdog cleanup note :thread:",
+                              "starter":  "U0AHN84GJGG",
+                              "auto_tracked":  true,
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T01:50:15.0210000Z"
+                          },
+    "1772510988.574539":  {
+                              "auto_closed":  "2026-03-03T05:13:42.2494905Z",
+                              "replies":  55,
+                              "subject":  "Security protection :thread:",
+                              "starter":  "U0AGRQDAL94",
+                              "auto_tracked":  true,
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T06:00:10.7440000Z"
+                          },
+    "1772517834.753559":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  4,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:00:30.3580000Z"
+                          },
+    "1772518205.482339":  {
+                              "replies":  3,
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "starter":  "U0AHN84GJGG",
+                              "auto_tracked":  true,
+                              "status":  "open",
+                              "last_activity":  "2026-03-03T07:46:09.5260000Z"
+                          },
+    "1772512158.929199":  {
+                              "auto_closed":  "2026-03-03T04:43:37.4691421Z",
+                              "replies":  79,
+                              "subject":  "Ensure mention is coming with webhook everywhere, bot-bot, watchdog messages, ev",
+                              "starter":  "U0AGRQDAL94",
+                              "auto_tracked":  true,
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T05:59:25.2450000Z"
+                          },
+    "1772515996.409119":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  6,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:00:35.4510000Z"
+                          },
+    "1772517582.450989":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  4,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:00:38.3710000Z"
+                          },
+    "1772516125.613959":  {
+                              "replies":  11,
+                              "subject":  ":white_check_mark: Closing test thread (TEST-M9-TOPLEVEL-ERROR) :thread:",
+                              "starter":  "U0AHN84GJGG",
+                              "auto_tracked":  true,
+                              "status":  "open",
+                              "last_activity":  "2026-03-03T07:51:55.5100000Z"
+                          },
+    "window_days":  {
+
+                    },
+    "1772517327.643529":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  5,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:00:53.8440000Z"
+                          },
+    "1772516852.469339":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  5,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:11:25.8540000Z"
+                          },
+    "1772520925.694049":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  3,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog: Thread stuck for 20min. \u003c@U0AH72QL9L1\u003e \u003c@U0AGND9JG4B\u003e \u003c@U0AG",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:13:18.2160000Z"
+                          },
+    "1772517232.908919":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  6,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog: Thread stuck for 16min. \u003c@U0AHN84GJGG\u003e \u003c@U0AHN84GJGG\u003e please",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:13:22.2490000Z"
+                          },
+    "1772517709.054249":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  4,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:13:12.5670000Z"
+                          },
+    "1772518199.921199":  {
+                              "replies":  3,
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "starter":  "U0AHN84GJGG",
+                              "auto_tracked":  true,
+                              "status":  "open",
+                              "last_activity":  "2026-03-03T07:46:18.0510000Z"
+                          },
+    "1772516485.620459":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  6,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:25:00.9300000Z"
+                          },
+    "1772522749.311479":  {
+                              "replies":  2,
+                              "subject":  ":art: Creator ACK :thread:",
+                              "starter":  "U0AGSEVA4EP",
+                              "auto_tracked":  true,
+                              "status":  "open",
+                              "last_activity":  "2026-03-03T07:25:58.8870000Z"
+                          },
+    "channel":  {
+                    "Length":  11
+                },
+    "1772516869.048189":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  5,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog: Thread stuck for 16min. \u003c@U0AHN84GJGG\u003e \u003c@U0AHN84GJGG\u003e please",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:13:36.8520000Z"
+                          },
+    "1772517230.273399":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  4,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog: Thread stuck for 16min. \u003c@U0AHN84GJGG\u003e \u003c@U0AHN84GJGG\u003e please",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T06:48:59.6180000Z"
+                          },
+    "1772517108.726419":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  4,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog: Thread stuck for 16min. \u003c@U0AHN84GJGG\u003e \u003c@U0AHN84GJGG\u003e please",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T06:45:35.7520000Z"
+                          },
+    "1772517081.119559":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  5,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog: Thread stuck for 17min. \u003c@U0AHN84GJGG\u003e \u003c@U0AHN84GJGG\u003e please",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:13:49.1370000Z"
+                          },
+    "1772515748.530189":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  5,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog: Thread stuck for 15min. \u003c@U0AHN84GJGG\u003e please close or conti",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T06:44:56.2360000Z"
+                          },
+    "1772518208.297229":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  3,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog: Thread stuck for 16min. \u003c@U0AHN84GJGG\u003e \u003c@U0AHN84GJGG\u003e please",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T06:49:33.9790000Z"
+                          },
+    "1772465419.052649":  {
+                              "auto_closed":  "2026-03-02T15:57:37.6623985Z",
+                              "replies":  20,
+                              "subject":  ":warning: TOP-LEVEL-TEST-M9: edit failed on C:\\test\\file.ps1 - Module 9 test (to",
+                              "starter":  "U0AGSEVA4EP",
+                              "auto_tracked":  true,
+                              "status":  "closed",
+                              "last_activity":  "2026-03-02T15:56:56.5260000Z"
+                          },
+    "1772466757.019389":  {
+                              "auto_closed":  "2026-03-03T01:23:27.5605833Z",
+                              "replies":  4,
+                              "auto_tracked":  true,
+                              "starter":  "USLACKBOT",
+                              "subject":  "This message was deleted.",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-02T15:56:19.3070000Z"
+                          },
+    "1772515942.777959":  {
+                              "replies":  5,
+                              "subject":  "This message was deleted.",
+                              "starter":  "USLACKBOT",
+                              "auto_tracked":  true,
+                              "status":  "open",
+                              "last_activity":  "2026-03-03T05:55:47.8550000Z"
+                          },
+    "1772518251.730029":  {
+                              "replies":  4,
+                              "subject":  "*Webhook 认证失败为什么*",
+                              "starter":  "U0AGRQDAL94",
+                              "auto_tracked":  true,
+                              "status":  "open",
+                              "last_activity":  "2026-03-03T06:16:41.6980000Z"
+                          },
+    "generated_at":  {
+                         "Length":  28
+                     },
+    "1772517945.868639":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  4,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:14:41.8120000Z"
+                          },
+    "1772516369.077729":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  6,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:14:56.6080000Z"
+                          },
+    "1772514792.571919":  {
+                              "auto_closed":  "2026-03-03T05:31:52.4482840Z",
+                              "replies":  2,
+                              "subject":  ":warning: Watchdog: Thread stuck for 16min. \u003c@U0AHN84GJGG\u003e please close or conti",
+                              "starter":  "U0AHN84GJGG",
+                              "auto_tracked":  true,
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T05:19:07.7200000Z"
+                          },
+    "1772516062.113199":  {
+                              "replies":  4,
+                              "subject":  ":wrench: Watchdog threading violation fixed :thread:",
+                              "starter":  "U0AHN84GJGG",
+                              "auto_tracked":  true,
+                              "status":  "open",
+                              "last_activity":  "2026-03-03T06:05:54.3210000Z"
+                          },
+    "1772516597.432219":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  5,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog: Thread stuck for 15min. \u003c@U0AHN84GJGG\u003e please close or conti",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:15:04.4020000Z"
+                          },
+    "1772466035.897769":  {
+                              "auto_closed":  "2026-03-03T01:24:42.9154576Z",
+                              "replies":  4,
+                              "auto_tracked":  true,
+                              "starter":  "U0AGSEVA4EP",
+                              "subject":  ":eyes: Watchdog alert received :thread:",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-02T16:01:29.3780000Z"
+                          },
+    "1772466728.053959":  {
+                              "auto_closed":  "2026-03-03T01:22:07.6539757Z",
+                              "replies":  73,
+                              "subject":  "Retro monitoring system, too many bugs and too complex, analyze my requirements ",
+                              "starter":  "U0AGRQDAL94",
+                              "auto_tracked":  true,
+                              "status":  "closed",
+                              "last_activity":  "2026-03-02T19:42:00.9740000Z"
+                          },
+    "1772514909.476569":  {
+                              "auto_closed":  "2026-03-03T05:31:52.4482840Z",
+                              "replies":  2,
+                              "subject":  "TEST-M9-TOPLEVEL-ERROR: ERROR: watchdog test message top-level. Should be caught",
+                              "starter":  "U0AGND9JG4B",
+                              "auto_tracked":  true,
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T05:15:31.8570000Z"
+                          },
+    "1772517713.486219":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  4,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:15:21.8300000Z"
+                          },
+    "1772518065.080479":  {
+                              "replies":  3,
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "starter":  "U0AHN84GJGG",
+                              "auto_tracked":  true,
+                              "status":  "open",
+                              "last_activity":  "2026-03-03T07:46:31.5310000Z"
+                          },
+    "1772516606.113509":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  5,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:15:46.7140000Z"
+                          },
+    "1772465441.549479":  {
+                              "auto_closed":  "2026-03-02T15:47:40.6185412Z",
+                              "replies":  15,
+                              "subject":  ":warning: TEST-M9: deploy failed — module not found (watchdog M9 live test)",
+                              "starter":  "U0AGSEVA4EP",
+                              "auto_tracked":  true,
+                              "status":  "closed",
+                              "last_activity":  "2026-03-02T16:06:08.1730000Z"
+                          },
+    "1772518212.775819":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  2,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog: Thread stuck for 16min. \u003c@U0AHN84GJGG\u003e \u003c@U0AHN84GJGG\u003e please",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T06:17:23.4420000Z"
+                          },
+    "1772515871.783739":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  5,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T06:49:58.2020000Z"
+                          },
+    "1772515867.376599":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  6,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog: Thread stuck for 16min. \u003c@U0AHN84GJGG\u003e \u003c@U0AGND9JG4B\u003e please",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T06:46:18.0200000Z"
+                          },
+    "1772518203.404609":  {
+                              "replies":  3,
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "starter":  "U0AHN84GJGG",
+                              "auto_tracked":  true,
+                              "status":  "open",
+                              "last_activity":  "2026-03-03T07:46:37.5140000Z"
+                          },
+    "1772517452.490039":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  5,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:17:04.3830000Z"
+                          },
+    "1772517588.807419":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  2,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog: Thread stuck for 16min. \u003c@U0AHN84GJGG\u003e \u003c@U0AHN84GJGG\u003e please",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T06:05:56.7230000Z"
+                          },
+    "1772516121.949649":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  6,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:22:00.7390000Z"
+                          },
+    "1772518211.469679":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  2,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog: Thread stuck for 16min. \u003c@U0AHN84GJGG\u003e \u003c@U0AHN84GJGG\u003e please",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T06:17:26.0550000Z"
+                          },
+    "1772467443.611209":  {
+                              "auto_closed":  "2026-03-03T01:24:42.9154576Z",
+                              "replies":  2,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  "FYI: I already acknowledged your 2 mentions about deleting my watchdog message (",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-02T16:05:44.6630000Z"
+                          },
+    "1772516971.481869":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  5,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:18:05.5720000Z"
+                          },
+    "1772504735.586059":  {
+                              "auto_closed":  "2026-03-03T03:23:37.6545924Z",
+                              "replies":  71,
+                              "auto_tracked":  true,
+                              "starter":  "U0AGRQDAL94",
+                              "subject":  "test, fix, test, fix the watchdog monitoring system :thread:",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T04:22:59.7210000Z"
+                          },
+    "1772500932.657399":  {
+                              "auto_closed":  "2026-03-03T01:49:56.8522631Z",
+                              "replies":  4,
+                              "subject":  ":warning: Watchdog: Thread stuck for 566min. \u003c@U0AHN84GJGG\u003e please close or cont",
+                              "starter":  "U0AHN84GJGG",
+                              "auto_tracked":  true,
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T01:50:13.4090000Z"
+                          },
+    "1772519230.270019":  {
+                              "replies":  13,
+                              "subject":  "fix watchdog and admin spam urgently @all",
+                              "starter":  "U0AGRQDAL94",
+                              "auto_tracked":  true,
+                              "status":  "open",
+                              "last_activity":  "2026-03-03T08:11:07.4030000Z"
+                          },
+    "1772515808.357459":  {
+                              "replies":  2,
+                              "subject":  ":white_check_mark: Closing test thread (TEST-M9-TOPLEVEL-ERROR). Treated as plan",
+                              "starter":  "U0AHN84GJGG",
+                              "auto_tracked":  true,
+                              "status":  "open",
+                              "last_activity":  "2026-03-03T05:31:51.3350000Z"
+                          },
+    "1772465442.405119":  {
+                              "auto_closed":  "2026-03-03T01:24:42.9154576Z",
+                              "replies":  11,
+                              "auto_tracked":  true,
+                              "starter":  "U0AGSEVA4EP",
+                              "subject":  "No @mention — not my task. Emoji react only.",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-02T16:07:45.6680000Z"
+                          },
+    "1772517093.310399":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  5,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:18:46.2100000Z"
+                          },
+    "1772517952.897019":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  2,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog: Thread stuck for 16min. \u003c@U0AHN84GJGG\u003e \u003c@U0AHN84GJGG\u003e please",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T06:12:36.6700000Z"
+                          },
+    "1772517840.432959":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  2,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog: Thread stuck for 32min. \u003c@U0AHN84GJGG\u003e \u003c@U0AHN84GJGG\u003e please",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T06:10:18.3400000Z"
+                          },
+    "1772518432.879569":  {
+                              "replies":  3,
+                              "subject":  ":warning: Watchdog: Thread stuck for 15min. \u003c@U0AHN84GJGG\u003e \u003c@U0AHN84GJGG\u003e please",
+                              "starter":  "U0AHN84GJGG",
+                              "auto_tracked":  true,
+                              "status":  "open",
+                              "last_activity":  "2026-03-03T07:54:07.0750000Z"
+                          },
+    "1772518171.143769":  {
+                              "replies":  3,
+                              "subject":  ":warning: Watchdog: Thread stuck for 15min. \u003c@U0AHN84GJGG\u003e please close or conti",
+                              "starter":  "U0AHN84GJGG",
+                              "auto_tracked":  true,
+                              "status":  "open",
+                              "last_activity":  "2026-03-03T07:46:42.5790000Z"
+                          },
+    "1772518173.801199":  {
+                              "replies":  3,
+                              "subject":  ":warning: Watchdog: Thread stuck for 15min. \u003c@U0AHN84GJGG\u003e \u003c@U0AHN84GJGG\u003e please",
+                              "starter":  "U0AHN84GJGG",
+                              "auto_tracked":  true,
+                              "status":  "open",
+                              "last_activity":  "2026-03-03T07:45:50.1740000Z"
+                          },
+    "1772517715.738929":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  2,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog: Thread stuck for 16min. \u003c@U0AHN84GJGG\u003e \u003c@U0AHN84GJGG\u003e please",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T06:07:56.2030000Z"
+                          },
+    "1772467490.244939":  {
+                              "auto_closed":  "2026-03-03T01:24:42.9154576Z",
+                              "replies":  8,
+                              "auto_tracked":  true,
+                              "starter":  "U0AH72QL9L1",
+                              "subject":  ":brain: Daily Design Taste: Stripe\u0027s inline error validation :thread:",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-02T16:08:52.2050000Z"
+                          },
+    "1772511848.883729":  {
+                              "replies":  19,
+                              "subject":  "Do we have watchdog.ps1 patched to v5.6.1 here?",
+                              "starter":  "U0AGRQDAL94",
+                              "auto_tracked":  true,
+                              "status":  "open",
+                              "last_activity":  "2026-03-03T07:46:48.4410000Z"
+                          },
+    "1772517451.678249":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  5,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:00:47.7530000Z"
+                          },
+    "1772517467.070619":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  3,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog: Thread stuck for 16min. \u003c@U0AHN84GJGG\u003e please close or conti",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T06:21:23.4150000Z"
+                          },
+    "1772517466.453829":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  3,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog: Thread stuck for 16min. \u003c@U0AHN84GJGG\u003e \u003c@U0AHN84GJGG\u003e please",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T06:29:25.1810000Z"
+                          },
+    "1772517717.876419":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  4,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:22:23.1390000Z"
+                          },
+    "1772517326.287919":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  5,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:22:36.5860000Z"
+                          },
+    "1772517588.839629":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  4,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:22:46.4740000Z"
+                          },
+    "1772517452.038539":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  5,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:23:12.1140000Z"
+                          },
+    "1772516967.115269":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  5,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:23:26.2340000Z"
+                          },
+    "1772517830.359719":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  4,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:23:33.2660000Z"
+                          },
+    "1772518338.593529":  {
+                              "replies":  4,
+                              "subject":  ":brain: Xiaosong\u0027s webhook auth question + watchdog spam :thread:",
+                              "starter":  "U0AH72QL9L1",
+                              "auto_tracked":  true,
+                              "status":  "open",
+                              "last_activity":  "2026-03-03T06:40:28.7030000Z"
+                          },
+    "1772518207.330809":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  3,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog: Thread stuck for 16min. \u003c@U0AHN84GJGG\u003e \u003c@U0AHN84GJGG\u003e please",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T06:17:33.6960000Z"
+                          },
+    "1772518203.645949":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  2,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog: Thread stuck for 16min. \u003c@U0AHN84GJGG\u003e \u003c@U0AHN84GJGG\u003e please",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T06:17:36.6170000Z"
+                          },
+    "1772517317.965169":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  5,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog: Thread stuck for 15min. \u003c@U0AHN84GJGG\u003e please close or conti",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:23:52.3090000Z"
+                          },
+    "1772518200.501039":  {
+                              "replies":  3,
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "starter":  "U0AHN84GJGG",
+                              "auto_tracked":  true,
+                              "status":  "open",
+                              "last_activity":  "2026-03-03T07:46:53.3710000Z"
+                          },
+    "1772517953.493359":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  2,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog: Thread stuck for 16min. \u003c@U0AHN84GJGG\u003e \u003c@U0AHN84GJGG\u003e please",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T06:07:41.3520000Z"
+                          },
+    "1772518050.840479":  {
+                              "replies":  4,
+                              "subject":  ":warning: Watchdog: Thread stuck for 17min. \u003c@U0AHN84GJGG\u003e \u003c@U0AHN84GJGG\u003e please",
+                              "starter":  "U0AHN84GJGG",
+                              "auto_tracked":  true,
+                              "status":  "open",
+                              "last_activity":  "2026-03-03T07:54:47.0470000Z"
+                          },
+    "threads":  {
+                    "IsFixedSize":  true,
+                    "Rank":  1,
+                    "SyncRoot":  [
+                                     {
+                                         "thread_ts":  "1772348828.144489",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGRQDAL94",
+                                         "starter_text":  "when i post a thrad without mention all, whats the right behavior of you",
+                                         "reply_count":  34,
+                                         "last_reply_ts":  "1772352422.200129",
+                                         "status":  "open",
+                                         "has_final":  false,
+                                         "updated_at":  "2026-03-01T08:14:55.9016485Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772348597.177089",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGRQDAL94",
+                                         "starter_text":  "test @all",
+                                         "reply_count":  4,
+                                         "last_reply_ts":  "1772348637.563859",
+                                         "status":  "open",
+                                         "has_final":  false,
+                                         "updated_at":  "2026-03-01T08:14:56.2030213Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772348322.828289",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGRQDAL94",
+                                         "starter_text":  "test",
+                                         "reply_count":  7,
+                                         "last_reply_ts":  "1772348688.023349",
+                                         "status":  "open",
+                                         "has_final":  false,
+                                         "updated_at":  "2026-03-01T08:14:56.5192276Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772347619.648699",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AH72QL9L1",
+                                         "starter_text":  ":art: Daily Design Taste — Sun Mar 1 — Progressive Disclosure :thread:",
+                                         "reply_count":  15,
+                                         "last_reply_ts":  "1772348474.181589",
+                                         "status":  "open",
+                                         "has_final":  false,
+                                         "updated_at":  "2026-03-01T08:14:56.9031257Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772347075.853579",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGRQDAL94",
+                                         "starter_text":  "Test if you have done this as defined: \u003chttps://dreamteam-zjc7444.slack.com/archives/C0AGMF65DQB/p1772290490551929\u003e",
+                                         "reply_count":  12,
+                                         "last_reply_ts":  "1772347535.182179",
+                                         "status":  "open",
+                                         "has_final":  false,
+                                         "updated_at":  "2026-03-01T08:14:57.2169743Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772346513.579909",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGRQDAL94",
+                                         "starter_text":  "Test if you have done this as defined: \u003chttps://dreamteam-zjc7444.slack.com/archives/C0AGMF65DQB/p1772290490551929\u003e",
+                                         "reply_count":  29,
+                                         "last_reply_ts":  "1772347699.803419",
+                                         "status":  "open",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:14:57.6274370Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772345710.113959",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGRQDAL94",
+                                         "starter_text":  "If I really care about one thread/task, can I ask admin or watchdog to frequently check the progress of it?",
+                                         "reply_count":  41,
+                                         "last_reply_ts":  "1772348234.108709",
+                                         "status":  "open",
+                                         "has_final":  false,
+                                         "updated_at":  "2026-03-01T08:14:58.0194525Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772342111.532759",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGRQDAL94",
+                                         "starter_text":  "Latest landing page URL",
+                                         "reply_count":  121,
+                                         "last_reply_ts":  "1772352505.573379",
+                                         "status":  "open",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:14:58.7081575Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772341543.987059",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGRQDAL94",
+                                         "starter_text":  "Retro of initiator of dailiy design taste, check this sceenshot, why 3 threads for it?",
+                                         "reply_count":  18,
+                                         "last_reply_ts":  "1772344165.763959",
+                                         "status":  "open",
+                                         "has_final":  false,
+                                         "updated_at":  "2026-03-01T08:14:59.0985625Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772305242.304709",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGND9JG4B",
+                                         "starter_text":  ":art: Daily Design Taste — Sat Feb 28 — Branding \u0026amp; Identity :thread:",
+                                         "reply_count":  12,
+                                         "last_reply_ts":  "1772319888.493959",
+                                         "status":  "open",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:14:59.4384465Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772303999.546569",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AH72QL9L1",
+                                         "starter_text":  ":art: Daily Design Taste :thread:",
+                                         "reply_count":  13,
+                                         "last_reply_ts":  "1772319884.000439",
+                                         "status":  "open",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:14:59.7576646Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772301614.345159",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AH72QL9L1",
+                                         "starter_text":  ":art: Daily Design Taste: Linear\u0027s command palette :thread:",
+                                         "reply_count":  22,
+                                         "last_reply_ts":  "1772319878.295089",
+                                         "status":  "open",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:15:00.1237397Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772296927.970859",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGRQDAL94",
+                                         "starter_text":  "Audit watchdog’s issues and improve it, especially keep mention in all formats of watchdog messages ",
+                                         "reply_count":  70,
+                                         "last_reply_ts":  "1772352396.692829",
+                                         "status":  "open",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:15:00.8089965Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772296768.828979",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGND9JG4B",
+                                         "starter_text":  ":clipboard: PICKUP: Agent card review (from Creator :art:) :thread:",
+                                         "reply_count":  13,
+                                         "last_reply_ts":  "1772342383.050149",
+                                         "status":  "open",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:15:01.1634672Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772293048.803689",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGND9JG4B",
+                                         "starter_text":  ":mag: REVIEW: Agent card update — AgentsScroll + agents.ts :thread:",
+                                         "reply_count":  49,
+                                         "last_reply_ts":  "1772299607.811479",
+                                         "status":  "closed",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:15:01.6623951Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772292281.519649",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGRQDAL94",
+                                         "starter_text":  "Check your agents.md if it can be trimmed by removing duplicated contents",
+                                         "reply_count":  17,
+                                         "last_reply_ts":  "1772342942.813489",
+                                         "status":  "open",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:15:02.0824423Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772290490.551929",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGRQDAL94",
+                                         "starter_text":  "Deep dive into how everyone can better follow slack rules, too many violations now.",
+                                         "reply_count":  105,
+                                         "last_reply_ts":  "1772349564.175109",
+                                         "status":  "open",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:15:03.1043676Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772289783.547579",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AHN84GJGG",
+                                         "starter_text":  "Reminder: please move detailed content into a thread reply (thread starter should be 1 short line + :thread:). If needed, delete \u0026amp; repos",
+                                         "reply_count":  18,
+                                         "last_reply_ts":  "1772318082.019699",
+                                         "status":  "open",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:15:03.4372729Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772289754.150499",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "USLACKBOT",
+                                         "starter_text":  "This message was deleted.",
+                                         "reply_count":  15,
+                                         "last_reply_ts":  "1772290387.086049",
+                                         "status":  "open",
+                                         "has_final":  false,
+                                         "updated_at":  "2026-03-01T08:15:03.8000750Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772289713.698919",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGSEVA4EP",
+                                         "starter_text":  ":white_check_mark: Squad landing page redeployed and live :thread:",
+                                         "reply_count":  127,
+                                         "last_reply_ts":  "1772298775.324419",
+                                         "status":  "closed",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:15:04.6716899Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772289398.266309",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGRQDAL94",
+                                         "starter_text":  "Can we dont use threading in our DMs",
+                                         "reply_count":  12,
+                                         "last_reply_ts":  "1772352401.039649",
+                                         "status":  "open",
+                                         "has_final":  false,
+                                         "updated_at":  "2026-03-01T08:15:05.0047768Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772288530.409649",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGRQDAL94",
+                                         "starter_text":  "Avoid replying this: Not directed at me — react with emoji only.",
+                                         "reply_count":  6,
+                                         "last_reply_ts":  "1772290236.942729",
+                                         "status":  "open",
+                                         "has_final":  false,
+                                         "updated_at":  "2026-03-01T08:15:05.3230465Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772287431.583989",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGND9JG4B",
+                                         "starter_text":  ":shield: REVIEW: v8-mini squad-landing — source audit complete :thread:",
+                                         "reply_count":  29,
+                                         "last_reply_ts":  "1772289738.480449",
+                                         "status":  "open",
+                                         "has_final":  false,
+                                         "updated_at":  "2026-03-01T08:15:05.8405357Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772287077.192459",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGRQDAL94",
+                                         "starter_text":  "why creator can reply in a thread but cannot in a DM",
+                                         "reply_count":  34,
+                                         "last_reply_ts":  "1772287736.451709",
+                                         "status":  "open",
+                                         "has_final":  false,
+                                         "updated_at":  "2026-03-01T08:15:06.5597840Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772285794.283299",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGND9JG4B",
+                                         "starter_text":  ":mag: Reviewed Thinker\u0027s landing page tweaks spec (v8-mini) :thread:",
+                                         "reply_count":  7,
+                                         "last_reply_ts":  "1772288500.925889",
+                                         "status":  "closed",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:15:06.8422362Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772283506.551319",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGRQDAL94",
+                                         "starter_text":  "I found sometimes you replied to wrong thread, check how you decide which thread to reply :thread:",
+                                         "reply_count":  16,
+                                         "last_reply_ts":  "1772287012.144349",
+                                         "status":  "closed",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:15:07.2233694Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772282859.134769",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGRQDAL94",
+                                         "starter_text":  "Latest status of the landing page :thread:",
+                                         "reply_count":  35,
+                                         "last_reply_ts":  "1772287915.757079",
+                                         "status":  "closed",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:15:07.6359600Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772282272.605409",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGRQDAL94",
+                                         "starter_text":  "Everyone recalls Slack rules :thread:",
+                                         "reply_count":  42,
+                                         "last_reply_ts":  "1772318076.703909",
+                                         "status":  "open",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:15:08.0221937Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772281613.885459",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGRQDAL94",
+                                         "starter_text":  "Dont send thread message to DM",
+                                         "reply_count":  13,
+                                         "last_reply_ts":  "1772282044.083359",
+                                         "status":  "open",
+                                         "has_final":  false,
+                                         "updated_at":  "2026-03-01T08:15:08.9987046Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772281335.660439",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGRQDAL94",
+                                         "starter_text":  "Issue: \u003c@U0AGSEVA4EP\u003e \u003c@U0AHN84GJGG\u003e You two always reply under the other\u0027s name, why?",
+                                         "reply_count":  14,
+                                         "last_reply_ts":  "1772282255.592379",
+                                         "status":  "closed",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:15:09.3505829Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772280833.963379",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGRQDAL94",
+                                         "starter_text":  "\u003c@U0AGSEVA4EP\u003e explain how you work with you sub-agent here",
+                                         "reply_count":  18,
+                                         "last_reply_ts":  "1772281500.409129",
+                                         "status":  "open",
+                                         "has_final":  false,
+                                         "updated_at":  "2026-03-01T08:15:09.6877676Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772280638.521339",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGRQDAL94",
+                                         "starter_text":  "Do we need another creator agent considering today\u0027s workflow bottleneck",
+                                         "reply_count":  9,
+                                         "last_reply_ts":  "1772280929.660909",
+                                         "status":  "open",
+                                         "has_final":  false,
+                                         "updated_at":  "2026-03-01T08:15:10.0245890Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772279365.444949",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGND9JG4B",
+                                         "starter_text":  ":pickup: PICKUP: Squad landing page code review (from Creator) :thread:",
+                                         "reply_count":  10,
+                                         "last_reply_ts":  "1772281154.332909",
+                                         "status":  "closed",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:15:10.3585503Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772279317.305299",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGSEVA4EP",
+                                         "starter_text":  ":outbox_tray: HANDOFF -\u0026gt; Gatekeeper: squad landing page :thread:",
+                                         "reply_count":  60,
+                                         "last_reply_ts":  "1772283300.221139",
+                                         "status":  "closed",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:15:10.7684173Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772278340.080729",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGRQDAL94",
+                                         "starter_text":  "Research on this \u003chttps://www.youtube.com/watch?v=hRwjoU4RlMY\u0026t=3s|Youtube video\u003e and learn :thread:",
+                                         "reply_count":  36,
+                                         "last_reply_ts":  "1772279731.183379",
+                                         "status":  "open",
+                                         "has_final":  false,
+                                         "updated_at":  "2026-03-01T08:15:11.2401316Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772278339.481969",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGSEVA4EP",
+                                         "starter_text":  ":outbox_tray: HANDOFF -\u0026gt; GK: squad landing QA :thread:",
+                                         "reply_count":  2,
+                                         "last_reply_ts":  "1772278898.424149",
+                                         "status":  "open",
+                                         "has_final":  false,
+                                         "updated_at":  "2026-03-01T08:15:11.7185088Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772276403.605409",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGRQDAL94",
+                                         "starter_text":  "Research the repo here: \u003chttps://github.com/hesamsheikh/awesome-openclaw-usecases\u003e",
+                                         "reply_count":  39,
+                                         "last_reply_ts":  "1772277913.635609",
+                                         "status":  "open",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:15:12.2784291Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772273844.565909",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGSEVA4EP",
+                                         "starter_text":  ":white_check_mark: Squad landing 3 tweaks done :thread:",
+                                         "reply_count":  111,
+                                         "last_reply_ts":  "1772279739.143109",
+                                         "status":  "open",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:15:12.9403662Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772272924.523199",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AHN84GJGG",
+                                         "starter_text":  ":arrows_counterclockwise: Daily Retro — 2026-02-28 :thread:",
+                                         "reply_count":  46,
+                                         "last_reply_ts":  "1772284053.926159",
+                                         "status":  "open",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:15:13.5406022Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772270887.447489",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGSEVA4EP",
+                                         "starter_text":  ":rotating_light: Admin gateway (18789) DOWN again :thread:",
+                                         "reply_count":  4,
+                                         "last_reply_ts":  "1772271795.877299",
+                                         "status":  "closed",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:15:13.8419761Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772268823.681999",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGRQDAL94",
+                                         "starter_text":  "Everybody helps watchdog self-improve",
+                                         "reply_count":  49,
+                                         "last_reply_ts":  "1772274042.883239",
+                                         "status":  "open",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:15:14.4462629Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772267908.851259",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGRQDAL94",
+                                         "starter_text":  "Do we need more watchdogs? Too many violations and idle thread now",
+                                         "reply_count":  30,
+                                         "last_reply_ts":  "1772270859.199599",
+                                         "status":  "open",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:15:15.0712189Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772266581.541649",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGRQDAL94",
+                                         "starter_text":  "bot-bot message with mentions, should pair with webhook, this is scripted?",
+                                         "reply_count":  17,
+                                         "last_reply_ts":  "1772271215.703819",
+                                         "status":  "closed",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:15:15.4029866Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772265785.066859",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AHN84GJGG",
+                                         "starter_text":  "Reminder: please move detailed content into a thread reply (thread starter should be 1 short line + :thread:). If needed, delete \u0026amp; repos",
+                                         "reply_count":  12,
+                                         "last_reply_ts":  "1772294679.364369",
+                                         "status":  "open",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:15:15.7346599Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772265778.391979",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "USLACKBOT",
+                                         "starter_text":  "This message was deleted.",
+                                         "reply_count":  13,
+                                         "last_reply_ts":  "1772266955.218049",
+                                         "status":  "open",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:15:16.0825572Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772265745.251449",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "USLACKBOT",
+                                         "starter_text":  "This message was deleted.",
+                                         "reply_count":  2,
+                                         "last_reply_ts":  "1772267595.145319",
+                                         "status":  "open",
+                                         "has_final":  false,
+                                         "updated_at":  "2026-03-01T08:15:16.3717472Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772265744.899969",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGSEVA4EP",
+                                         "starter_text":  ":outbox_tray: HANDOFF -\u0026gt; \u003c@U0AGND9JG4B\u003e :thread:",
+                                         "reply_count":  10,
+                                         "last_reply_ts":  "1772267990.115289",
+                                         "status":  "closed",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:15:16.6802806Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772265594.524629",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGSEVA4EP",
+                                         "starter_text":  ":rotating_light: Admin SLA gap — root cause identified :thread:",
+                                         "reply_count":  11,
+                                         "last_reply_ts":  "1772312684.596189",
+                                         "status":  "open",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:15:17.0202356Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772265504.418739",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGSEVA4EP",
+                                         "starter_text":  ":hammer_and_wrench: Building Layer 1 now. Not waiting for Admin. :thread:",
+                                         "reply_count":  11,
+                                         "last_reply_ts":  "1772294683.295789",
+                                         "status":  "open",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:15:17.4370549Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772265354.837529",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "USLACKBOT",
+                                         "starter_text":  "This message was deleted.",
+                                         "reply_count":  8,
+                                         "last_reply_ts":  "1772267539.197249",
+                                         "status":  "open",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:15:17.7448341Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772265155.468809",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "USLACKBOT",
+                                         "starter_text":  "This message was deleted.",
+                                         "reply_count":  4,
+                                         "last_reply_ts":  "1772268713.230719",
+                                         "status":  "open",
+                                         "has_final":  false,
+                                         "updated_at":  "2026-03-01T08:15:18.0694483Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772264845.522229",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "USLACKBOT",
+                                         "starter_text":  "This message was deleted.",
+                                         "reply_count":  2,
+                                         "last_reply_ts":  "1772268474.104059",
+                                         "status":  "open",
+                                         "has_final":  false,
+                                         "updated_at":  "2026-03-01T08:15:18.3695112Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772263497.752949",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGSEVA4EP",
+                                         "starter_text":  ":art: Signal translation tunnel deployed — review needed :thread:",
+                                         "reply_count":  1,
+                                         "last_reply_ts":  "1772263503.582959",
+                                         "status":  "open",
+                                         "has_final":  false,
+                                         "updated_at":  "2026-03-01T08:15:18.6707237Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772261274.816349",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGSEVA4EP",
+                                         "starter_text":  ":white_check_mark: Done :thread:",
+                                         "reply_count":  14,
+                                         "last_reply_ts":  "1772263533.592959",
+                                         "status":  "open",
+                                         "has_final":  false,
+                                         "updated_at":  "2026-03-01T08:15:19.0124995Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772261050.497869",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGSEVA4EP",
+                                         "starter_text":  ":white_check_mark: Agent images updated :thread:",
+                                         "reply_count":  7,
+                                         "last_reply_ts":  "1772267761.440699",
+                                         "status":  "open",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:15:19.3139592Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772260747.158559",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "USLACKBOT",
+                                         "starter_text":  "This message was deleted.",
+                                         "reply_count":  10,
+                                         "last_reply_ts":  "1772263509.644119",
+                                         "status":  "open",
+                                         "has_final":  false,
+                                         "updated_at":  "2026-03-01T08:15:19.6373805Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772260666.543909",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGSEVA4EP",
+                                         "starter_text":  ":white_check_mark: Image fix done :thread:",
+                                         "reply_count":  13,
+                                         "last_reply_ts":  "1772307309.062459",
+                                         "status":  "open",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:15:19.9683590Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772259557.443269",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGRQDAL94",
+                                         "starter_text":  "Discuss a new plan in this spec:thread:",
+                                         "reply_count":  13,
+                                         "last_reply_ts":  "1772344229.633579",
+                                         "status":  "open",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:15:20.3959762Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772258455.858489",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGRQDAL94",
+                                         "starter_text":  "Retro: I don\u0027t think watchdog doing well in monitoring thread discussions and workflows",
+                                         "reply_count":  107,
+                                         "last_reply_ts":  "1772285197.949759",
+                                         "status":  "open",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:15:21.3474525Z"
+                                     },
+                                     {
+                                         "thread_ts":  "1772256095.041569",
+                                         "channel":  "C0AGMF65DQB",
+                                         "starter_user":  "U0AGRQDAL94",
+                                         "starter_text":  "Landing page new iteration :thread:",
+                                         "reply_count":  142,
+                                         "last_reply_ts":  "1772273616.620379",
+                                         "status":  "open",
+                                         "has_final":  true,
+                                         "updated_at":  "2026-03-01T08:15:22.2691282Z"
+                                     }
+                                 ],
+                    "LongLength":  60,
+                    "IsSynchronized":  false,
+                    "Count":  60,
+                    "IsReadOnly":  false,
+                    "Length":  60
+                },
+    "1772516839.654029":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  5,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog: Thread stuck for 15min. \u003c@U0AHN84GJGG\u003e \u003c@U0AHN84GJGG\u003e please",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:03:51.1110000Z"
+                          },
+    "1772518064.141499":  {
+                              "replies":  4,
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "starter":  "U0AHN84GJGG",
+                              "auto_tracked":  true,
+                              "status":  "open",
+                              "last_activity":  "2026-03-03T07:55:48.8830000Z"
+                          },
+    "1772517097.673649":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  5,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:24:11.5640000Z"
+                          },
+    "1772517839.137789":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  4,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:24:19.4170000Z"
+                          },
+    "1772517843.584779":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  4,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:24:25.3230000Z"
+                          },
+    "1772517947.794629":  {
+                              "replies":  4,
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "starter":  "U0AHN84GJGG",
+                              "auto_tracked":  true,
+                              "status":  "open",
+                              "last_activity":  "2026-03-03T07:54:51.7730000Z"
+                          },
+    "1772517960.753489":  {
+                              "replies":  2,
+                              "subject":  ":warning: Slack API rate-limited while running check-unanswered-mentions.ps1 jus",
+                              "starter":  "U0AHN84GJGG",
+                              "auto_tracked":  true,
+                              "status":  "open",
+                              "last_activity":  "2026-03-03T06:06:08.8910000Z"
+                          },
+    "1772517228.154799":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  5,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:14:11.1910000Z"
+                          },
+    "1772518432.079129":  {
+                              "replies":  3,
+                              "subject":  ":warning: Watchdog: Thread stuck for 16min. \u003c@U0AHN84GJGG\u003e \u003c@U0AHN84GJGG\u003e please",
+                              "starter":  "U0AHN84GJGG",
+                              "auto_tracked":  true,
+                              "status":  "open",
+                              "last_activity":  "2026-03-03T07:54:13.0560000Z"
+                          },
+    "1772517947.259489":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  4,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:24:52.4830000Z"
+                          },
+    "1772518199.586289":  {
+                              "replies":  3,
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "starter":  "U0AHN84GJGG",
+                              "auto_tracked":  true,
+                              "status":  "open",
+                              "last_activity":  "2026-03-03T07:45:57.3970000Z"
+                          },
+    "1772466517.733219":  {
+                              "replies":  4,
+                              "subject":  ":fire: PICKUP: M9 watchdog false-positive (from Admin) :thread:",
+                              "starter":  "U0AGSEVA4EP",
+                              "auto_tracked":  true,
+                              "status":  "closed",
+                              "last_activity":  "2026-03-02T15:59:55.9760000Z"
+                          },
+    "1772466756.577399":  {
+                              "auto_closed":  "2026-03-03T01:23:27.5605833Z",
+                              "replies":  4,
+                              "auto_tracked":  true,
+                              "starter":  "USLACKBOT",
+                              "subject":  "This message was deleted.",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-02T15:56:16.4990000Z"
+                          },
+    "1772517223.781229":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  5,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:25:06.0990000Z"
+                          },
+    "1772517326.675939":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  5,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:25:09.2640000Z"
+                          },
+    "1772466767.050659":  {
+                              "auto_closed":  "2026-03-03T01:24:42.9154576Z",
+                              "replies":  9,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog: M12 Test - file-landing SLA expired on DONE message. \u003c@U0AGS",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T01:21:32.8300000Z"
+                          },
+    "1772517347.193459":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  3,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog: Thread stuck for 16min. \u003c@U0AHN84GJGG\u003e \u003c@U0AHN84GJGG\u003e please",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T06:01:59.8110000Z"
+                          },
+    "1772509930.420859":  {
+                              "replies":  58,
+                              "subject":  "这个状态是真的起作用吗？ 看截图",
+                              "starter":  "U0AGRQDAL94",
+                              "auto_tracked":  true,
+                              "status":  "open",
+                              "last_activity":  "2026-03-03T06:15:27.9500000Z"
+                          },
+    "1772517837.818139":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  2,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog: Thread stuck for 16min. \u003c@U0AHN84GJGG\u003e \u003c@U0AHN84GJGG\u003e please",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T06:10:20.2330000Z"
+                          },
+    "1772514182.119039":  {
+                              "replies":  29,
+                              "subject":  "Strengthen your soul, role, responsibility, workflow :thread:",
+                              "starter":  "U0AGRQDAL94",
+                              "auto_tracked":  true,
+                              "status":  "open",
+                              "last_activity":  "2026-03-03T06:10:33.5980000Z"
+                          },
+    "1772518062.669419":  {
+                              "replies":  4,
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "starter":  "U0AHN84GJGG",
+                              "auto_tracked":  true,
+                              "status":  "open",
+                              "last_activity":  "2026-03-03T07:55:41.8240000Z"
+                          },
+    "1772517593.225409":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  4,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:25:29.6250000Z"
+                          },
+    "1772467385.942509":  {
+                              "auto_closed":  "2026-03-03T01:24:42.9154576Z",
+                              "replies":  2,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  "\u003c@U0AGRQDAL94\u003e ack. Those two threads’ starters are already deleted (Slackbot sh",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-02T16:03:44.8360000Z"
+                          },
+    "1772518063.346869":  {
+                              "replies":  4,
+                              "subject":  ":warning: Watchdog Rule A: \u003c@U0AHN84GJGG\u003e top-level post without :thread: (ts=17",
+                              "starter":  "U0AHN84GJGG",
+                              "auto_tracked":  true,
+                              "status":  "open",
+                              "last_activity":  "2026-03-03T07:55:13.9400000Z"
+                          },
+    "1772517440.065409":  {
+                              "auto_closed":  "2026-03-03T07:34:40.2897632Z",
+                              "replies":  5,
+                              "auto_tracked":  true,
+                              "starter":  "U0AHN84GJGG",
+                              "subject":  ":warning: Watchdog: Thread stuck for 15min. \u003c@U0AHN84GJGG\u003e \u003c@U0AHN84GJGG\u003e please",
+                              "auto_close_reason":  "watchdog_loop_cleanup_v5.8",
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T07:22:08.7850000Z"
+                          },
+    "1772500931.291869":  {
+                              "replies":  62,
+                              "subject":  ":warning: Watchdog: Thread stuck for 566min. \u003c@U0AHN84GJGG\u003e please close or cont",
+                              "starter":  "U0AHN84GJGG",
+                              "auto_tracked":  true,
+                              "status":  "closed",
+                              "last_activity":  "2026-03-03T02:23:33.2610000Z"
+                          }
+}

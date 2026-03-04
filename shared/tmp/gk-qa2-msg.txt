@@ -1,0 +1,14 @@
+:shield: GK QA v2: pulse.ps1 v3.1 — PASS
+
+:white_check_mark: Module A (tombstone-first) — 验证结果:
+- 1772568094 / 1772560836: subtype=tombstone 确认，真孤儿，正确触发
+- 1772532007 (Daily Retro): subtype 为空，user 存在，未被触发，误报已消除
+- DryRun 干净退出，无新误报
+- SyntaxCheck OK
+
+:white_check_mark: Module B (self-mention): 逻辑正确，dedup 结构正常
+:warning: Module C (unicode emoji): validate-only 模式，unicodeEmojiLive=false — 保持此状态，需观察 Slack API 是否把 :emoji: 转换为 Unicode 后再决定开启
+
+:checkered_flag: FINAL: pulse.ps1 v3.1 可以上线。建议保持所有模块 dryRun 再跑 24h 观察 Module C 误报率，再决定是否开启 unicodeEmojiLive。
+
+Source: C:\Users\azureuser\shared\scripts\pulse.ps1

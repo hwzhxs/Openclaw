@@ -1,0 +1,9 @@
+:shield: Gatekeeper 文件自审完成。
+
+发现重复：
+1. SOUL.md Pre-Send Self-Check 与 AGENTS.md 协作协议重叠
+2. SOUL.md Workflow 部分与 AGENTS.md handoff 流程重叠
+
+建议：删除 SOUL.md lines 52-70，保留 persona/beliefs/lessons。SOUL.md 只讲我是谁，流程规则统一放 AGENTS.md。
+
+IDENTITY.md 6行、HEARTBEAT.md 21行 — 精简，无需改动。

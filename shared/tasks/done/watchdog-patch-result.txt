@@ -1,0 +1,53 @@
+WATCHDOG PATCH RESULT — SUCCESS
+================================
+Date: 2026-03-03
+Version: v5.5 → v5.6
+Parse errors: 0
+
+## What changed
+
+### New functions added (after Send-AlertAndHook):
+
+1. `Get-WatchdogLogThread`
+   - Checks state key `watchdog_log_thread_YYYY-MM-DD` for today's anchor thread ts
+   - If found: returns cached ts
+   - If not found: creates ONE new top-level `:spiral_note_pad: Watchdog Log — YYYY-MM-DD`
+     (no @mentions, purely a log anchor), stores ts in state, returns it
+   - This means at most 1 top-level per day from watchdog for non-incident alerts
+
+2. `Send-AlertInThread([string]$Text, [string[]]$AgentIds, [string]$ThreadTs)`
+   - If $ThreadTs is non-null/non-empty → calls `Send-AlertAndHook $Text $AgentIds $ThreadTs`
+   - If $ThreadTs is null/empty → calls `Get-WatchdogLogThread` and uses that ts
+   - NEVER passes $null as thread_ts to Send-AlertAndHook (last-resort fallback only)
+
+### Send-IncidentAlert fallback fixed:
+- OLD: `Send-AlertAndHook $FollowupText $AgentIds $null` (creates top-level)
+- NEW: calls `Get-WatchdogLogThread` and routes to that thread
+
+### Module 1 (port-down incidents): UNCHANGED
+- Still uses Send-IncidentAlert with $IncidentKey — one top-level per incident per port
+- Reminders and recovery still use Send-AlertAndHook with explicit $tTs (known thread)
+
+### All module Send-AlertAndHook calls replaced with Send-AlertInThread:
+- Module 3 (stuck threads): Send-AlertInThread with $ts
+- Module 4 (mention SLA): Send-AlertInThread with $threadTs
+- Module 5 Rule A: Send-AlertInThread with $msgTs
+- Module 5 Rule B: Send-AlertInThread with $threadTs
+- Module 7 thread reply: Send-AlertInThread with $msgTs
+- Module 7 top-level: Send-AlertInThread with $msgTs
+- Module 8 (stale workflow): Send-AlertInThread with $msgTs
+- Module 9 (agent errors): Send-AlertInThread with $threadTs
+- Module 11 auto-deleted: Send-AlertInThread with $threadTs
+- Module 11 cannot-delete: Send-AlertInThread with $threadTs
+- Module 12 (file landing SLA): Send-AlertInThread with $threadTs
+
+### Backup:
+- C:\Users\azureuser\shared\scripts\watchdog.ps1.bak (original preserved)
+
+## Result
+All watchdog alerts will now either:
+a) Post as replies in an existing valid thread (most cases), OR
+b) Fall back to the daily "Watchdog Log" anchor thread (at most 1 new top-level per day)
+
+No watchdog alert will ever create a random new top-level post.
+Module 1 incident top-levels remain intact (by design — one per port incident).

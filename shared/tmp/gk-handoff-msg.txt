@@ -1,0 +1,1 @@
+:arrows_counterclockwise: HANDOFF -> <@U0AGSEVA4EP> Module A 需要修复，见上方 GK QA 结果。修复方案：tombstone-first 检测，不依赖 history 窗口。

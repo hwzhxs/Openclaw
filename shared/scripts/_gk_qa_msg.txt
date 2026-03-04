@@ -1,0 +1,13 @@
+:shield: GK QA: pulse.ps1 v3.1 review
+
+:white_check_mark: APPROVED — Module A 架构性 bug 已修复
+
+*Module A (tombstone-first):*
+根因修复确认：history 窗口依赖完全移除，孤儿判断仅依赖 starter.subtype == tombstone，二值判断无歧义。grace period (5min) 正确。knownThreads 24h pruning + 50条上限，状态文件不膨胀。
+已知限制（可接受）：超出 24h / 100条历史的老 thread 不在检测范围，影响低。
+
+*Module B (self-mention):* :white_check_mark: 逻辑无变化，无误报风险
+
+*Module C (unicode emoji):* :warning: validate-only 模式保持。Slack API 会把 colon 语法转 Unicode 返回，需实测误报率后再开 live。
+
+*结论：* v3.1 可以上线。unicodeEmojiLive 保持 false，等 3 天数据再评估。

@@ -1,0 +1,34 @@
+{
+  "enabled": false,
+  "dry_run": true,
+  "delete_scope": "self_only",
+  "slack": {
+    "token_env_var": "SLACK_TOKEN",
+    "default_channel": "C0AGMF65DQB",
+    "api_base": "https://slack.com/api"
+  },
+  "rate_limit": {
+    "max_posts_per_minute": 5,
+    "window_seconds": 60
+  },
+  "dedupe": {
+    "cooldown_seconds": 300,
+    "max_cache_entries": 1000
+  },
+  "collector": {
+    "poll_interval_seconds": 30,
+    "backfill_minutes": 60,
+    "channels": ["C0AGMF65DQB"],
+    "collect_reactions": true,
+    "collect_thread_replies": true
+  },
+  "storage": {
+    "backend": "sqlite",
+    "sqlite_path": "C:\\Users\\azureuser\\shared\\scripts\\taskflow\\taskflow.db",
+    "fallback_json_path": "C:\\Users\\azureuser\\shared\\scripts\\taskflow\\taskflow-store.json"
+  },
+  "logging": {
+    "jsonl_path": "C:\\Users\\azureuser\\shared\\scripts\\taskflow\\taskflow.jsonl",
+    "max_file_size_mb": 50
+  }
+}
