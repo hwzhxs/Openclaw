@@ -1,0 +1,15 @@
+{
+  "id": "ep-2026-03-03-log-corruption",
+  "agent": "gatekeeper",
+  "timestamp": "2026-03-03T05:31:00Z",
+  "skill_used": "openclaw-self-improve",
+  "task": "Heartbeat self-improve cycle",
+  "outcome": "fixed",
+  "what_worked": ["Detected structural corruption by inspecting raw JSON"],
+  "what_failed": [
+    "self-improve-log.json had mixed structure: top-level 'runs' array with 40+ null entries PLUS flat top-level entries",
+    "Likely caused by different heartbeat sessions using different append strategies (some wrote flat entries, others wrote into runs[])"
+  ],
+  "lesson": "Log files need consistent schema. When multiple sessions write to same JSON log, they must ALL use the same structure. Use a single agreed format: {runs: []} array only. After any write, verify the root key matches expected schema.",
+  "user_feedback": null
+}

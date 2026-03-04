@@ -1,0 +1,895 @@
+﻿{
+    "runs":  [
+                 {
+                     "ts":  "2026-03-03T04:08:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  0,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. 2 recent episodes (slack-flood + narration violation) already recorded. Shared patterns 001-017 stable."
+                 },
+                 {
+                     "ts":  "2026-03-03T04:12:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  0,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. Episodes and patterns current. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T04:37:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  0,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. Episodes and patterns current. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T05:31:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  3,
+                     "episodes_added":  1,
+                     "patterns_updated":  1,
+                     "note":  "Fixed corrupted log file structure. Cleaned and normalized."
+                 },
+                 {
+                     "ts":  "2026-03-03T05:32:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  3,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. Episodes stable. Patterns 001-017 stable. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T05:37:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  3,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. All stable. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T05:38:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  3,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. Patterns stable. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T05:39:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  3,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. All stable."
+                 },
+                 {
+                     "ts":  "2026-03-03T05:42:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  3,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. 3 recent episodes stable. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T05:47:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  3,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. Shared patterns 001-017 stable. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T05:52:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  3,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T05:53:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  3,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. All stable."
+                 },
+                 {
+                     "ts":  "2026-03-03T05:54:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  3,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks pending. Log-corruption ep already recorded. Patterns stable."
+                 },
+                 {
+                     "ts":  "2026-03-03T05:57:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  3,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. All stable."
+                 },
+                 {
+                     "ts":  "2026-03-03T05:58:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. Nothing to action."
+                 },
+                 {
+                     "ts":  "2026-03-03T06:00:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. Shared patterns 001-017 stable."
+                 },
+                 {
+                     "ts":  "2026-03-03T06:02:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. Nothing to action."
+                 },
+                 {
+                     "ts":  "2026-03-03T06:02:50Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  3,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. Fixed flat-entry schema corruption. Patterns stable."
+                 },
+                 {
+                     "ts":  "2026-03-03T06:07:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  3,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. Log schema consistent. Patterns 001-017 stable."
+                 },
+                 {
+                     "ts":  "2026-03-03T06:12:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  3,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. Patterns 001-017 stable."
+                 },
+                 {
+                     "ts":  "2026-03-03T06:17:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  3,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. Nothing to action."
+                 },
+                 {
+                     "ts":  "2026-03-03T06:58:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  3,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. Curiosity loop due but web_search unavailable."
+                 },
+                 {
+                     "ts":  "2026-03-03T07:00:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. Fixed flat-entry schema corruption. Patterns stable."
+                 },
+                 {
+                     "ts":  "2026-03-03T07:33:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. Patterns stable."
+                 },
+                 {
+                     "ts":  "2026-03-03T07:34:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. Both episodes stable."
+                 },
+                 {
+                     "ts":  "2026-03-03T07:37:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  1,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. All stable."
+                 },
+                 {
+                     "ts":  "2026-03-03T07:50:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. Nothing to action."
+                 },
+                 {
+                     "ts":  "2026-03-03T07:57:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. Patterns 001-017 stable."
+                 },
+                 {
+                     "ts":  "2026-03-03T08:26:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T08:40:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T08:45:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T08:55:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T09:00:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T09:05:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  1,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T09:10:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T09:15:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T09:19:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  0,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. All stable."
+                 },
+                 {
+                     "ts":  "2026-03-03T09:20:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T09:25:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T09:30:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T09:35:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T09:40:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T09:43:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  0,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. All stable."
+                 },
+                 {
+                     "ts":  "2026-03-03T09:50:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T09:55:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T10:00:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T10:10:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T10:15:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T10:35:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T10:40:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T10:45:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T10:50:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T10:55:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T11:05:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T11:10:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T11:15:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T11:20:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T11:30:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T11:35:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T11:45:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T11:50:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T11:55:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T12:00:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T12:05:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. Fixed flat-entry schema corruption (12:00 run). 2 today episodes (slack-flood, log-corruption) stable. Patterns 001-017 + gk-pat-001/002 stable. HEARTBEAT_OK."
+                 },
+                 {
+                     "ts":  "2026-03-03T12:10:00Z",
+                     "trigger":  "heartbeat",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. Episodes stable. HEARTBEAT_OK."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-03T12:15:00Z",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "note":  "No tasks. Episodes stable. Patterns 001-017 stable. HEARTBEAT_OK.",
+                     "patterns_updated":  0
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-03T12:15:00Z",
+                     "episodes_checked":  0,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "curiosity":  "2026-03-03-review-depth-tests.md",
+                     "peer_learning":  "insights unchanged since 2026-02-27",
+                     "note":  "No tasks. Curiosity: Google eng-practices review depth. New learning: test code quality as a QA gate. Peer insights unchanged."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-03T12:20:00Z",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. Episodes (slack-flood, log-corruption) and patterns 001-017 stable. HEARTBEAT_OK."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-03T12:25:00Z",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. Episodes and patterns 001-017 stable. HEARTBEAT_OK."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-03T12:30:00Z",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "note":  "No tasks. Episodes and patterns 001-017 stable. HEARTBEAT_OK.",
+                     "patterns_updated":  0
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-03T12:35:00Z",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "note":  "No tasks. Episodes and patterns 001-017 stable. HEARTBEAT_OK.",
+                     "patterns_updated":  0
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-03T12:40:00Z",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "note":  "No tasks. Episodes and patterns 001-017 stable. HEARTBEAT_OK.",
+                     "patterns_updated":  0
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-03T12:45:00Z",
+                     "episodes_checked":  0,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. No new episodes. All stable."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-03T12:45:00Z",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. Episodes (slack-flood, log-corruption) and patterns 001-017 stable. HEARTBEAT_OK."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-03T12:55:00Z",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. Episodes (slack-flood, log-corruption) and patterns 001-017 stable. HEARTBEAT_OK."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-03T13:00:00Z",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. Episodes (slack-flood, log-corruption) and patterns 001-017 stable. HEARTBEAT_OK."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-03T13:05:00Z",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. Episodes (slack-flood, log-corruption) and patterns 001-017 stable. HEARTBEAT_OK."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-03T13:10:00Z",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "note":  "No tasks. Episodes (slack-flood, log-corruption) and patterns 001-017 stable. HEARTBEAT_OK.",
+                     "patterns_updated":  0
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-03T13:15:00Z",
+                     "episodes_checked":  0,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. No new episodes. Peer learning + curiosity ran 1h ago. All stable."
+                 },
+                 {
+                     "trigger":  "task",
+                     "ts":  "2026-03-03T13:15:00Z",
+                     "task":  "QA: openclaw.json config changes (initialHistoryLimit=50 + systemPrompt)",
+                     "outcome":  "PASS",
+                     "note":  "All 4 agents verified. UTF-8 Chinese correct on disk (PowerShell console just displays ? - not a real issue). No regressions. FINAL posted to thread 1772530882.899119."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-03T14:05:00Z",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. Episodes (slack-flood, log-corruption) and patterns 001-017 stable. HEARTBEAT_OK."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-03T14:15:00Z",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "note":  "No tasks. All stable. HEARTBEAT_OK.",
+                     "patterns_updated":  0
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-03T14:21:00Z",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. Episodes (slack-flood, log-corruption) and patterns 001-017 stable. gk-pat-001 confidence=1.0, gk-pat-002 confidence=0.9. HEARTBEAT_OK."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-03T14:36:00Z",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. Episodes (slack-flood, log-corruption) and patterns 001-017 stable. HEARTBEAT_OK."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-03T14:56:00Z",
+                     "episodes_checked":  2,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. Episodes (slack-flood, log-corruption) and patterns 001-017 stable. HEARTBEAT_OK."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-03T17:00:00Z",
+                     "episodes_checked":  0,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. No new episodes. All stable."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-03T17:30:00Z",
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. No new episodes. All stable."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-03T18:00:00Z",
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. No new episodes. All stable."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-03T18:01:00Z",
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. No new episodes. All stable."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-03T18:31:00Z",
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No pending tasks. No new episodes. All stable."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-03T19:01:00Z",
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. Nothing to action."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-03T19:31:00Z",
+                     "episodes_checked":  0,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. No new episodes. All stable."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-03T20:01:00Z",
+                     "episodes_checked":  0,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. systemPrompt inconsistency flagged earlier was resolved by Creator � all 4 now English and consistent. No further action needed."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-03T20:31:00Z",
+                     "episodes_checked":  0,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. No new episodes. All stable."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-03T21:01:00Z",
+                     "episodes_checked":  0,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. No new episodes. All stable."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-03T21:31:00Z",
+                     "episodes_checked":  0,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. No new episodes. All stable."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-03T22:01:00Z",
+                     "episodes_checked":  0,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. systemPrompt confirmed consistent (English) across all 4 agents � earlier apparent inconsistency was a PowerShell console UTF-8 display artifact. Creator confirmed. All stable."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-03T22:31:00Z",
+                     "episodes_checked":  0,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. No new episodes. All stable."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-03T23:01:00Z",
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. No new episodes. All quiet."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-03T23:31:00Z",
+                     "episodes_checked":  0,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. No new episodes. All stable."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-04T00:01:00Z",
+                     "episodes_checked":  0,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. No recent episodes. All stable."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-04T00:31:00Z",
+                     "episodes_checked":  0,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. No recent episodes. All stable."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-04T01:01:00Z",
+                     "episodes_checked":  0,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. No recent episodes. All stable."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-04T01:31:00Z",
+                     "episodes_checked":  0,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. No new episodes. All stable."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-04T02:01:00Z",
+                     "episodes_checked":  0,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. No new episodes. All stable."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-04T02:31:00Z",
+                     "episodes_checked":  0,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. No recent episodes. All stable."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-04T03:01:00Z",
+                     "episodes_checked":  0,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. No new episodes. All stable."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-04T03:31:00Z",
+                     "episodes_checked":  0,
+                     "episodes_added":  0,
+                     "patterns_updated":  0,
+                     "note":  "No tasks. No recent episodes. All stable."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-04T04:06:00Z",
+                     "episodes_checked":  1,
+                     "episodes_added":  0,
+                     "note":  "No tasks. ep-2026-03-03-log-corruption already processed. All stable.",
+                     "patterns_updated":  0
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-04T10:01:00Z",
+                     "episodes_checked":  0,
+                     "episodes_added":  0,
+                     "note":  "Retro task completed. No new episodes.",
+                     "patterns_updated":  0
+                 },
+                 {
+                     "timestamp":  "2026-03-04T10:21:00Z",
+                     "trigger":  "heartbeat",
+                     "tasks_found":  0,
+                     "episodes_reviewed":  0,
+                     "patterns_updated":  0,
+                     "note":  "Clean heartbeat. No tasks, no new episodes."
+                 },
+                 {
+                     "trigger":  "heartbeat",
+                     "ts":  "2026-03-04T12:02:00Z",
+                     "episodes_checked":  1,
+                     "episodes_added":  1,
+                     "patterns_updated":  0,
+                     "note":  "Found alerted[ts] composite key bug in pulse.ps1 Check-BotMentionSLA. Episode recorded. Finding posted to monitoring thread."
+                 }
+             ]
+}

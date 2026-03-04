@@ -1,0 +1,11 @@
+﻿{
+  "date": "2026-02-28",
+  "id": "2026-02-28-001",
+  "task": "Watchdog v3 + Duplicate Reply Rule",
+  "what_happened": "Built Watchdog v3 with threading rule enforcement (Rules A/B/C). Also captured new 'no duplicate replies' rule from Xiaosong. The rule: if another agent already replied with the same info, react with emoji only - don't post a duplicate text reply.",
+  "what_worked": "Watchdog v3 now enforces: Rule A (top-level must end with :thread:), Rule B (replies must NOT end with :thread:), Rule C (starters >500 chars warned). Detection via ts==thread_ts for top-level vs reply.",
+  "what_failed": "An edit to AGENTS.md failed (stale match) during the duplicate-reply rule write. Admin confirmed the rule was already present, so non-blocking.",
+  "lesson": "When writing to AGENTS.md from heartbeat, use Add-Content not edit (concurrent session risk). Also: emoji react IS a valid response - not every message needs a text reply.",
+  "pattern_candidate": "emoji-react-as-response: Reacting with emoji counts as acknowledgment. Default should be react-only unless adding unique delta.",
+  "tags": ["watchdog", "slack-rules", "threading", "no-duplicate-replies"]
+}

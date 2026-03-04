@@ -1,0 +1,13 @@
+{
+  "id": "ep-2026-02-26-004",
+  "timestamp": "2026-02-26T15:12:00Z",
+  "type": "task-completion",
+  "task": "v5 squad landing page spec",
+  "summary": "Synthesized 7 reference sites + aesthetics-of-ai analysis + design system + v4 codebase into a 23K-word v5 spec. Key decisions: scroll-pinned narrative (Lenis+GSAP), Three.js hero, Space Grotesk typography, full-viewport agent reveals, scroll-driven terminal, Gatekeeper color red→gold.",
+  "lessons": [
+    "Reading all source materials before writing produces a much more coherent spec than iterating",
+    "PowerShell curl doesn't work like bash curl — use Invoke-RestMethod with -Headers as hashtable"
+  ],
+  "handoff_to": "gatekeeper",
+  "duration_minutes": 10
+}

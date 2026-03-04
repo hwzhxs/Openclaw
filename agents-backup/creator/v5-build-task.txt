@@ -1,0 +1,230 @@
+﻿You are building Squad Landing Page v5 - a scroll-driven immersive experience for an AI agent team called "The Squad".
+
+## Project Location
+C:\Users\azureuser\.openclaw-creator\workspace\squad-landing\
+
+This is a Next.js 14 project (App Router, static export). Node modules already installed. Git already initialized.
+
+## What v5 Should Be
+v5 is a scroll-driven narrative experience. The user watches a task flow through 4 AI agents: Admin orchestrates -> Thinker researches -> Creator builds -> Gatekeeper reviews. The page IS the pipeline.
+
+## Stack (v4 already has gsap, lenis, three, framer-motion - just need to add r3f)
+Add these packages first:
+```
+cd C:\Users\azureuser\.openclaw-creator\workspace\squad-landing
+npm install @react-three/fiber @react-three/drei @studio-freight/react-lenis
+```
+
+## Color Palette
+- Background: #08080A
+- Surface: #111114
+- Border: rgba(255,255,255,0.06)
+- Text Primary: #F0F0F2
+- Text Secondary: #8E8E93
+- Text Muted: #4A4A4E
+- Admin (Popo): #2D7FF9
+- Thinker (Kanye): #7C3AED
+- Creator (Tyler): #10B981
+- Gatekeeper (Rocky): #F59E0B
+
+## Fonts
+- Space Grotesk (headings, bold/700, geometric-technical)
+- Inter (body, 400)
+- JetBrains Mono (terminal only, lazy loaded)
+All via next/font/google
+
+## File Structure to Create
+```
+app/
+  layout.tsx    (Space Grotesk + Inter via next/font, metadata, globals)
+  page.tsx      (composition of all sections)
+  globals.css   (base styles, CSS vars, scroll behavior)
+
+components/
+  Preloader/
+    Preloader.tsx       (CSS-only: 4 colored dots diamond shape, SVG lines draw in, fades out)
+  Hero/
+    Hero.tsx            (container: 3D + text content + scroll pin via GSAP)
+    NeuralMesh.tsx      (R3F Three.js: 4 agent-colored nodes, 100 particles, connecting lines, bloom)
+    HeroFallback.tsx    (CSS gradient fallback: purple/blue radials, 4 floating dots, breathe animation)
+  Squad/
+    SquadSection.tsx    (scroll-pinned container, 4x viewport, GSAP ScrollTrigger)
+    AgentSlide.tsx      (full-viewport agent reveal: emoji, nickname, quote, desc, tags, status line)
+    ScrollDots.tsx      (4 dots right edge, active = agent color)
+  Pipeline/
+    Pipeline.tsx        (4 steps: THINK/BUILD/CHECK/SHIP, scroll-scrubbed light-up, dashed connecting lines)
+  Terminal/
+    Terminal.tsx        (scroll-pinned 2x viewport, lines reveal on scroll, typewriter effect per line)
+  Stack/
+    StackGrid.tsx       (asymmetric bento, 3 cols desktop, stagger reveal on scroll)
+    StackTile.tsx       (single tile: icon + title + desc, hover lift)
+  Architecture/
+    Architecture.tsx    (SVG org diagram: Xiaosong -> Admin -> Thinker+Creator -> Gatekeeper, animated lines)
+  CTA/
+    CTA.tsx             (bold headline, 2 CTA buttons, CSS gradient shimmer)
+  Footer/
+    Footer.tsx          (minimal: 3 links, copyright)
+  shared/
+    SmoothScroll.tsx    (Lenis wrapper using @studio-freight/react-lenis)
+    SplitText.tsx       (text split + stagger animation utility, keep from v4)
+
+lib/
+  agents.ts             (update: Gatekeeper accentColor #F59E0B, Thinker #7C3AED, all colors updated)
+  terminal-lines.ts     (terminal sequence: task arrives -> admin routes -> thinker researches -> creator builds -> gatekeeper approves)
+  scroll.ts             (GSAP ScrollTrigger + Lenis integration helpers)
+```
+
+## CRITICAL Implementation Details
+
+### Lenis + GSAP Integration (scroll.ts)
+```typescript
+// The key integration pattern - must do this:
+lenis.on('scroll', ScrollTrigger.update)
+gsap.ticker.add((time) => { lenis.raf(time * 1000) })
+gsap.ticker.lagSmoothing(0)
+ScrollTrigger.scrollerProxy(document.documentElement, {
+  scrollTop(value) { return value !== undefined ? lenis.scrollTo(value) : lenis.scroll },
+  getBoundingClientRect() { return { top: 0, left: 0, width: window.innerWidth, height: window.innerHeight } }
+})
+```
+
+### Three.js Neural Mesh (NeuralMesh.tsx)
+- 4 sphere nodes at tetrahedral positions, each agent's emissive color
+- ~100 particles orbiting between nodes (Points geometry)
+- Connecting lines between nodes (LineBasicMaterial)
+- Subtle bloom via EffectComposer (UnrealBloomPass strength=0.3)
+- Continuous gentle rotation
+- On scroll: camera pushes forward slightly
+- Dynamic import with ssr:false in Hero.tsx
+- Pauses rendering when not in viewport
+- Mobile: component not loaded at all (use HeroFallback instead)
+
+### Scroll Pins
+Use GSAP ScrollTrigger with `pin: true, scrub: true`:
+- Hero: pinned 1.5x viewport scroll
+- Squad: pinned 4x viewport scroll (each agent = 25% of pin duration)
+- Terminal: pinned 2x viewport scroll
+
+### Squad Section Agent Slides
+- Full viewport per agent
+- Agent accent color radial glow top-right (15-20% opacity)
+- Nickname: Space Grotesk 700, clamp(3rem,8vw,6rem)
+- Quote: Inter italic, clamp(1.25rem,2.5vw,1.75rem), text-secondary
+- Tags as pill badges with agent chipColor border
+- "Currently:" line in JetBrains Mono with blinking cursor
+- Crossfade between agents (300ms)
+- 4 scroll dots on right edge
+
+### Terminal Lines (terminal-lines.ts)
+```typescript
+export const terminalLines = [
+  { agent: null, text: '$ new-task --type "landing-page" --client "squad"', color: '#F0F0F2' },
+  { agent: 'Admin', text: '📥 Task received: Build squad landing page', color: '#2D7FF9' },
+  { agent: 'Admin', text: '📋 Routing → Thinker for research + spec', color: '#2D7FF9' },
+  { agent: 'Admin', text: '📤 HANDOFF → Thinker 🧠', color: '#2D7FF9' },
+  { agent: 'Thinker', text: '📥 PICKUP: Research 7 reference sites + write spec', color: '#7C3AED' },
+  { agent: 'Thinker', text: '⏳ Analyzing igloo.inc, curvy.dk, landonorris.com...', color: '#7C3AED' },
+  { agent: 'Thinker', text: '⏳ Writing 13K-word spec with Gatekeeper review...', color: '#7C3AED' },
+  { agent: 'Thinker', text: '✅ Spec complete → Gatekeeper approval received', color: '#7C3AED' },
+  { agent: 'Thinker', text: '📤 HANDOFF → Creator 🎨', color: '#7C3AED' },
+  { agent: 'Creator', text: '📥 PICKUP: Build v5 from approved spec', color: '#10B981' },
+  { agent: 'Creator', text: '⏳ Setting up Next.js 14 + GSAP + Lenis + Three.js...', color: '#10B981' },
+  { agent: 'Creator', text: '⏳ Building 8-section scroll-driven experience...', color: '#10B981' },
+  { agent: 'Creator', text: '✅ Build complete — 129KB gzip, 60fps scroll', color: '#10B981' },
+  { agent: 'Creator', text: '📤 HANDOFF → Gatekeeper 🛡️', color: '#10B981' },
+  { agent: 'Gatekeeper', text: '🔍 REVIEW: Checking performance, accessibility, quality...', color: '#F59E0B' },
+  { agent: 'Gatekeeper', text: '✅ APPROVED: Ship it 🚀', color: '#F59E0B' },
+]
+```
+
+### Preloader (CSS-only)
+4 colored dots (8px) in diamond formation, connected by thin SVG lines that draw in via stroke-dashoffset. Total 1.5s animation. Fades out. No canvas, no logo asset needed.
+
+### CTA Section (NO Three.js - CSS only)
+Headline: "Want your own squad?"
+Subtitle: "OpenClaw is open source. Set up four agents on any machine."
+Two buttons:
+- Primary: "Get Started →" (filled, gradient border shimmer animation)
+- Secondary: "View on GitHub ↗" (ghost, border only)
+Below: "Built with OpenClaw • Powered by Claude"
+
+### Architecture Section (SVG)
+Pure SVG + CSS animations. Show:
+```
+         Xiaosong (Human)
+              |
+           Admin (Popo) 🚓
+          /              \
+    Thinker 🧠      Creator 🎨
+          \              /
+         Gatekeeper 🛡️
+```
+Animated connecting lines that draw in on scroll enter. Nodes pulse with agent colors. Data flow dots travel along lines.
+
+### Hero Text
+Headline: "Four Agents.\nOne Machine."
+Subtitle: "An AI squad that thinks, builds, reviews, and ships — on a single VM."
+Split-text reveal: each word fades up with 80ms stagger.
+
+### Pipeline Section Copy
+Motto below pipeline: *"Think it, build it, check it, ship it — squad never slippin'"* (italic)
+
+### Responsive
+- ≥1280px: Full experience (3D, all pins, horizontal pipeline)
+- ≥768px tablet: pins retained, 2-column agent grid (not full-viewport per agent)
+- <768px mobile: CSS gradient hero (no Three.js), no scroll pins (IntersectionObserver reveals), vertical pipeline, stacked bento
+
+### Performance
+- All animations use transform + opacity only
+- Three.js lazy loaded (dynamic import ssr:false)
+- JetBrains Mono lazy loaded (inject link tag when terminal enters viewport)
+- will-change: transform on pinned elements
+
+## Gatekeeper Notes to Apply
+1. 250KB gzip initial load budget, 305KB total-after-interaction
+2. Tablet (768-1023px): 2-column grid for Squad section, not full-viewport-per-agent
+3. Preloader: CSS-only, no canvas
+4. JetBrains Mono: load dynamically when terminal enters viewport (or subset to ASCII)
+5. Section 2 "Premise" copy: use placeholder "What if your AI squad never slept?"
+6. CTA: CSS gradient + dots, NO Three.js
+
+## What to Keep from v4
+- lib/agents.ts (update colors only)
+- components/shared/SplitText.tsx
+- next.config.js (static export)
+- tailwind.config.ts (extend with v5 colors)
+- tsconfig.json
+- postcss.config.js
+
+## Build Steps
+1. Update package.json and run npm install for new packages
+2. Update tailwind.config.ts with v5 color tokens
+3. Update lib/agents.ts with new colors + reorder (Admin, Thinker, Creator, Gatekeeper)
+4. Create lib/terminal-lines.ts and lib/scroll.ts
+5. Build shared/ components first (SmoothScroll, SplitText)
+6. Build Preloader
+7. Build Hero (CSS fallback first, then NeuralMesh)
+8. Build Squad section (SquadSection + AgentSlide + ScrollDots)
+9. Build Terminal (scroll-driven)
+10. Build Pipeline
+11. Build Stack (StackGrid + StackTile)
+12. Build Architecture (SVG)
+13. Build CTA
+14. Build Footer
+15. Assemble in app/page.tsx
+16. Update app/layout.tsx (fonts, metadata)
+17. Run: npm run build
+18. Fix any TypeScript errors
+19. Run: npm run build again to confirm clean build
+
+## Success Criteria
+- `npm run build` succeeds with no errors
+- Page looks dramatically different from v4 (dark, dramatic, scroll-driven)
+- Hero has either 3D mesh or CSS fallback depending on device
+- Squad section pins and reveals one agent per scroll phase
+- Terminal section pins and lines reveal on scroll
+- Pipeline section shows 4 steps lighting up
+- Build outputs to ./out/ (static export)
+
+When completely finished, run this command to notify:
+openclaw system event --text "Done: Squad landing v5 built - scroll-driven 8-section experience with Three.js hero, pinned squad reveals, scroll terminal" --mode now

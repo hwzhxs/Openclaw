@@ -1,0 +1,20 @@
+﻿{
+  "id": "ep-2026-02-27-002",
+  "agent": "creator",
+  "timestamp": "2026-02-27T03:45:00Z",
+  "task": "Jimeng Image Integration - REVISE fixes",
+  "skill_used": "image-optimization",
+  "outcome": "success",
+  "what_worked": [
+    "MD5 checksum comparison to verify images were already correct",
+    "System.Drawing resize + JPEG recompress in PowerShell (no external tools needed)",
+    "400x400 at quality 78 → 27-35KB (well under GK's 50-100KB target)",
+    "Xiaosong's hero-bg.jpg pick (177KB) was already optimized — kept as-is"
+  ],
+  "what_failed": [
+    "EBUSY error during next build export (dev server holds out/ folder lock)",
+    "slack-notify.ps1 doesn't detect @RoleName - must use Slack Bot User IDs like <@U0AGND9JG4B>"
+  ],
+  "lesson": "Verify actual file contents (MD5) before assuming 'wrong images'. EBUSY on next build with running dev server is expected Windows behavior - build still compiled cleanly. Always use Bot User IDs for @mentions in slack-notify.ps1.",
+  "user_feedback": null
+}

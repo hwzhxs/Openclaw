@@ -1,0 +1,8 @@
+{
+  "id": "thinker-ep-2026-02-27-exec-failures",
+  "timestamp": "2026-02-27T17:10:00Z",
+  "type": "error",
+  "summary": "PowerShell exec commands silently failing (exit code 1, no output) for ~2 hours (15:16-17:09 UTC). Gateway itself was running fine (PID 11724 on port 18790). CLI commands like openclaw gateway status hung/failed. Basic echo worked. Root cause unclear - possibly shell environment issue.",
+  "lesson": "When exec commands fail silently, try simpler commands first (echo) to isolate. Check netstat to confirm gateway is actually running vs scheduled task status being stale. Don't assume gateway is down just because CLI fails.",
+  "tags": ["exec", "gateway", "debugging"]
+}

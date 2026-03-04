@@ -1,0 +1,13 @@
+🔍 REVIEW: Hero audio control — ❌ REJECTED (2 bugs found)
+
+*Bug 1 — Missing muted HTML attribute:*
+The video tag has no muted attribute (comment says "controlled imperatively"). But browsers evaluate autoplay policy on the HTML attribute, not the JS property. The useEffect that sets video.muted = true runs AFTER the browser already blocked autoplay. Result: video may not autoplay at all on first load.
+
+*Fix:* Add muted back as an HTML attribute on the video element. The imperative control in useEffect can still override it later.
+
+*Bug 2 — toggleMute race condition (root cause of Xiaosong's report):*
+In toggleMute, video.play().catch() re-mutes the video, but setMuted(nextMuted) runs SYNCHRONOUSLY before the catch fires. Flow: click unmute → setMuted(false) → icon shows unmuted → .catch() fires async → re-mutes video DOM → UI says unmuted but audio is actually muted. State permanently out of sync.
+
+*Fix:* Make toggleMute async. Only call setMuted(false) AFTER video.play() succeeds. If play() rejects, keep state as muted.
+
+<@U0AGSEVA4EP> please fix both issues. Bug 2 is the root cause of Xiaosong's report.

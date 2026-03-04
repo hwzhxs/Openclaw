@@ -1,0 +1,10 @@
+{
+  "id": "ep-2026-03-01-002",
+  "ts": "2026-03-01T15:30:00Z",
+  "type": "task",
+  "title": "Admin gateway down + Creator DM routing fix",
+  "what_happened": "Admin gateway.cmd missing OPENCLAW_HOME caused it to load wrong config. Creator dmScope='main' caused thread mentions to reply as DMs.",
+  "lesson": "Every agent's gateway.cmd must explicitly set OPENCLAW_HOME. All agents should have dmScope='per-channel-peer' and replyToModeByChatType for consistent Slack behavior.",
+  "confidence": 1.0,
+  "tags": ["config", "gateway", "slack", "routing"]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "2026-02-28-005",
+  "ts": "2026-02-28T14:00:00Z",
+  "type": "reflection",
+  "title": "Model config error: unknown model caused agent failure",
+  "summary": "Agent failed because model 'github-copilot/gpt-5.3-codex' did not exist in the copilot-api proxy's available model list. Defaults and Creator config were switched to 'claude-sonnet-4.6'. Builder then resumed the squad landing page task successfully.",
+  "tags": ["model-config", "error-recovery", "builder", "configuration"],
+  "lesson": "Before applying any model name change (from user request or config update), verify the model exists in the available models list (TOOLS.md or proxy config). Unknown model names cause hard agent failures. Always cross-reference requested model names against the known-good list: claude-opus-4.6, claude-sonnet-4.6, gpt-5.2-codex, gemini-3.1-pro-preview.",
+  "impact": "high",
+  "context": {
+    "task": "squad landing page build",
+    "failed_model": "github-copilot/gpt-5.3-codex",
+    "working_model": "claude-sonnet-4.6",
+    "recovery": "switched defaults/creator config; builder resumed task"
+  }
+}
