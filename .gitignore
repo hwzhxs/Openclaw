@@ -1,4 +1,48 @@
+# Secrets
+secrets.env
+secrets/
+*.env
+config/slack-token.txt
+**/secrets.env
+**/*.env
 
-shared/scripts/check-orphans.ps1
-shared/tasks/token-scrub-result.md
-shared/context/jimeng-api.md
+# Large runtime files
+shared/context/thread-tracker.json
+shared/context/mention-sla.json
+shared/context/automation-log.jsonl
+shared/context/webhook-errors.log
+shared/scripts/pulse-state.json
+shared/tasks/
+
+# Memory daily logs (personal)
+**/memory/20[0-9][0-9]-*.md
+workspace/memory/
+
+# Binary/media
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.webm
+
+# Build artifacts
+node_modules/
+.next/
+out/
+dist/
+*.lock
+
+# OpenClaw runtime
+**/.openclaw/
+**/.clawhub/
+**/.pi/
+null
+temp-log.ps1
+build-output.txt
+v5-build-task.txt
+
+# Temp
+tmp/
+tmp-*.json
+_gk_*.txt
+_gk_*.ps1
